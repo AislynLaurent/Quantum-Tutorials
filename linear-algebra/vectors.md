@@ -18,7 +18,7 @@ The basic idea is that vectors can be labeled with what looks like a line **\( \
 
 So, for the vector _**x**,_ the label would look like this: $$ |x \rangle$$. 
 
-Actually, this is a "ket" vector. A "bra" vector looks like this: $$ \langle x| $$. You'll see later that we use this to our advantage when describing the inner product of two vectors: $$ \langle x|y \rangle$$, but that's another tutorial.
+Actually, this is a "**ket**" vector. A "**bra**" vector looks like this: $$ \langle x| $$. You'll see later that we use this to our advantage when describing the inner product of two vectors: $$ \langle x|y \rangle$$, but that's another tutorial.
 
 You can describe different things about a vector this way, too. So, for the vector _**x**_ over time _**t**_ we might write:
 
