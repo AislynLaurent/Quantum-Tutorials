@@ -34,13 +34,3 @@ We can transform a vector by changing it into another vector. In general, this v
 
 These transformations are described using a matrix, labeled like this: $$T ^$$
 
-$$
-\begin{bmatrix}
-1 \\
-2 \\
-3 \\
-\end{bmatrix}
-$$
-
-
-

@@ -14,7 +14,7 @@ Here we want to think of vectors in a more abstract way. Our vectors here are no
 
 For quantum systems, we'll describe vectors using [Bra-Ket notation](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation). Once you get the hang of it, it's simple enough, but for the uninitiated it might be a bit weird.
 
-The basic idea is that vectors can be labeled with what looks like a pipe **\( \| \)** on one side and an angle bracket **\( &lt; , &gt; \)** on the other. 
+The basic idea is that vectors can be labeled with what looks like a line **\( \| \)** on one side and an angle bracket **\( &lt; , &gt; \)** on the other. 
 
 So, for the vector _**x**,_ the label would look like this: $$ |x \rangle$$. 
 
