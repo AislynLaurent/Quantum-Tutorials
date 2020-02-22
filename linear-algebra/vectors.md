@@ -16,14 +16,14 @@ For quantum systems, we'll describe vectors using [Bra-Ket notation](https://en.
 
 The basic idea is that vectors can be labeled with what looks like a pipe **\( \| \)** on one side and an angle bracket **\( &lt; , &gt; \)** on the other. 
 
-So, for the vector _**x**,_ the label would look like this: $$ |x> $$. 
+So, for the vector _**x**,_ the label would look like this: $$ |x \rangle$$. 
 
-Actually, this is a "ket" vector. A "bra" vector looks like this: $$ <x| $$. You'll see later that we use this to our advantage when describing the inner product of two vectors: $$ <x|y> $$, but that's another tutorial.
+Actually, this is a "ket" vector. A "bra" vector looks like this: $$ \langle x| $$. You'll see later that we use this to our advantage when describing the inner product of two vectors: $$ \langle x|y \rangle$$, but that's another tutorial.
 
 You can describe different things about a vector this way, too. So, for the vector _**x**_ over time _**t**_ we might write:
 
 $$
-|x (t)>
+|x (t) \rangle
 $$
 
 Easy enough.
@@ -33,7 +33,11 @@ Easy enough.
 The vectors we're describing are the sort of column vectors you're likely already very familiar with.
 
 $$
-|x> = [1, 2, 3]
+|x\rangle = \begin{bmatrix}
+1 \\
+2 \\
+3 \\
+\end{bmatrix}
 $$
 
 Obviously this kind of vector is just a one column matrix, and as such we can preform all of the matrix operations you would expect.
@@ -46,11 +50,11 @@ For our purpose the only important kinds of matrix operations are addition and m
 
 Adding two matrices together requires that they both have the same dimensions - that is to say the same number of rows and columns. As you might expect, you just add the respective entries together: 
 
-$$ |x> = [1,1] $$
+$$ |x\rangle = \begin{bmatrix} 1 \\ 1 \\ \end{bmatrix}$$
 
-$$ |y> = [2,2] $$
+$$ |y\rangle = \begin{bmatrix} 2 \\ 2 \\ \end{bmatrix}$$
 
-$$ |x> + |y> = [3,3] $$
+$$ |x\rangle + |y\rangle = \begin{bmatrix} 3 \\ 3 \\ \end{bmatrix}$$
 
 Simple enough. You should note that subtraction is just a sort of special case of addition, where you started by multiplying the second matrix by -1.
 
@@ -62,11 +66,11 @@ There are two relevant types of multiplication:
 
 Where we multiply each entry in the matrix by a number:
 
-$$ |x> = [1,1] $$
+$$ |x\rangle = \begin{bmatrix} 1 \\ 1 \\ \end{bmatrix}$$
 
-$$ 2 * |x> = [2,2]$$
+$$ 2 * |x\rangle = \begin{bmatrix} 2 \\ 2 \\ \end{bmatrix}$$
 
-Pretty obvious how that works. As you would expect, you could also multiply the matrix by a variable.
+As you would expect, you could also multiply the matrix by a variable.
 
 #### Matrix Multiplication
 

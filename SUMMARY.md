@@ -13,5 +13,3 @@
 * [Basics](linear-algebra/vectors.md)
 * [Linear Operations](linear-algebra/linear-operations.md)
 
-## Appendicies
-
