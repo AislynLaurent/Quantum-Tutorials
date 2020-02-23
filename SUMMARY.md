@@ -13,3 +13,27 @@
 * [Basics](linear-algebra/vectors.md)
 * [Linear Operations](linear-algebra/linear-operations.md)
 
+## Physics
+
+* [Untitled](physics/untitled.md)
+
+## Qubits
+
+* [Untitled](qubits/untitled.md)
+
+## Quantum Circuits
+
+* [Untitled](quantum-circuits/untitled.md)
+
+## Qiskit
+
+* [Untitled](qiskit/untitled.md)
+
+## IBMQ
+
+* [Untitled](ibmq/untitled.md)
+
+## Supplimentary
+
+* [Untitled](supplimentary/untitled.md)
+

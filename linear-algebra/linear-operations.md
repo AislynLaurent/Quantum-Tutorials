@@ -28,7 +28,19 @@ Logically, if this is not the case, and none of the vectors in the set can be de
 
 ## Transformations
 
-We can transform a vector by changing it into another vector. In general, this vector can be in the same or in a different "vector space" - for example, a vector along one plane could transform into a vector along another plane.
+We can transform a vector to change it into another vector. In general, this vector can be in the same or in a different "vector space" - for example, a vector along one plane could transform into a vector along another plane. 
 
-These transformations are described using a matrix, labeled like this: $$\hat{T}$$. 
+### Notation
+
+Transformations are described using a matrix, labeled with a letter wearing a little hat - like this: $$\hat{T}$$. To apply the trasnformation, we multiply the vector by the transformation matrix.
+
+So, the expression...
+
+$$
+\hat{T}|x\rangle = |y\rangle
+$$
+
+...describes $$|y\rangle$$, which is a result of $$|x\rangle$$transformed by $$\hat{T}$$.
+
+
 
