@@ -58,6 +58,28 @@ $$ |x\rangle + |y\rangle = \begin{bmatrix} 3 \\ 3 \\ \end{bmatrix}$$
 
 Simple enough. You should note that subtraction is just a sort of special case of addition, where you started by multiplying the second matrix by -1.
 
+### Dot Product
+
+The dot product of two vectors gives us a number representing the combination of the two.
+
+For this operation, we multiply the corresponding entries and add all the results together, in order. 
+
+So, for example:
+
+$$
+|x\rangle=\begin{bmatrix} 1 \\ 3 \\ \end{bmatrix} , |y\rangle=\begin{bmatrix} 2 \\ 4 \\ \end{bmatrix}
+$$
+
+$$
+|u\rangle=|x\rangle \bullet |y\rangle
+$$
+
+$$
+|u\rangle=(1*2) + (3*4) = 2+12=14
+$$
+
+Note that this only works with single column matrices.
+
 ### Multiplication
 
 There are two relevant types of multiplication: 
@@ -74,12 +96,12 @@ As you would expect, you could also multiply the matrix by a variable.
 
 #### Matrix Multiplication
 
-The second type is regular old matrix multiplication. If you're already well familiar with linear algebra then you know how this works, and why. If not this will seem very strange, and the rules will seem a little obtuse.
+Where we multiply two matrices together.
 
-Let's start by reviewing the rules:
+For this operation, we take the dot product of the colums in the first matrix with the rows of the second matrix. This might be a difficult definition to understand, so let's lay out the rules one by one:
 
 * Multiplication goes **row** by **column**
-* Multiply the first entry of the first row of the first matrix by the first entry in the first row of the second matrix
+* Multiply the first entry of the first column of the first matrix by the first entry in the first row of the second matrix
 * Add this to the result of the next entries, respectively
 * Continue until there are no more entries
 

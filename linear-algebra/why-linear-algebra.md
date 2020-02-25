@@ -17,7 +17,6 @@ The purpose of this section is to touch on each of the most important topics in 
 * Linear transformations
 * Vector spaces
 * Basis and span
-* Inner Product
 * Normalization
 * Projection
 
