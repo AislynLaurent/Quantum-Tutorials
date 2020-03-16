@@ -16,7 +16,7 @@ For quantum systems, we'll describe vectors using [Bra-Ket notation](https://en.
 
 The basic idea is that vectors can be labeled with what looks like a line **\( \| \)** on one side and an angle bracket **\( &lt; , &gt; \)** on the other. 
 
-So, for the vector _**x**,_ the label would look like this: $$ |x \rangle$$. 
+So, for the vector _**x**,_ the label would look like this: $$ |x \rangle$$\_\_[_\(Griffiths, D. - p.119\)_](../untitled-1.md#bra-ket-notation) __. 
 
 Actually, this is a "**ket**" vector. A "**bra**" vector looks like this: $$ \langle x| $$. You'll see later that we use this to our advantage when describing the inner product of two vectors: $$ \langle x|y \rangle$$, but that's another tutorial.
 
@@ -42,13 +42,21 @@ $$
 
 Obviously this kind of vector is just a one column matrix, and as such we can preform all of the matrix operations you would expect.
 
+{% hint style="info" %}
+[Detailed Review of vectors](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)
+{% endhint %}
+
 ## Matrix Operations
 
 For our purpose the only important kinds of matrix operations are addition and multiplication.
 
+{% hint style="info" %}
+[Detailed review of matrices](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:mat-intro/v/introduction-to-the-matrix)
+{% endhint %}
+
 ### Addition
 
-Adding two matrices together requires that they both have the same dimensions - that is to say the same number of rows and columns. As you might expect, you just add the respective entries together: 
+Adding two matrices together requires that they both have the same number of rows and columns. As you might expect, you just add the respective entries together: 
 
 $$ |x\rangle = \begin{bmatrix} 1 \\ 1 \\ \end{bmatrix}$$
 
@@ -57,6 +65,10 @@ $$ |y\rangle = \begin{bmatrix} 2 \\ 2 \\ \end{bmatrix}$$
 $$ |x\rangle + |y\rangle = \begin{bmatrix} 3 \\ 3 \\ \end{bmatrix}$$
 
 Simple enough. You should note that subtraction is just a sort of special case of addition, where you started by multiplying the second matrix by -1.
+
+{% hint style="info" %}
+[Matrix addition and subtraction problems](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:adding-and-subtracting-matrices/e/matrix_addition_and_subtraction)
+{% endhint %}
 
 ### Dot Product
 
@@ -94,11 +106,15 @@ $$ 2 * |x\rangle = \begin{bmatrix} 2 \\ 2 \\ \end{bmatrix}$$
 
 As you would expect, you could also multiply the matrix by a variable.
 
+{% hint style="info" %}
+[Scalar multiplication problems](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-scalars/e/scalar_matrix_multiplication)
+{% endhint %}
+
 #### Matrix Multiplication
 
 Where we multiply two matrices together.
 
-For this operation, we take the dot product of the colums in the first matrix with the rows of the second matrix. This might be a difficult definition to understand, so let's lay out the rules one by one:
+For this operation, we take the dot product of the columns in the first matrix with the rows of the second matrix. This might be a difficult definition to understand, so let's lay out the rules one by one:
 
 * Multiplication goes **row** by **column**
 * Multiply the first entry of the first column of the first matrix by the first entry in the first row of the second matrix
@@ -107,11 +123,15 @@ For this operation, we take the dot product of the colums in the first matrix wi
 
 As you can see, this means that the **number of entries in the rows** of the first matrix have to be equal to the **number of entries in the columns** of the second matrix.
 
-Here I'll include a lovely graphic that should clear things up significantly [_\(image source\)_](https://hadrienj.github.io/posts/Deep-Learning-Book-Series-2.2-Multiplying-Matrices-and-Vectors/):
+Here I'll include a lovely graphic that should clear things up significantly [_\(Jean, H. - 2018\)_](../untitled-1.md#matrix-multiplication-image):
 
 ![Matrix multiplication](../.gitbook/assets/dot-product.png)
 
 There, much better. You should be able to see that you'll end up with a single column matrix at the end.
+
+{% hint style="info" %}
+[Matrix multiplication problems](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-matrices/e/multiplying_a_matrix_by_a_matrix)
+{% endhint %}
 
 
 

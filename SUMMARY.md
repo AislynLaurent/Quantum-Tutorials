@@ -11,7 +11,9 @@
 
 * [Why Linear Algebra](linear-algebra/why-linear-algebra.md)
 * [Basics](linear-algebra/vectors.md)
-* [Linear Operations](linear-algebra/linear-operations.md)
+* [Vector Relationships](linear-algebra/linear-operations.md)
+* [Span, Basis and Spaces](linear-algebra/space-dimension-and-span.md)
+* [Transformations](linear-algebra/transformations.md)
 
 ## Physics
 
@@ -35,5 +37,9 @@
 
 ## Supplimentary
 
-* [Untitled](supplimentary/untitled.md)
+* [Untitled](untitled.md)
+
+## Refernces
+
+* [Math References](untitled-1.md)
 

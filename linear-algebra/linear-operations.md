@@ -1,18 +1,20 @@
 ---
-description: >-
-  A brief overview of linear combinations, dependence, independence,
-  transformations, inner product, and a few others
+description: 'A brief overview of linear combinations, dependence, and independence'
 ---
 
-# Linear Operations
+# Vector Relationships
 
 ## Linear Combinations
 
-Linear combinations logically follow from the matrix operations covered in "[Basics](vectors.md)" - simply put, it's a combination of two vectors, scaled by numbers.
+Linear combinations logically follow from the matrix operations covered in [_Basics_](vectors.md) - simply put, it's a combination of two vectors, scaled by numbers.
 
 $$ |x\rangle = a |a\rangle + b |b\rangle$$
 
 Here $$ |x\rangle$$is a linear combination of the vector $$|a\rangle$$scaled by the constant $$a$$ and the vector $$|b\rangle$$scaled by the constant $$b$$.
+
+{% hint style="info" %}
+[Detailed explanation of linear combinations](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-combinations/v/linear-combinations-and-span)
+{% endhint %}
 
 ## Linear Dependence
 
@@ -26,23 +28,7 @@ So if a set includes a vector which can be described as a linear combination of 
 
 Logically, if this is not the case, and none of the vectors in the set can be described as linear combinations of each other, the whole set is said to be _linearly independent_.
 
-## Transformations
-
-We can transform a vector to change it into another vector. In general, this vector can be in the same or in a different "vector space" - for example, a vector along one plane could transform into a vector along another plane. 
-
-### Notation
-
-Transformations are described using a matrix, labeled with a letter wearing a little hat - like this: $$\hat{T}$$. To apply the transformation, we multiply the vector by the transformation matrix.
-
-So, the expression...
-
-$$
-\hat{T}|x\rangle = |y\rangle
-$$
-
-...describes $$|y\rangle$$, which is a result of $$|x\rangle$$transformed by $$\hat{T}$$. We'll discuss transformations in more detail later on.
-
-## Inner Product
-
-The _dot product_ of two vectors is a special case of the _inner product_, where everything lines up nicely 
+{% hint style="info" %}
+[Detailed explanation of linear independence](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/linear-algebra-introduction-to-linear-independence)
+{% endhint %}
 
