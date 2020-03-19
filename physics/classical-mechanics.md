@@ -22,6 +22,8 @@ Everything occurs over a finite amount of time in our system. Similarly we measu
 
 As forces act on our object, it's position changes over time. if we kick a ball, we might see a graph like this:
 
+![](../.gitbook/assets/image%20%281%29.png)
+
 
 
 
