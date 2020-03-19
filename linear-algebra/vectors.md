@@ -112,9 +112,7 @@ Note that this only works with single column matrices.
 
 #### Inner Product
 
-The inner product is the more general form of the dot product. To be very broad, you can take the inner product of two vectors and end up with a _complex_ number instead of a _real_ number. We'll talk a bit more about inner product in the section on [_quantum mechanics_](../physics/quantum-mechanics.md#complex-numbers).
-
-
+The inner product is the more general form of the dot product. To be very broad, you can take the inner product of two vectors and end up with a _complex_ number instead of a _real_ number. We'll talk a bit more about [_complex numbers_](../physics/quantum-mechanics.md#complex-numbers) later on.
 
 Some interesting properties of the inner product include the following \(assume that $$a\&b$$are scalars and $$|w\rangle, |u\rangle\&|v\rangle$$are vectors.
 
