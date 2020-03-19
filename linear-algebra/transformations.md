@@ -8,7 +8,7 @@ We can transform a vector to change it into another vector. In general, this vec
 
 ![A shear matrix - stretches the grid along the x axis.](../.gitbook/assets/shear.gif)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 [Fun transformation visualization tool](https://demonstrations.wolfram.com/MatrixTransformation/)
 {% endhint %}
 
