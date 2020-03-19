@@ -1,8 +1,4 @@
----
-description: Section summary
----
-
-# Why Linear Algebra
+# Linear Algebra Summary
 
 ## The language of Quantum Mechanics
 
@@ -18,11 +14,9 @@ The purpose of this section is to touch on each of the most important topics in 
 * Matrix operations
 * Linear combinations
 * Linear independence / dependence
-* Linear transformations
 * Vector spaces
 * Basis and span
-* Normalization
-* Projection
+* Transformations
 
 ### New Material
 

@@ -9,7 +9,7 @@
 
 ## Linear Algebra
 
-* [Why Linear Algebra](linear-algebra/why-linear-algebra.md)
+* [Linear Algebra Summary](linear-algebra/why-linear-algebra.md)
 * [Basics](linear-algebra/vectors.md)
 * [Vector Relationships](linear-algebra/linear-operations.md)
 * [Span, Basis and Spaces](linear-algebra/space-dimension-and-span.md)
@@ -17,7 +17,7 @@
 
 ## Physics
 
-* [Untitled](physics/untitled.md)
+* [Physics Summary](physics/untitled.md)
 
 ## Qubits
 
