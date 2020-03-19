@@ -20,7 +20,9 @@ When we talk about quantum systems, we're instead talking about a _particle_ \(a
 
 This is because we can collect more _information_ about these particles than we could about the more simple objects. It's not necessarily simply about the location of these things... _more is happening_ down here in the world of very small things. 
 
+{% hint style="success" %}
 It isn't helpful to attempt to think of the $$N$$-dimensions these particles live in as some kind of physical location. Matrices and vectors are about providing the necessary information to describe the thing they represent. For bigger stuff _where_ it is is enough. Down here, it isn't. Simple as that.
+{% endhint %}
 
 ### Complex Numbers
 

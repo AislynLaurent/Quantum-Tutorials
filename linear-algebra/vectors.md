@@ -27,7 +27,7 @@ You may be used to thinking of vectors as having a magnitude and a direction. Th
 Here we want to think of vectors in a more abstract way. Our vectors here are not really _going_ anywhere in particular. In the same way that we use matrices to hold some kind of information, we do the same with vectors.
 
 {% hint style="success" %}
-**Note:** A vector contains multiple pieces of information, and a number holds exactly one. We call a plain old number a _scalar_, because it can be used to scale some other information \(like multiply it by 2 for example - changing the scale from 1 to 2\).
+A vector contains multiple pieces of information, and a number holds exactly one. We call a plain old number a _scalar_, because it can be used to scale some other information \(like multiply it by 2 for example - changing the scale from 1 to 2\).
 {% endhint %}
 
 ### Column Vectors
