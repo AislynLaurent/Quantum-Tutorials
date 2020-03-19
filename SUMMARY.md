@@ -19,10 +19,14 @@
 
 * [Physics Summary](physics/untitled.md)
 * [Classical Mechanics](physics/classical-mechanics.md)
+* [Quantum Mechanics](physics/quantum-mechanics.md)
 
 ## Qubits
 
-* [Untitled](qubits/untitled.md)
+* [Qubits Summary](qubits/qubits-summary.md)
+* [Classical Bits](qubits/untitled.md)
+* [Quantum Bits](qubits/quantum-bits.md)
+* [The Bloch Sphere](qubits/the-bloch-sphere.md)
 
 ## Quantum Circuits
 

@@ -33,6 +33,8 @@ Below is a list of all of the extra detail & problem sets included in this secti
 
 #### [Classical Mechanics](classical-mechanics.md)
 
+* [More on the difference between weight and mass](https://www.khanacademy.org/science/physics/forces-newtons-laws/normal-contact-force/a/what-is-weight)
+* [An introduction to Newton's First Law](https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/a/what-is-newtons-first-law)
 * [More information about position vs. time graphs and how they're used](https://www.khanacademy.org/science/physics/one-dimensional-motion/displacement-velocity-time/a/position-vs-time-graphs)
 
 
