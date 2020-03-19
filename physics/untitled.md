@@ -35,7 +35,9 @@ Below is a list of all of the extra detail & problem sets included in this secti
 
 * [More on the difference between weight and mass](https://www.khanacademy.org/science/physics/forces-newtons-laws/normal-contact-force/a/what-is-weight)
 * [An introduction to Newton's First Law](https://www.khanacademy.org/science/physics/forces-newtons-laws/newtons-laws-of-motion/a/what-is-newtons-first-law)
-* [More information about position vs. time graphs and how they're used](https://www.khanacademy.org/science/physics/one-dimensional-motion/displacement-velocity-time/a/position-vs-time-graphs)
+* [More information about position vs. time graphs and how they're use](https://www.khanacademy.org/science/physics/one-dimensional-motion/displacement-velocity-time/a/position-vs-time-graphs)
+* [A detailed summary of Newton's Second Law](https://www.khanacademy.org/science/ap-physics-1/ap-forces-newtons-laws/newtons-second-law-ap/v/newton-s-second-law-of-motion)
+* [Problems for Newton's Second Law](https://www.khanacademy.org/science/ap-physics-1/ap-forces-newtons-laws/newtons-second-law-ap/e/newton-s-second-law)
 
 
 

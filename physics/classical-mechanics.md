@@ -12,7 +12,7 @@ In physics we use mathematical models to describe the world around us. Classical
 
 Each object contains a certain amount of matter - what we could call it's _mass_. This is a more fundamental property than it's weight, which depends on how much gravity is a applied to it.
 
-By knowing how _massive_ an object is we can calculate how much energy it will take to make some change to the position of that object.
+Intuitively you can understand that a desk takes more effort to move then a pen. By knowing how _massive_ an object is, we can calculate how much energy it will take to make some change to the position of that object.
 
 {% hint style="info" %}
 [More on the difference between weight and mass](https://www.khanacademy.org/science/physics/forces-newtons-laws/normal-contact-force/a/what-is-weight)
@@ -20,7 +20,7 @@ By knowing how _massive_ an object is we can calculate how much energy it will t
 
 ### Position
 
-Let's start with a static mass \(an object in this case - let's imagine a ball\) at a given position. We know _exactly_ where this object is, because we can go ahead and measured it directly.
+Let's start with a static mass \(an object in this case - let's imagine a ball\) at a given position. We know _exactly_ where this object is, because we can go ahead and check it directly.
 
 ![The position of our object in meters at 1 second - showing a single dot on a graph](../.gitbook/assets/image.png)
 
@@ -28,11 +28,11 @@ When measuring the position of our object, we decide where to "origin" is - wher
 
 ### Time
 
-Everything occurs over a finite amount of time in our system. Similarly to the position, we measure time from some origin which we decide on. Everything that happens, happens _after_ some arbitrary point in the past that we designate as time 0.
+Everything occurs over a finite amount of time. Similarly to the position, we measure time from some origin which we decide on. Everything that happens, happens _after_ some arbitrary point in the past that we designate as time 0.
 
-As forces act on our object, it's position changes over time. if we kick the ball, we might construct a graph of it's movement that looks like this:
+As forces act on our object, it's position changes over time. Tf we kick the ball, we might construct a graph of it's movement that looks like this:
 
-![The graph of the position of a ball over time - showing an upside down parabola](../.gitbook/assets/image%20%282%29.png)
+![The graph of the position of a ball over time - showing an upside down parabola](../.gitbook/assets/image%20%283%29.png)
 
 First the ball goes up, and after a while it comes down.
 
@@ -48,11 +48,11 @@ Nobody is going anywhere unless we can affect some change on the system. _Forces
 
 The state of a system, or an object, is the collection of all the information we know about it at a particular point in time. Say, for example, right at this instant.
 
-We might say that the state of our cat this that he is _at rest_ - he's sleeping, and going nowhere. The state of a system can be more complex - because systems are collections of multiple objects, there might be a lot of information that describes it's current state. The cat cafe system may also be at rest - all of the cats are sleeping, and nobody is moving.
+We might say that the state of our cat is _at rest_ - he's sleeping, and going nowhere. The state of a system can be more complex - because systems are collections of multiple objects, there might be a lot of information that describes it's current state. The cat cafe system may also be at rest - all of the cats are sleeping, and nobody is moving.
 
 #### Types of Forces
 
-There are a bunch of different types of forces - magnetic, nuclear, gravity. We won't discuss much about specific forces and how to calculate them. What's important for this tutorial is that you understand the concept [_\(Wikipedia - 2020\)_](../physics-references.md#representation-of-forces-image). 
+There are a bunch of different types of forces - magnetic, nuclear, gravity... we won't discuss specific forces and how to calculate them. What's important for this tutorial is that you understand the concept [_\(Wikipedia - 2020\)_](../physics-references.md#representation-of-forces-image). 
 
 ![A few images illustrating forces](../.gitbook/assets/480px-force_examples.svg.png)
 
@@ -64,7 +64,7 @@ There are a bunch of different types of forces - magnetic, nuclear, gravity. We 
 
 An object in 3-D space can be described using a [_vector_](../linear-algebra/vectors.md#vectors), like we talked about in our discussion of [_space_](../linear-algebra/space-dimension-and-span.md#space).
 
-Matrices are just says for us to store and manipulate information, and so we store the important information about our object in a column matrix. At any given moment in time, the relevant information about our object is it's position, and so our vector is a position vector.
+Matrices are just a way for us to store and manipulate information, and so we store the important information about our object in a column matrix. At any given moment in time, the relevant information about our object is it's position, and so our vector is a position vector.
 
 So the vector $$|x\rangle$$ represents the position of our object, called $$x$$.
 
@@ -86,7 +86,9 @@ As we mentioned when talking about [_force_](classical-mechanics.md#force), the 
 
 #### Change in the System
 
-Forces in the system affect some _change._ Things that are still can be made to move, things that are moving can be made to stop, directions can be changed... all with the application of a suitable amount of energy.
+Forces in the system affect some _change._ Things that are still can be made to move, things that are moving can be made to stop, directions can be changed... all with the application of a suitable amount of energy __[_\(Physics Classroom - 2020\)_](../physics-references.md#animation-showing-an-object-in-motion-and-the-graphs-that-describe-its-motion).
+
+![An animation of an object moving and the respective graphs describing it&apos;s motion](../.gitbook/assets/pvna.gif)
 
 ### The Relationship Between State and Change
 
@@ -94,33 +96,70 @@ Newton's second law preforms a useful service for us in that it connects these t
 
 #### Equations of motion
 
-![The force formula triangle](../.gitbook/assets/image%20%281%29.png)
+![The force formula triangle](../.gitbook/assets/image%20%282%29.png)
 
-"What an unpleasent looking diagram", you might say. You may have seen this thing during high school phyics, or even earlier than that depending on how enthusiastic your grade school science teacher was. Either way, here is the general way of describing Newton's second law:
+You may have seen this thing during high school physics, or even earlier than that depending on how enthusiastic your grade school science teacher was. Either way, it's a diagram of the general way of describing Newton's second law:
 
 $$
 \overrightarrow{F}=m\overrightarrow{a}
 $$
 
-The sum of the forces in the system is equal to the mass multiplied by the acceleration \(how fast the mass is getting faster\). 
+The sum of the forces in the system is equal to the mass multiplied by the acceleration \(how fast the mass is increasing the speed of it's movement\). Here the acceleration and force are also _vectors_ \(they both contain multiple pieces of information\), where the mass is just a _scalar_ \(a number\):
+
+$$
+|F\rangle=m|a\rangle
+$$
 
 Let's consider the cat system: let's say the cat weighs 2 kilograms. No force is applied to him \(he's asleep right now\). How fast is he accelerating?
 
 $$
-\overrightarrow{F}=m\overrightarrow{a} \rightarrow \overrightarrow{a}= \frac{\overrightarrow{F}}{m}
+|F\rangle=m|a\rangle \rightarrow |a\rangle= \frac{|F\rangle}{m}
 $$
 
 $$
-\overrightarrow{F}= 0 , m =2, \overrightarrow{a}=?
+|F\rangle= 0 , \hspace{6pt} m =2, \hspace{6pt} \overrightarrow{a}=?
 $$
 
 $$
-\overrightarrow{a} = \frac{0}{2}=0
+|a\rangle = \frac{0}{2}=0
 $$
 
 Clearly not at all... he's going nowhere slowly.
 
-#### Calculus Time
+{% hint style="info" %}
+[A detailed summary of Newton's Second Law](https://www.khanacademy.org/science/ap-physics-1/ap-forces-newtons-laws/newtons-second-law-ap/v/newton-s-second-law-of-motion)
+{% endhint %}
 
+{% hint style="info" %}
+[Problems for Newton's Second Law](https://www.khanacademy.org/science/ap-physics-1/ap-forces-newtons-laws/newtons-second-law-ap/e/newton-s-second-law)
+{% endhint %}
 
+## How to Know Everything
+
+Let's look carefully at this equation... what _irreducible_ information exists about a physical system?
+
+* The mass of all the objects in the system
+* The position of those objects
+
+If we have these two pieces of information for a particular point in time, then we can figure out anything else we might want to know \(like the force\) for that same moment in time.
+
+Therefore, if we wanted to know everything about the system, then we would need to know the mass and position at _every possibel time_ $$t$$. This is what classical problems all reduce down to - where are we, what's happening, when:
+
+$$
+\text{Given} \hspace{8pt} |x(0)\rangle, \hspace{6pt} |v(0), \hspace{6pt}|F(t)\rangle
+$$
+
+If you know the position of $$x$$ when time $$t=0$$, and the _velocity_ \(or speed\) when $$t=0$$, and the force for all possible values of $$t$$...
+
+$$
+\text{Find} \hspace{8pt} |x(t)\rangle \hspace{8pt} \text{For all}\hspace{6pt} t
+$$
+
+...find the position of $$x$$ for all possible values of $$t$$...
+
+$$
+\text{Where} \hspace{8pt} m*\frac{d^2 * |x(t)\rangle}{dt^2} = |F(t)\rangle
+$$
+
+...where Newton's second law \(here described with calculus\) is the relationship between all of those things.
 
