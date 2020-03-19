@@ -31,5 +31,9 @@ In this section we'll cover the idea of forces, physical relationships, and basi
 
 Below is a list of all of the extra detail & problem sets included in this section of the tutorial:
 
+#### [Classical Mechanics](classical-mechanics.md)
+
+* [More information about position vs. time graphs and how they're used](https://www.khanacademy.org/science/physics/one-dimensional-motion/displacement-velocity-time/a/position-vs-time-graphs)
+
 
 
