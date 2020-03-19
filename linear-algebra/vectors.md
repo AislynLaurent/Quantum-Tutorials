@@ -42,7 +42,7 @@ $$
 
 This kind of vector is just a one column matrix, and as such we can preform all of the matrix operations on it. 
 
-A column vector has as many _elements_ as it does _dimensions_ - so for example a vector describing something in the real world would have _3-Dimensions_ and therefore _3 elements_.
+A column vector has as many _elements_ as it does _dimensions_ - so for example a vector describing something in the real world would have _3-dimensions_ and therefore _3 elements_.
 
 {% hint style="info" %}
 [Detailed Review of vectors](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)

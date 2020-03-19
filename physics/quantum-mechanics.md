@@ -14,11 +14,13 @@ You couldn't describe medium sized stuff with the same rules that you describe q
 
 ### N-Dimensional Space
 
-Previously, we were talking a mass \(an object\) in a 3-Dimensional space. 
+Previously, we were talking a mass \(an object\) in a 3-dimensional space. 
 
-When we talk about quantum systems, we're instead talking about a _particle_ \(an object with very little mass\) in an $$N$$-Dimensional space. That is to say, in a space without a defined number of dimensions. Which is to say, described by [_vectors_ ](../linear-algebra/vectors.md#vectors)with an undefined number of [_elements_](../linear-algebra/vectors.md#column-vectors).
+When we talk about quantum systems, we're instead talking about a _particle_ \(an object with very little mass\) in an $$N$$-dimensional space. That is to say, in a space without a defined number of dimensions. Which is to say, described by [_vectors_ ](../linear-algebra/vectors.md#vectors)with an undefined number of [_elements_](../linear-algebra/vectors.md#column-vectors).
 
-This is because we can collect more _information_ about these particles than 
+This is because we can collect more _information_ about these particles than we could about the more simple objects. It's not nessesarily simply about the location of these things... _more is happening_ down there in the world of very small things. 
+
+This is all to say that it isn't helpful to attempt to think of the $$N$$-dimensions these particles live in as some kind of physical location. Matrices and vectors are about providing the nessesary information to describe the thing they represent. For bigger stuff _where_ it is is enough, down here, it isn't. Simple as that.
 
 
 
