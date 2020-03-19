@@ -12,6 +12,8 @@ $$
 \begin{bmatrix}a&b&x\\d&e&f\\g&h&i\end{bmatrix}
 $$
 
+The individual values in the matrix are referred to as _elements_ or _components_.
+
 {% hint style="info" %}
 [An introduction to matrices](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-intro-to-matrices/v/introduction-to-the-matrix)
 {% endhint %}
@@ -38,7 +40,9 @@ $$
 
 
 
-This kind of vector is just a one column matrix \(you might think of it as a one dimensional array\), and as such we can preform all of the matrix operations on it.
+This kind of vector is just a one column matrix, and as such we can preform all of the matrix operations on it. 
+
+A column vector has as many _elements_ as it does _dimensions_ - so for example a vector describing something in the real world would have _3-Dimensions_ and therefore _3 elements_.
 
 {% hint style="info" %}
 [Detailed Review of vectors](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)

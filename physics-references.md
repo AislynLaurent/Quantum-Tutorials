@@ -12,3 +12,7 @@ description: Sources for physics related citations
 
 \_\_[_"Positive Velocity and Negative Acceleration"_](https://www.physicsclassroom.com/mmedia/kinema/pvna.cfm), The Physics Classroom, 2020
 
+#### The whole problem in classical mechanics
+
+[_"Introduction to Quantum Mechanics"_](https://www.amazon.ca/Introduction-Quantum-Mechanics-David-Griffiths/dp/0131118927), David J. Griffiths, p. 1
+

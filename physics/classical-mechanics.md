@@ -143,7 +143,7 @@ Let's look carefully at this equation... what _irreducible_ information exists a
 
 If we have these two pieces of information for a particular point in time, then we can figure out anything else we might want to know \(like the force\) for that same moment in time.
 
-Therefore, if we wanted to know everything about the system, then we would need to know the mass and position at _every possibel time_ $$t$$. This is what classical problems all reduce down to - where are we, what's happening, when:
+Therefore, if we wanted to know everything about the system, then we would need to know the mass and position at _every possible time_ $$t$$ [_\(Griffiths, D - p.1\)_](../physics-references.md#the-whole-problem-in-classical-mechanics). This is what classical problems all reduce down to - where are we, what's happening, when:
 
 $$
 \text{Given} \hspace{8pt} |x(0)\rangle, \hspace{6pt} |v(0), \hspace{6pt}|F(t)\rangle
