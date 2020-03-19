@@ -18,6 +18,7 @@
 ## Physics
 
 * [Physics Summary](physics/untitled.md)
+* [Classical Mechanics](physics/classical-mechanics.md)
 
 ## Qubits
 
