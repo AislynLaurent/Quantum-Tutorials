@@ -50,6 +50,8 @@ So, we might say that the state of our cat this that he is _at rest_ - he's slee
 
 There are 
 
+![A few images illustrating forces](../.gitbook/assets/480px-force_examples.svg.png)
+
 
 
 

@@ -43,4 +43,5 @@
 ## Refernces
 
 * [Math References](untitled-1.md)
+* [Physics References](physics-references.md)
 
