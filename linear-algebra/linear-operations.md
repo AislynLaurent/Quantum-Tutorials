@@ -10,7 +10,20 @@ Linear combinations logically follow from the matrix operations covered in [_Bas
 
 $$ |x\rangle = a |a\rangle + b |b\rangle$$
 
-Here $$ |x\rangle$$is a linear combination of the vector $$|a\rangle$$scaled by the constant $$a$$ and the vector $$|b\rangle$$scaled by the constant $$b$$.
+Here $$ |x\rangle$$is a linear combination of the vector $$|a\rangle$$scaled by the constant $$a$$ and the vector $$|b\rangle$$scaled by the constant $$b$$. Here is an example:
+
+$$
+Let \hspace{8pt}a=0, b=1 \hspace{8pt} \& \hspace{8pt}
+|a\rangle=\begin{bmatrix}1\\2\end{bmatrix}, |b\rangle=\begin{bmatrix}3\\5\end{bmatrix}
+$$
+
+$$
+|x\rangle = a |a\rangle + b |b\rangle = 0*\begin{bmatrix}1\\2\end{bmatrix}+1*\begin{bmatrix}3\\5\end{bmatrix}= \begin{bmatrix}3\\5\end{bmatrix}
+$$
+
+$$
+|x\rangle = \begin{bmatrix}3\\5\end{bmatrix}
+$$
 
 {% hint style="info" %}
 [Detailed explanation of linear combinations](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-combinations/v/linear-combinations-and-span)
@@ -20,7 +33,7 @@ Here $$ |x\rangle$$is a linear combination of the vector $$|a\rangle$$scaled by 
 
 So if we have a set of vectors, how do we define the relationships between those vectors, and what do those relationships tell us about the whole system? Well, in the example above we have a set of three vectors - $$|x\rangle, |a\rangle, |b\rangle$$.
 
-$$|x\rangle$$is dependent on$$|a\rangle$$and$$|b\rangle$$, because $$|x\rangle$$ is defined by$$|a\rangle$$and$$|b\rangle$$. Without them,$$|x\rangle$$could not exist. And since one of the vectors in the set is dependent on one of the other vectors in the set, the whole set can be said to be _linearly dependent_.
+$$|x\rangle$$is dependent on$$|a\rangle$$and$$|b\rangle$$, because $$|x\rangle$$ is defined by$$|a\rangle$$and$$|b\rangle$$. Without them,$$|x\rangle$$could not exist. And since one of the vectors in the set is dependent on one of the other vectors in the set, the whole set can be said to be _linearly dependent._
 
 ## Linear Independence 
 

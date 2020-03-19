@@ -68,7 +68,5 @@ This means that we cannot have _redundant_ or _duplicate_ information - all the 
 
 ## Dimensions
 
-A dimension is a generalization of a vector space.
-
-A given space has $$n$$ dimensions if it has $$n$$ number of basis vectors. So a 2 dimensional space will have 2 basis vectors.
+A dimension is a generalization of a vector space. Any given space has $$n$$ dimensions if it has $$n$$ number of basis vectors. So a 2 dimensional space will have 2 basis vectors. 
 

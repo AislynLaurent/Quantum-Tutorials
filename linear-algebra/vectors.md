@@ -4,11 +4,45 @@ description: Describing and manipulating vectors using bra-ket notation.
 
 # Basics
 
+## Matrices
+
+A matrix is a way of organizing information. Just like a system of equations, we can use the information in a matrix to denote information about the system overall. The matrix will have dimensions m and n, where m is the number of rows and n is the number of columns.
+
+$$
+\begin{bmatrix}a&b&x\\d&e&f\\g&h&i\end{bmatrix}
+$$
+
+{% hint style="info" %}
+[An introduction to matrices](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-intro-to-matrices/v/introduction-to-the-matrix)
+{% endhint %}
+
 ## Vectors
 
-You may be used to thinking of vectors as having a magnitude and a direction. This is a pretty classical way of doing things - usually we're talking about vectors in a physics context, and therefore we're usually using them to describe where something is going.
+You may be used to thinking of vectors as having a magnitude and a direction. This is a classical way of doing things - usually we're talking about vectors in a physical context, and therefore we're usually using them to describe where something is going.
 
-Here we want to think of vectors in a more abstract way. Our vectors here are not really _going_ anywhere in particular. 
+Here we want to think of vectors in a more abstract way. Our vectors here are not really _going_ anywhere in particular [_\(Wikipedia - 2020\)_](../untitled-1.md#representation-of-a-vector). 
+
+![An image showing a simple representation of a vector](../.gitbook/assets/vector_from_a_to_b.svg.png)
+
+### Column Vectors
+
+The vectors we're describing are the sort of column vectors you're likely already very familiar with.
+
+$$
+|x\rangle = \begin{bmatrix}
+1 \\
+2 \\
+3 \\
+\end{bmatrix}
+$$
+
+
+
+This kind of vector is just a one column matrix \(you might think of it as a one dimensional array\), and as such we can preform all of the matrix operations on it.
+
+{% hint style="info" %}
+[Detailed Review of vectors](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)
+{% endhint %}
 
 ## Bra-Ket Notation
 
@@ -26,33 +60,9 @@ $$
 |x (t) \rangle
 $$
 
-Easy enough.
-
-## Column Vectors
-
-The vectors we're describing are the sort of column vectors you're likely already very familiar with.
-
-$$
-|x\rangle = \begin{bmatrix}
-1 \\
-2 \\
-3 \\
-\end{bmatrix}
-$$
-
-Obviously this kind of vector is just a one column matrix, and as such we can preform all of the matrix operations you would expect.
-
-{% hint style="info" %}
-[Detailed Review of vectors](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)
-{% endhint %}
-
 ## Matrix Operations
 
 For our purpose the only important kinds of matrix operations are addition and multiplication.
-
-{% hint style="info" %}
-[Detailed review of matrices](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:mat-intro/v/introduction-to-the-matrix)
-{% endhint %}
 
 ### Addition
 

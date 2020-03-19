@@ -42,8 +42,8 @@ Below is a list of all of the extra detail & problem sets included in this secti
 
 #### [Basics](vectors.md)
 
+* [An introduction to matrices](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-intro-to-matrices/v/introduction-to-the-matrix)
 * [Detailed Review of vectors](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)
-* [Detailed review of matrices](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:mat-intro/v/introduction-to-the-matrix)
 * [Matrix addition and subtraction problems](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:adding-and-subtracting-matrices/e/matrix_addition_and_subtraction)
 * [Scalar multiplication problems](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-scalars/e/scalar_matrix_multiplication)
 * [Matrix multiplication problems](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-matrices/e/multiplying_a_matrix_by_a_matrix)
@@ -57,4 +57,11 @@ Below is a list of all of the extra detail & problem sets included in this secti
 
 * [More about linear sub-spaces and span](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/subspace-basis/v/linear-subspaces)
 * [Detailed description of basis](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/subspace-basis/v/linear-algebra-basis-of-a-subspace)
+
+#### [Transformations](transformations.md)
+
+* [Fun transformation visualization tool](https://demonstrations.wolfram.com/MatrixTransformation/)
+* [More information about transformations](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:matrices-as-transformations/v/transforming-position-vector)
+* [Transformation matrix problems](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-matrices-as-transformations/e/multiplying_a_matrix_by_a_vector)
+* [More specific details about linear transformations and how they work](https://www.khanacademy.org/math/linear-algebra/matrix-transformations/linear-transformations/v/linear-transformations)
 
