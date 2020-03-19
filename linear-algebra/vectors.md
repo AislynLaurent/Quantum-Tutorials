@@ -20,11 +20,15 @@ The individual values in the matrix are referred to as _elements_ or _components
 
 ## Vectors
 
-You may be used to thinking of vectors as having a magnitude and a direction. This is a classical way of doing things - usually we're talking about vectors in a physical context, and therefore we're usually using them to describe where something is going.
-
-Here we want to think of vectors in a more abstract way. Our vectors here are not really _going_ anywhere in particular [_\(Wikipedia - 2020\)_](../untitled-1.md#representation-of-a-vector). 
+You may be used to thinking of vectors as having a magnitude and a direction. This is a classical way of doing things - usually we're talking about vectors in a physical context, and therefore we're usually using them to describe where something is going [_\(Wikipedia - 2020\)_](../untitled-1.md#representation-of-a-vector).
 
 ![An image showing a simple representation of a vector](../.gitbook/assets/vector_from_a_to_b.svg.png)
+
+Here we want to think of vectors in a more abstract way. Our vectors here are not really _going_ anywhere in particular. In the same way that we use matrices to hold some kind of information, we do the same with vectors.
+
+{% hint style="success" %}
+**Note:** A vector contains multiple pieces of information, and a number holds exactly one. We call a plain old number a _scalar_, because it can be used to scale some other information \(like multiply it by 2 for example - changing the scale from 1 to 2\).
+{% endhint %}
 
 ### Column Vectors
 
@@ -84,11 +88,11 @@ Simple enough. You should note that subtraction is just a sort of special case o
 [Matrix addition and subtraction problems](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:adding-and-subtracting-matrices/e/matrix_addition_and_subtraction)
 {% endhint %}
 
-### Dot Product
+### Product of Vectors
 
-The dot product of two vectors gives us a number representing the combination of the two.
+#### Dot product
 
-For this operation, we multiply the corresponding entries and add all the results together, in order. 
+The dot product of two vectors gives us a number representing the combination of the two. We denote this with the two vectors placed "back to back" - $$\langle x|y \rangle$$. For this operation, we multiply the corresponding entries and add all the results together, in order. 
 
 So, for example:
 
@@ -97,7 +101,7 @@ $$
 $$
 
 $$
-|u\rangle=|x\rangle \bullet |y\rangle
+|u\rangle=\langle x |y\rangle
 $$
 
 $$
@@ -105,6 +109,22 @@ $$
 $$
 
 Note that this only works with single column matrices.
+
+#### Inner Product
+
+The inner product is the more general form of the dot product. To be very broad, you can take the inner product of two vectors and end up with a _complex_ number instead of a _real_ number. We'll talk a bit more about inner product in the section on [_quantum mechanics_](../physics/quantum-mechanics.md#complex-numbers).
+
+
+
+Some interesting properties of the inner product include the following \(assume that $$a\&b$$are scalars and $$|w\rangle, |u\rangle\&|v\rangle$$are vectors.
+
+* It's linear:
+  *  $$|au\rangle=a|u\rangle$$
+  * $$\langle u | av \rangle = a \langle u|v \rangle$$
+  * Where $$|u + w \rangle = |u\rangle + |w\rangle$$, $$\langle u | v + w\rangle = \langle u|v\rangle + \langle u | w \rangle$$
+* The inner product of a vector with itself:
+  * $$\langle u|u \rangle > 0 $$
+  * Unless the vectors is 0 \(where all of the elements in the vector are 0\) - $$\langle v | v \rangle = 0$$
 
 ### Multiplication
 
