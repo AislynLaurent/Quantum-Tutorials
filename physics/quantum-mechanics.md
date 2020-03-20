@@ -6,22 +6,22 @@ description: A very basic overview of the relevant parts of quantum mechanics
 
 If you've read this document so far in one sitting, I'll commend you for that. I hope you've felt like it was informative. However... if you haven't yet, this is the moment to take a break. Have some tea, and make sure you've been able to follow along so far. Things are about to get _weird_.
 
-Whereas classical mechanics tells us about medium size stuff \(so just about 100% of the things we interact with\), quantum mechanics deal with the tiniest stuff. The models used are much more complex, because stuff that small is very unpredictable.
+Whereas classical mechanics tells us about medium size stuff \(so just about 100% of the things we interact with\), quantum mechanics deals with the tiniest stuff. The models used are much more complex, because stuff that small is very unpredictable.
 
 You couldn't describe medium sized stuff with the same rules that you describe quantum sized stuff, simply because they don't behave in the same ways. The opposite is also true - the models used for medium sized stuff just aren't detailed enough to use on super small stuff.
 
-## Quantum Systems
+## Measuring Quantum Systems
 
 ### N-Dimensional Space
 
 Previously, we were talking about a mass \(an object\) in a 3-dimensional space. 
 
-When we talk about quantum systems, we're instead talking about a _particle_ \(an object with very little mass\) in an $$N$$-dimensional space. That is to say, in a space without a defined number of dimensions. Which is to say, described by [_vectors_ ](../linear-algebra/vectors.md#vectors)with an undefined number of [_elements_](../linear-algebra/vectors.md#column-vectors).
+When we talk about quantum systems, we're instead talking about a _particle_ \(an object with very little mass\) in an $$n$$-dimensional space. That is to say, in a space without a defined number of dimensions. Which is to say, described by [_vectors_ ](../linear-algebra/vectors.md#vectors)with an undefined number of [_elements_](../linear-algebra/vectors.md#column-vectors).
 
-This is because we can collect more _information_ about these particles than we could about the more simple objects. It's not necessarily simply about the location of these things... _more is happening_ down here in the world of very small things. 
+Later on, we'll discuss those $$n$$-dimensions, what they represent, and how to calculate a value for $$n$$.
 
 {% hint style="success" %}
-It isn't helpful to attempt to think of the $$N$$-dimensions these particles live in as some kind of physical location. Matrices and vectors are about providing the necessary information to describe the thing they represent. For bigger stuff _where_ it is is enough. Down here, it isn't. Simple as that.
+It isn't helpful to attempt to think of this $$n$$-dimensional space  as some kind of physical location. Matrices and vectors provide information - here, we're representing different information then we are in classical mechanics.
 {% endhint %}
 
 ### Complex Numbers
@@ -79,5 +79,21 @@ So quantum vectors are:
 [More information about quantum vectors](http://physics.mq.edu.au/~jcresser/Phys301/Chapters/Chapter8.pdf)
 {% endhint %}
 
+## Quantum State
 
+Earlier, we can talked about [_state_ ](classical-mechanics.md#state)in a very simple way.
+
+In the [cat system](classical-mechanics.md#state), we have a single object \(the cat himself\), and only a few important quantities. Is he moving? How fast? And when? The state of the cat system at any given point in time is defined \(and distinguished from the state at any other given time\) by the information be know about it. The system is at rest - the cat isn't moving.
+
+The state of a quatnum system is basically the same - it is defined by the information we know about the system at that given point in time.
+
+The key difference is that instead of deciding what measurements we want based on the state of the system \(classical\), the measurement we get depends on the state of the system \(quantum\). We _don't know_ the exact state of the system ahead of time because we _can't know_ until we measure it.
+
+We can't know because the quantum system can exist in multiple states _at the same time_. It's only after we look at it \(observe it, measure it\) that is _collapses_ into one and only one state. The state at a given time is a probability distribution across all of the _possible_ states. Before we measure, we can only say what we're likely to see - not what we'll certainly see.
+
+### Distinguishable States
+
+Before we can talk about combinations of states, we have to talk about the states themselves.
+
+Like I said before, quantum state and classical state are essentially the same. The difference is in how we measure them. We're allways looking for _information_ about the system. What do we know about this particle at this moment in time? How is that different from any other point in time.
 

@@ -16,3 +16,7 @@ description: Sources for physics related citations
 
 [_"Introduction to Quantum Mechanics"_](https://www.amazon.ca/Introduction-Quantum-Mechanics-David-Griffiths/dp/0131118927), David J. Griffiths, p. 1
 
+#### The difference between quantum and classical state
+
+
+

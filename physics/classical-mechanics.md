@@ -30,7 +30,7 @@ When measuring the position of our object, we decide where to "origin" is - wher
 
 Everything occurs over a finite amount of time. Similarly to the position, we measure time from some origin which we decide on. Everything that happens, happens _after_ some arbitrary point in the past that we designate as time 0.
 
-As forces act on our object, it's position changes over time. Tf we kick the ball, we might construct a graph of it's movement that looks like this:
+As forces act on our object, it's position changes over time. If we kick the ball, we might construct a graph of it's movement that looks like this:
 
 ![The graph of the position of a ball over time - showing an upside down parabola](../.gitbook/assets/image%20%283%29.png)
 
