@@ -71,7 +71,19 @@ $$
 |\psi\rangle=\frac{1}{\sqrt{2}}*(|00\rangle+|01\rangle)
 $$
 
-We don't know the exact state of the system, but we do know that we're considering two of the possible 4 states in a 2 qubit system. What is the probability of one of these two states being observed:
+Here we're considering the possible states for the _first_ qubit in this system. Why just the first? Because we read multi-qubit systems from [_right to left_](quantum-bits.md#notation), and the last qubit isn't changing:
+
+$$
+\textcolor{grey}{|\psi\rangle=\frac{1}{\sqrt{2}}*(|}\textcolor{red}{0}\textcolor{grey}{0\rangle+|}\textcolor{red}{0}\textcolor{grey}{1\rangle)}
+$$
+
+We're only changing the possible states for the first qubit:
+
+$$
+\textcolor{grey}{|\psi\rangle=\frac{1}{\sqrt{2}}*(|0}\textcolor{red}{0}\textcolor{grey}{\rangle+|0}\textcolor{red}{1}\textcolor{grey}{\rangle)}
+$$
+
+So let's calculate the probabilities in this situation:
 
 $$
 |\psi\rangle =\frac{1}{\sqrt{2}}|00\rangle + \frac{1}{\sqrt{2}}|01\rangle = a_{00}|00\rangle+a_{01}|01\rangle
