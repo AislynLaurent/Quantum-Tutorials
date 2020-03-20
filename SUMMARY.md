@@ -33,15 +33,15 @@
 
 ## Quantum Circuits
 
-* [Untitled](quantum-circuits/untitled.md)
+* [Quantum Circuit Summary](quantum-circuits/untitled.md)
 
 ## Qiskit
 
-* [Untitled](qiskit/untitled.md)
+* [Qiskit Overview](qiskit/untitled.md)
 
 ## IBMQ
 
-* [Untitled](ibmq/untitled.md)
+* [IBMQ Summary](ibmq/untitled.md)
 
 ## Supplementary
 

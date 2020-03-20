@@ -38,7 +38,7 @@ How does the computer know if some kind of problem has occurred? Not a "dead sti
 
 Each "wire" gets measured by the system... each bit "self reports" about the state that it's in. How do we know that it's telling the truth?
 
-In a regular computer system we do this through some clever math. We force the computer to check it's work and prove that the answer we got really is the answer the system arrived at. This allows us to rely on these fundamental, irreducible answers. The result is correct, the noise levels in our information remain at acceptable levels.
+In a regular computer system we do this through some clever math. We force the computer to check it's work and prove that the answer we got really is the answer the system arrived at. This allows us to rely on these fundamental, irreducible answers. The result is correct, the noise levels in our information remain at acceptable levels [_\(Nielsen, M. - p. 8\)_](qubits-summary/qubit-references.md#fault-and-error-detection).
 
 {% hint style="success" %}
 This concept will become important later on. We need to understand the _clarity_ of the information we're looking at. How much precision can we expect?
