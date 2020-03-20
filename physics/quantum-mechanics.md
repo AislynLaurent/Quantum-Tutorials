@@ -76,8 +76,34 @@ So quantum vectors are:
 
 * Column vectors
 * Describe quantum particles
-* Have $$N$$ number of elements
+* Have $$n$$ number of elements
 * Include elements that are complex numbers
+
+#### Notation
+
+We denote quantum vectors with the greek letter "psi", which looks like this: $$\psi$$. Just like all our other vectors, we'll use [bra-ket notation](../linear-algebra/vectors.md#bra-ket-notation) to indicate that it's a vector:
+
+$$
+| \psi \rangle
+$$
+
+As before, we're interested in the state of out vector over time, so we can indicate that we're talking about it for _all possible values_ for the time variable $$t$$ like this:
+
+$$
+|\psi(t)\rangle
+$$
+
+Or we could specify a particular time, say $$t=3$$ like this:
+
+$$
+|\psi (3)\rangle
+$$
+
+An important thing to note about quantum vectors is that they have to be _normalized_ - this has to do with quantum operations needing to be reversable. This means the [_inner product_](../linear-algebra/vectors.md#inner-product) __of the vector with itself must be 1:
+
+$$
+\langle \psi (t)\hspace{3pt}|\hspace{3pt}\psi (t)\rangle = 1
+$$
 
 {% hint style="info" %}
 [More information about quantum vectors](http://physics.mq.edu.au/~jcresser/Phys301/Chapters/Chapter8.pdf)
@@ -146,4 +172,23 @@ A Hamiltonian is some function \(some math\) that we develop in order to get som
 ## Schrodinger's Equation
 
 In classical mechanics, the relationship between the two separate types of information \(information about _state_ and information about _change_\) is defined with [Newton's second law](classical-mechanics.md#newtons-second-law).
+
+Schrodinger's equation does exactly that, but instead for quantum systems. It tells us the relationship between the state, the wave function and a particular Hamiltonian. Excited to see it?
+
+$$
+\hat{H}(t)*|\psi(t)\rangle = i\hbar*\frac{\partial |\psi(t)\rangle}{\partial t}
+$$
+
+Wow... look at all those... letters? In this equation...
+
+* $$\hat{H}$$ is a Hamiltonian
+  * Like in the classical system $$(t)$$ tells us we're measuring this quantity for all possible values for time $$t$$
+* $$|\psi\rangle$$ is our quantum vector, denoted by the greek letter psi
+  * Again ranged over all values for $$t$$ , so $$|\psi (t)\rangle$$
+* $$i$$ is our imaginary number
+* $$\hbar$$ is Planck's constant 
+  * Describes the "quantum electromagnetic action" - a relationship between the energy in a photon and the fequency of that photon
+* $$\frac{\partial}{\partial t}$$ is the partial derivative with respect to $$t$$
+
+
 

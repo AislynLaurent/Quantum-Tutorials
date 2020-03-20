@@ -26,7 +26,7 @@ description: Sources for physics related citations
 
 #### An animation showing different wave functions
 
-\_\_[_"Schrödinger equation"_](https://commons.wikimedia.org/w/index.php?curid=14654743), Sbyrnes321 \(Wikipedia\), 03-18-20
+\_\_[_"Schrodinger equation"_](https://commons.wikimedia.org/w/index.php?curid=14654743), Sbyrnes321 \(Wikipedia\), 03-18-20
 
 #### Statistical interpretations in quantum mechanics
 
