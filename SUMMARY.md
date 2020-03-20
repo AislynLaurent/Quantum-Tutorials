@@ -40,7 +40,7 @@
 
 * [Untitled](ibmq/untitled.md)
 
-## Supplimentary
+## Supplementary
 
 * [Untitled](untitled.md)
 
