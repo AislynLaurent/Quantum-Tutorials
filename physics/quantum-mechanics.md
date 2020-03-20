@@ -192,7 +192,7 @@ Wow... look at all those... letters? In this equation...
 
 ### Solving the Equation
 
-You may say to me - author lady, this makes no sense. This equation includes a bunch of quantities that we can know:
+You may say to me - author lady, this makes no sense. This equation includes a bunch of quantities that we can't know:
 
 * We don't know what $$i$$ is
 * We're not sure what $$|\psi\rangle$$ is doing for all values of $$t$$
