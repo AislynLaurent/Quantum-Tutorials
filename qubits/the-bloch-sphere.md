@@ -63,7 +63,7 @@ Recall that [_complex numbers_](../physics/quantum-mechanics.md#complex-numbers-
 
 After we measure it, the qubit in question will collapse to a specific state $$|x\rangle$$ [_\(Nielsen, M. - p. 16\)_](qubits-summary/qubit-references.md#math-for-the-probability-of-observing-a-qubit-in-a-particular-state)_._
 
-### Example Calculation
+### Measuring Probabilities
 
 Consider the following system:
 
@@ -105,7 +105,9 @@ $$
 P|00\rangle=\frac{1}{2}, \hspace{6pt} P|01\rangle=\frac{1}{2}
 $$
 
-For this system, the probability for the first and second states i
+For this system, the probabilities for the first qubit are equal - if we measure enough times we'll get 0 50% of the time and 1 50% of the time. The last qubit will _always_ be 0.
+
+Why do I say _if we measure enough times_? Because this is a probability distribution - nothing is guaranteed. If you measure this system an infinite number of times, you'll get a perfect 50/50 spread. Any less than that, and you'll get some noise - your measuremnt won't be perfect.
 
 
 
