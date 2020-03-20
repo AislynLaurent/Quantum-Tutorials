@@ -181,11 +181,11 @@ $$
 
 Wow... look at all those... letters? In this equation...
 
-* $$\hat{H}$$ is a Hamiltonian
+* $$\hat{H}$$ is a [_Hamiltonian_](quantum-mechanics.md#hamiltonian)\_\_
   * Like in the classical system $$(t)$$ tells us we're measuring this quantity for all possible values for time $$t$$
-* $$|\psi\rangle$$ is our quantum vector, denoted by the Greek letter psi
+* $$|\psi\rangle$$ is our [_quantum vector_](quantum-mechanics.md#quantum-vectors), denoted by the Greek letter psi
   * Again ranged over all values for $$t$$ , so $$|\psi (t)\rangle$$
-* $$i$$ is our imaginary number
+* $$i$$ is our [_imaginary number_](quantum-mechanics.md#imaginary-numbers)\_\_
 * $$\hbar$$ is Planck's constant 
   * Describes the "quantum electromagnetic action" - a relationship between the energy in a photon and the frequency of that photon
 * $$\frac{\partial}{\partial t}$$ is the partial derivative with respect to $$t$$

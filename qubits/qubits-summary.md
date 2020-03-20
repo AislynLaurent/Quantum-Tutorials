@@ -13,9 +13,6 @@ In this section we'll cover classical bits, classical registers, quantum bits an
 #### Review Material
 
 * Classical bits
-* Truth tables
-* Classical registers
-* Serial wave forms
 
 #### New Material
 
