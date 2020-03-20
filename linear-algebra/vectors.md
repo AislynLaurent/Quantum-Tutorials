@@ -110,6 +110,10 @@ $$
 
 Note that this only works with single column matrices.
 
+{% hint style="success" %}
+The dot product of two vectors that are opposite \(perpendicular\) of each other is always 0.
+{% endhint %}
+
 #### Inner Product
 
 The inner product is the more general form of the dot product. To be very broad, you can take the inner product of two vectors and end up with a _complex_ number instead of a _real_ number. We'll talk a bit more about [_complex numbers_](../physics/quantum-mechanics.md#complex-numbers) later on.
