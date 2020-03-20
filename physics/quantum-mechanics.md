@@ -206,7 +206,7 @@ I have good news and bad news for you:
 
 #### Bad news: You're right....
 
-We can't solve this problem. This is the _whole_ problem in quantum machanics. We can solve some of it, but never all of it.
+We can't solve this problem. This is the _whole_ problem in quantum mechanics. We can solve some of it, but never all of it.
 
 
 
