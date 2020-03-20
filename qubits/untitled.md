@@ -10,7 +10,7 @@ Computers require information to be passed to them in a very specific format. We
 
 ### Yes, No
 
-Bits contain exactly one piece of information each - 1 \(for yes, true, on\), or 0 \(for no, false, off\). For non-theoretical systems, this means "high" voltage for 1 and "low" voltage for 0. The bit is a _physical_ quantity - we can measure it any time we like, but it needs to be stored [_\(Vahid, F. & Givargis, T. - 2002\)_](../qubit-references.md#diagram-of-serial-waveforms).
+Bits contain exactly one piece of information each - 1 \(for yes, true, on\), or 0 \(for no, false, off\). For non-theoretical systems, this means "high" voltage for 1 and "low" voltage for 0. The bit is a _physical_ quantity - we can measure it any time we like, but it needs to be stored [_\(Vahid, F. & Givargis, T. - 2002\)_](qubits-summary/qubit-references.md#diagram-of-serial-waveforms).
 
 ![Serial Waveforms](../.gitbook/assets/image.png)
 

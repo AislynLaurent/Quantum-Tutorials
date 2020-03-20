@@ -32,7 +32,19 @@ $$
 |0\rangle = \begin{bmatrix}1\\0\end{bmatrix}, |1\rangle=\begin{bmatrix}0\\1\end{bmatrix}
 $$
 
-As our system gets more complex and begins to contain more numbers
+As our system gets more complex and begins to contain more numbers, we can expand on this:
 
+$$
+|00\rangle=\begin{bmatrix}1\\0\\0\\0\end{bmatrix},|01\rangle=\begin{bmatrix}0\\1\\0\\0\end{bmatrix},|10\rangle=\begin{bmatrix}0\\0\\1\\0\end{bmatrix},|11\rangle=\begin{bmatrix}0\\0\\0\\1\end{bmatrix}
+$$
 
+You can imagine that if we have a whole bunch of qubits, this could get very confusing very quickly. So we might use the decimal version of these binary numbers streamline things:
+
+$$
+|0\rangle=\begin{bmatrix}1\\0\\0\\0\end{bmatrix},|1\rangle=\begin{bmatrix}0\\1\\0\\0\end{bmatrix},|2\rangle=\begin{bmatrix}0\\0\\1\\0\end{bmatrix},|3\rangle=\begin{bmatrix}0\\0\\0\\1\end{bmatrix}
+$$
+
+{% hint style="info" %}
+[Binary number review](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction)
+{% endhint %}
 

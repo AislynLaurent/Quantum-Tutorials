@@ -18,18 +18,18 @@
 
 ## Physics
 
-* [Physics Summary](physics/untitled.md)
+* [Physics Summary](physics/untitled/README.md)
+  * [Physics References](physics/untitled/physics-references.md)
 * [Classical Mechanics](physics/classical-mechanics.md)
 * [Quantum Mechanics](physics/quantum-mechanics.md)
-* [Physics References](physics/physics-references.md)
 
 ## Qubits
 
-* [Qubits Summary](qubits/qubits-summary.md)
+* [Qubits Summary](qubits/qubits-summary/README.md)
+  * [Qubit References](qubits/qubits-summary/qubit-references.md)
 * [Classical Bits](qubits/untitled.md)
 * [Quantum Bits](qubits/quantum-bits.md)
 * [The Bloch Sphere](qubits/the-bloch-sphere.md)
-* [Qubit References](qubit-references.md)
 
 ## Quantum Circuits
 
