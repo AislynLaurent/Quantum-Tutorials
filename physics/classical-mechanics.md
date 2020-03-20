@@ -52,7 +52,7 @@ We might say that the state of our cat is _at rest_ - he's sleeping, and going n
 
 #### Types of Forces
 
-There are a bunch of different types of forces - magnetic, nuclear, gravity... we won't discuss specific forces and how to calculate them. What's important for this tutorial is that you understand the concept [_\(Wikipedia - 2020\)_](../physics-references.md#representation-of-forces-image). 
+There are a bunch of different types of forces - magnetic, nuclear, gravity... we won't discuss specific forces and how to calculate them. What's important for this tutorial is that you understand the concept [_\(Wikipedia - 2020\)_](physics-references.md#representation-of-forces-image). 
 
 ![A few images illustrating forces](../.gitbook/assets/480px-force_examples.svg.png)
 
@@ -86,7 +86,7 @@ As we mentioned when talking about [_force_](classical-mechanics.md#force), the 
 
 #### Change in the System
 
-Forces in the system affect some _change._ Things that are still can be made to move, things that are moving can be made to stop, directions can be changed... all with the application of a suitable amount of energy __[_\(Physics Classroom - 2020\)_](../physics-references.md#animation-showing-an-object-in-motion-and-the-graphs-that-describe-its-motion).
+Forces in the system affect some _change._ Things that are still can be made to move, things that are moving can be made to stop, directions can be changed... all with the application of a suitable amount of energy __[_\(Physics Classroom - 2020\)_](physics-references.md#animation-showing-an-object-in-motion-and-the-graphs-that-describe-its-motion).
 
 ![An animation of an object moving and the respective graphs describing it&apos;s motion](../.gitbook/assets/pvna.gif)
 
@@ -143,7 +143,7 @@ Let's look carefully at this equation... what _irreducible_ information exists a
 
 If we have these two pieces of information for a particular point in time, then we can figure out anything else we might want to know \(like the force\) for that same moment in time.
 
-Therefore, if we wanted to know everything about the system, then we would need to know the mass and position at _every possible time_ $$t$$ [_\(Griffiths, D - p.1\)_](../physics-references.md#the-whole-problem-in-classical-mechanics). This is what classical problems all reduce down to - where are we, what's happening, when:
+Therefore, if we wanted to know everything about the system, then we would need to know the mass and position at _every possible time_ $$t$$ [_\(Griffiths, D - p.1\)_](physics-references.md#the-whole-problem-in-classical-mechanics). This is what classical problems all reduce down to - where are we, what's happening, when:
 
 $$
 \text{Given} \hspace{8pt} |x(0)\rangle, \hspace{6pt} |v(0), \hspace{6pt}|F(t)\rangle

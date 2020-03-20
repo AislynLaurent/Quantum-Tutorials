@@ -9,7 +9,8 @@
 
 ## Linear Algebra
 
-* [Linear Algebra Summary](linear-algebra/why-linear-algebra.md)
+* [Linear Algebra Summary](linear-algebra/why-linear-algebra/README.md)
+  * [Math References](linear-algebra/why-linear-algebra/untitled-1.md)
 * [Basics](linear-algebra/vectors.md)
 * [Vector Relationships](linear-algebra/linear-operations.md)
 * [Span, Basis and Spaces](linear-algebra/space-dimension-and-span.md)
@@ -20,6 +21,7 @@
 * [Physics Summary](physics/untitled.md)
 * [Classical Mechanics](physics/classical-mechanics.md)
 * [Quantum Mechanics](physics/quantum-mechanics.md)
+* [Physics References](physics/physics-references.md)
 
 ## Qubits
 
@@ -27,6 +29,7 @@
 * [Classical Bits](qubits/untitled.md)
 * [Quantum Bits](qubits/quantum-bits.md)
 * [The Bloch Sphere](qubits/the-bloch-sphere.md)
+* [Qubit References](qubit-references.md)
 
 ## Quantum Circuits
 
@@ -43,10 +46,4 @@
 ## Supplementary
 
 * [Untitled](untitled.md)
-
-## Refernces
-
-* [Math References](untitled-1.md)
-* [Physics References](physics-references.md)
-* [Qubit References](qubit-references.md)
 

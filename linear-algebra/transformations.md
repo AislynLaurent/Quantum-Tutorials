@@ -4,7 +4,7 @@ description: A description of vector transformations and how they're preformed
 
 # Transformations
 
-We can transform a vector to change it into another vector. In general, this vector can be in the same or in a different [_vector space_](space-dimension-and-span.md#space) - for example, a vector along one plane could transform into a vector along another plane [_\(Das, R \)_](../untitled-1.md#animation-of-a-shear-matrix). 
+We can transform a vector to change it into another vector. In general, this vector can be in the same or in a different [_vector space_](space-dimension-and-span.md#space) - for example, a vector along one plane could transform into a vector along another plane [_\(Das, R \)_](why-linear-algebra/untitled-1.md#animation-of-a-shear-matrix). 
 
 ![A shear matrix - stretches the grid along the x axis.](../.gitbook/assets/shear.gif)
 
@@ -74,7 +74,7 @@ In the case of a column vector, we're affecting some kind of change on it, takin
 
 A linear transformation is a transformation that affects a vector within the context of vector spaces.
 
-For example, we take a vector along one plane and transform it to a vector along another plane. Or perhaps we take a vector and rotate it within the same plane. We're talking about transformations within the context of linear relationships [_\(Nykam, D_ \)](../untitled-1.md#2-d-linear-transformation-image).
+For example, we take a vector along one plane and transform it to a vector along another plane. Or perhaps we take a vector and rotate it within the same plane. We're talking about transformations within the context of linear relationships [_\(Nykam, D_ \)](why-linear-algebra/untitled-1.md#2-d-linear-transformation-image).
 
 ![A stretching and flipping two-dimensional linear transformation](../.gitbook/assets/linear_transformation_2d_m1_m1_1_3.png)
 

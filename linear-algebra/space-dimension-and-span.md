@@ -6,7 +6,7 @@ description: An overview of vector spaces
 
 ## Space
 
-If we imagine a three dimensional object, we might describe it as having three measurable quantities - width \($$x$$\), length \($$y$$\) and height \($$z$$\) [_\(Wikipedia - 2019\)_](../untitled-1.md#representation-of-3d-space):
+If we imagine a three dimensional object, we might describe it as having three measurable quantities - width \($$x$$\), length \($$y$$\) and height \($$z$$\) [_\(Wikipedia - 2019\)_](why-linear-algebra/untitled-1.md#representation-of-3d-space):
 
 ![An image of a cube with the x, y, z axis labelled](../.gitbook/assets/549px-coord_planes_color.svg.png)
 

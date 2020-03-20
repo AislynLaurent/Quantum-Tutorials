@@ -16,7 +16,7 @@ A single quantum bit is the basic unit of quantum computation, but it's also the
 
 Like a classical bit, the quantum bit has two distinguishable states - 0 and 1. We'll use them the same way we use them there - 0 for false, and 1 for true. The difference here is very simple. In the quantum system, we have the potential for superposition.
 
-A quantum bit can be 1 _and_ 0, at the _same time_. We measure this inbetween zone by talking about the [_probability_ ](../physics/quantum-mechanics.md#probability)of finding the qubit in a particular state _when we measure_ it.
+A quantum bit can be 1 _and_ 0, at the _same time_. We measure this in between zone by talking about the [_probability_ ](../physics/quantum-mechanics.md#probability)of finding the qubit in a particular state _when we measure_ it.
 
 ### Notation
 
@@ -26,7 +26,13 @@ $$
 |\psi\rangle
 $$
 
-And 
+The different states, like this:
+
+$$
+|0\rangle = \begin{bmatrix}1\\0\end{bmatrix}, |1\rangle=\begin{bmatrix}0\\1\end{bmatrix}
+$$
+
+As our system gets more complex and begins to contain more numbers
 
 
 

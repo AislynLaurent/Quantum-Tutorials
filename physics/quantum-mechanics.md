@@ -119,7 +119,7 @@ The state of a quantum system is basically the same - it is defined by the infor
 
 The key difference is that instead of deciding what measurements we want based on the state of the system \(classical\), the measurement we get depends on the state of the system \(quantum\). We _don't know_ the exact state of the system ahead of time because we _can't know_ until we measure it.
 
-We can't know because the quantum system can exist in multiple states _at the same time_. It's only after we look at it \(observe it, measure it\) that is _collapses_ into one and only one state. The state at a given time is a probability distribution across all of the _possible_ states. Before we measure, we can only say what we're likely to see - not what we'll certainly see [_\(Maalouf, A - 2016\)_](../physics-references.md#the-difference-between-quantum-and-classical-state).
+We can't know because the quantum system can exist in multiple states _at the same time_. It's only after we look at it \(observe it, measure it\) that is _collapses_ into one and only one state. The state at a given time is a probability distribution across all of the _possible_ states. Before we measure, we can only say what we're likely to see - not what we'll certainly see [_\(Maalouf, A - 2016\)_](physics-references.md#the-difference-between-quantum-and-classical-state).
 
 ### Distinguishable States
 
@@ -133,7 +133,7 @@ Each of the $$n$$-dimensions of a quantum vector represents a distinguishable st
 
 ![Schr&#xF6;dinger&apos;s cat: a cat, a flask of poison, and a radioactive source are placed in a sealed box](../.gitbook/assets/640px-schrodingers_cat.svg.png)
 
-There he is - our boy. Certainly if you've heard about quantum physics at all, you've heard about this cat. This thought experiment does a great job of helping us understand the idea of superposition of quantum states [_\(Wikipedia - 2020\)_](../physics-references.md#a-graphic-depicting-the-schrodinger-cat-thought-experiment).
+There he is - our boy. Certainly if you've heard about quantum physics at all, you've heard about this cat. This thought experiment does a great job of helping us understand the idea of superposition of quantum states [_\(Wikipedia - 2020\)_](physics-references.md#a-graphic-depicting-the-schrodinger-cat-thought-experiment).
 
 The idea is very simple - a quantum system may be in multiple states at once. These states are _superimposed_ on top of one another - they're impossible to tell apart until we measure them. However, like we said earlier, as soon as it's measured, the state can exist in one and only one state. Therefore by looking at it, we change it. The state _collapses_ into one of the possible options.
 
@@ -147,11 +147,11 @@ Before the exact state is measured, we talk about the system in terms of probabi
 
 For our cat in the box there are $$2$$ distinguishable states - dead and alive. At any given moment it is just as likely that we'll have one or the other - the probability of getting either is 50%.
 
-This is a special case for our system - we have a _uniform superposition_, where are states are equally likely to exist [_\(Griffiths, D - p.5\)_](../physics-references.md#statistical-interpretations-in-quantum-mechanics).
+This is a special case for our system - we have a _uniform superposition_, where are states are equally likely to exist [_\(Griffiths, D - p.5\)_](physics-references.md#statistical-interpretations-in-quantum-mechanics).
 
 ### The Wave Function
 
-The wave function is the ultimate understanding of a quantum system. All of the information contained in the system is expressed in the wave function [_\(Wikipedia - 2020\)_](../physics-references.md#an-animiation-showing-diffeent-harmonic-oscillators)_._
+The wave function is the ultimate understanding of a quantum system. All of the information contained in the system is expressed in the wave function [_\(Wikipedia - 2020\)_](physics-references.md#an-animiation-showing-diffeent-harmonic-oscillators)_._
 
 ![Left: The real \(blue\) and imaginary \(red\) wave function. Right: The probability distribution](../.gitbook/assets/stationarystatesanimation.gif)
 
@@ -173,7 +173,7 @@ A Hamiltonian is some function \(some math\) that we develop in order to get som
 
 In classical mechanics, the relationship between the two separate types of information \(information about _state_ and information about _change_\) is defined with [Newton's second law](classical-mechanics.md#newtons-second-law).
 
-Schrodinger's equation does exactly that, but instead for quantum systems. It tells us the relationship between the state, the wave function and a particular Hamiltonian. Excited to see it [_\(Griffiths, D - p.1\)_](../physics-references.md#the-schrodinger-equation)?
+Schrodinger's equation does exactly that, but instead for quantum systems. It tells us the relationship between the state, the wave function and a particular Hamiltonian. Excited to see it [_\(Griffiths, D - p.1\)_](physics-references.md#the-schrodinger-equation)?
 
 $$
 \hat{H}(t)*|\psi(t)\rangle = i\hbar*\frac{\partial |\psi(t)\rangle}{\partial t}
