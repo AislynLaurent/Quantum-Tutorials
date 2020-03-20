@@ -38,7 +38,7 @@ $$
 |0\rangle = \begin{bmatrix}1\\0\end{bmatrix}, |1\rangle=\begin{bmatrix}0\\1\end{bmatrix}
 $$
 
-Note here that the positions in this column vector represent what we see in the particular state we're representing.
+Note here that the elements of this column vector represent the particular state a qubit is in. The first element tells us if a qubit exists in the _first_ state \(which is 0\), and the second element tells us if a qubit exists in the _second_ state \(which is 1\). As we add more qubits to the system, we offer more qubits and more combinations of states, and more elements.
 
 ### Multiple Bits
 
