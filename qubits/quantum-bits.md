@@ -16,11 +16,13 @@ A single quantum bit is the basic unit of quantum computation, but it's also the
 
 Like a classical bit, the quantum bit has two distinguishable states - 0 and 1. The difference here is very simple. In the quantum system, we have the potential for superposition. A quantum bit can be 1 _and_ 0, at the _same time_. We measure this in between zone by talking about the [_probability_ ](../physics/quantum-mechanics.md#probability)of finding the qubit in a particular state _when we measure_ it.
 
-If you recall our discussion of [_vector spaces_](../linear-algebra/space-dimension-and-span.md#space), the dimension of a system is defined by the number of [_basis_](../linear-algebra/space-dimension-and-span.md#basis) __vectors we have. So a single qubit system has _two basis vectors_ - a 0 vector and a 1 vector. This means that a single qubit system defines a _plane._ The combinations of those two basis vectors all live together on this plane. The vectors that live on the plane represent all the possible answers we can get to using a single qubit.
+If you recall our discussion of [_vector spaces_](../linear-algebra/space-dimension-and-span.md#space), the dimension of a system is defined by the number of [_basis_](../linear-algebra/space-dimension-and-span.md#basis) __vectors we have. So a single qubit system has _two basis vectors_ - a 0 vector and a 1 vector. 
+
+This means that a single qubit system defines a _plane._ The combinations of those two basis vectors all live together on this plane. The vectors that live on the plane represent all the possible answers we can get to using a single qubit.
 
 ### Notation
 
-A single qubit is represented as a 2-dimensional [_quantum vector_](../physics/quantum-mechanics.md#quantum-vectors). Recall that a quantum vector has as many dimensions as there are distinguishable states, so it makes sense that a single qubit system has 2 elements. Like any quantum vector, we represent a qubit in an unknown state like this:
+A single qubit is represented as a 2-dimensional [_quantum vector_](../physics/quantum-mechanics.md#quantum-vectors). Recall that a quantum vector has as many dimensions as there are distinguishable states, so it makes sense that a single qubit vector has 2 elements. Like any quantum vector, we represent a qubit in an unknown state like this:
 
 $$
 |\psi\rangle
@@ -47,4 +49,12 @@ $$
 {% hint style="info" %}
 [Binary number review](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction)
 {% endhint %}
+
+Going back to our earlier discussion of $$|0\rangle$$ and $$|1\rangle$$ as our basis vectors, this means that all of the possible measurements for $$|\psi\rangle$$ are represented by a [_linear combination_](../linear-algebra/linear-operations.md#linear-combinations) of our basis vectors:
+
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$
+
+Where $$a$$ and $$b$$ are complex numbers.
 

@@ -41,6 +41,6 @@ Each "wire" gets measured by the system... each bit "self reports" about the sta
 In a regular computer system we do this through some clever math. We force the computer to check it's work and prove that the answer we got really is the answer the system arrived at. This allows us to rely on these fundamental, irreducible answers. The result is correct, the noise levels in our information remain at acceptable levels.
 
 {% hint style="success" %}
-This concept will become important later on. We need to understand the _clarity_ of the information we're looking at. How much percision can we expect?
+This concept will become important later on. We need to understand the _clarity_ of the information we're looking at. How much precision can we expect?
 {% endhint %}
 
