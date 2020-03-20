@@ -33,4 +33,5 @@ Below is a list of all of the extra detail & problem sets included in this secti
 
 #### [Multi-Qubit Systems](../the-bloch-sphere.md)
 
-* 
+*  [Explanation of sigma \(sum\) notation](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-3/v/sigma-notation-sum)
+

@@ -138,13 +138,17 @@ $$
 |S\rangle
 $$
 
+#### For a single qubit system
+
 So for a single qubit system:
 
 $$
 |S\rangle=\frac{1}{\sqrt{2}}*(|0\rangle+|1\rangle)
 $$
 
-For a 2 qubit system:
+#### For a 2 qubit system
+
+And when we have a 2 qubit system:
 
 $$
 |S\rangle=\frac{1}{2}*(|00\rangle+|01\rangle+|10\rangle+|11\rangle)
@@ -152,6 +156,16 @@ $$
 
 {% hint style="success" %}
 We have double the state - double the probability to go around - so $$(\frac{1}{\sqrt{2}})*(\frac{1}{\sqrt{2}})=\frac{1}{2}$$ 
+{% endhint %}
+
+We can also write this using $$\sum$$ as a shorthand for the "sum" or "series":
+
+$$
+|S\rangle=\frac{1}{2}\sum^3_{x=0}|x\rangle
+$$
+
+{% hint style="info" %}
+[Explanation of sigma \(sum\) notation](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-3/v/sigma-notation-sum)
 {% endhint %}
 
 
