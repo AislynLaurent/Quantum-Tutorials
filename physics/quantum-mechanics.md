@@ -173,7 +173,7 @@ A Hamiltonian is some function \(some math\) that we develop in order to get som
 
 In classical mechanics, the relationship between the two separate types of information \(information about _state_ and information about _change_\) is defined with [Newton's second law](classical-mechanics.md#newtons-second-law).
 
-Schrodinger's equation does exactly that, but instead for quantum systems. It tells us the relationship between the state, the wave function and a particular Hamiltonian. Excited to see it?
+Schrodinger's equation does exactly that, but instead for quantum systems. It tells us the relationship between the state, the wave function and a particular Hamiltonian. Excited to see it [_\(Griffiths, D - p.1\)_](../physics-references.md#the-schrodinger-equation)?
 
 $$
 \hat{H}(t)*|\psi(t)\rangle = i\hbar*\frac{\partial |\psi(t)\rangle}{\partial t}
