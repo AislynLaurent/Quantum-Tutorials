@@ -20,7 +20,9 @@ If you recall our discussion of [_vector spaces_](../linear-algebra/space-dimens
 
 This means that a single qubit system defines a _plane._ The combinations of those two basis vectors all live together on this plane. The vectors that live on the plane represent all the possible answers we can get to using a single qubit.
 
-### Notation
+## Notation
+
+### General Vector
 
 A single qubit is represented as a 2-dimensional [_quantum vector_](../physics/quantum-mechanics.md#quantum-vectors). Recall that a quantum vector has as many dimensions as there are distinguishable states, so it makes sense that a single qubit vector has 2 elements. Like any quantum vector, we represent a qubit in an unknown state like this:
 
@@ -28,11 +30,17 @@ $$
 |\psi\rangle
 $$
 
-The different states, like this:
+### Specific States
+
+The two basis vectors, which represent the pure "0" state and the pure "1" state respectively, are represented like this:
 
 $$
 |0\rangle = \begin{bmatrix}1\\0\end{bmatrix}, |1\rangle=\begin{bmatrix}0\\1\end{bmatrix}
 $$
+
+Note here that the positions in this column vector represent what we see in the particular state we're representing. The top entry tells us if a 0 is present, and the bottom entry tells us if a 1 is present.
+
+### Multiple Bits
 
 As our system gets more complex and begins to contain more numbers, we can expand on this:
 
@@ -50,11 +58,17 @@ $$
 [Binary number review](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction)
 {% endhint %}
 
+### Combinations of the Basis Vectors
+
 Going back to our earlier discussion of $$|0\rangle$$ and $$|1\rangle$$ as our basis vectors, this means that all of the possible measurements for $$|\psi\rangle$$ are represented by a [_linear combination_](../linear-algebra/linear-operations.md#linear-combinations) of our basis vectors:
 
 $$
 |\psi\rangle = a|0\rangle + b|1\rangle
 $$
 
-Where $$a$$ and $$b$$ are complex numbers.
+Where $$a$$ and $$b$$ are [_complex numbers_](../physics/quantum-mechanics.md#complex-numbers).
+
+{% hint style="success" %}
+Recall that the[ _inner product_ ](../linear-algebra/vectors.md#inner-product)of our quantum vectors [_must equal 1_](../physics/quantum-mechanics.md#notation), to allow for reversibility of operations: $$\langle \psi|\psi\rangle = 1$$
+{% endhint %}
 
