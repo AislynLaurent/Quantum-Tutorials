@@ -107,9 +107,9 @@ Each of the $$n$$-dimensions of a quantum vector represents a distinguishable st
 
 ![Schr&#xF6;dinger&apos;s cat: a cat, a flask of poison, and a radioactive source are placed in a sealed box](../.gitbook/assets/640px-schrodingers_cat.svg.png)
 
-There he is - our boy. Certainly if you've heard about quantum physics at all, you've heard about this cat. This thought experiment does a great job of helping us understand the idea of superpositions of quantum states [_\(Wikipedia - 2020\)_](../physics-references.md#a-graphic-depicting-the-schrodinger-cat-thought-experiment).
+There he is - our boy. Certainly if you've heard about quantum physics at all, you've heard about this cat. This thought experiment does a great job of helping us understand the idea of superposition of quantum states [_\(Wikipedia - 2020\)_](../physics-references.md#a-graphic-depicting-the-schrodinger-cat-thought-experiment).
 
-The idea is very simple - a quantum system may be in multiple states at once. These states are _superimposed_ on top of one another - they're impossible to tell apart untill we measure them. However, like we said earlier, as soon as it's measured, the state can exist in one and only one state. Therefore by looking at it, we change it. The state _collapses_ into one of the possible options.
+The idea is very simple - a quantum system may be in multiple states at once. These states are _superimposed_ on top of one another - they're impossible to tell apart until we measure them. However, like we said earlier, as soon as it's measured, the state can exist in one and only one state. Therefore by looking at it, we change it. The state _collapses_ into one of the possible options.
 
 With the cat here, we've set up a situation where this cat will certainly die... at some undetermined point \(not very vegan of us, is it?\). We don't know whats going on in there because we can't see... until we open the box! But when we open the box the cat will either be alive or dead. We'll know exactly what was going on in there... because we're looking at it. We lost our superposition of states - the system has collapsed in order to give us an answer.
 
@@ -131,9 +131,15 @@ The wave function is the ultimate understanding of a quantum system. All of the 
 
 For our purpose a detailed understanding of the quantum wave function isn't required. You only need to understand that it exists, and that it contains way too much information for us to measure it. Just like superimposed states contain too much noise too understand while they're overlapping, the wave function can't be understood as a whole - only in parts.
 
-## The Hamiltonian Operator
+{% hint style="info" %}
+[An explanation of what the wave function is](https://www.khanacademy.org/science/physics/quantum-physics/atoms-and-electrons/v/quantum-wavefunction)
+{% endhint %}
 
+## Hamiltonian
 
+How do we extract the relevant portions of the wave function? 
 
+A Hamiltonian is some function \(some math\) that we develop in order to get some useful information out of the quantum wave function. Passing it through this operator destroys some of the information - but in doing so removes the barrier preventing us from doing some useful work with it.
 
+As with the wave function, specific information about the hamiltonian isn't so important. You only need to know that it exists and that it's used to get relevant information out of the wave fuction.
 

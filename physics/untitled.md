@@ -44,6 +44,7 @@ Below is a list of all of the extra detail & problem sets included in this secti
 * [An introduction to imaginary numbers](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:complex/x2ec2f6f830c9fb89:imaginary/v/introduction-to-i-and-imaginary-numbers)
 * [An explanation of complex numbers](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:complex/x2ec2f6f830c9fb89:complex-num/v/complex-number-intro)
 * [More information about quantum vectors](http://physics.mq.edu.au/~jcresser/Phys301/Chapters/Chapter8.pdf)
+* [An explanation of what the wave function is](https://www.khanacademy.org/science/physics/quantum-physics/atoms-and-electrons/v/quantum-wavefunction)
 
 
 
