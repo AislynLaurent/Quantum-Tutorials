@@ -62,6 +62,10 @@ The basis of a vector space are those vectors the define the space itself. This 
 
 This means that we cannot have _redundant_ or _duplicate_ information - all the vectors in the basis set must be linearly independent. You might describe this as the "minimum span".
 
+{% hint style="success" %}
+An important quality of basis vectors is that they're perpendicular to each other. This is how we ensure they don't contain duplicate information - they're opposite each other.
+{% endhint %}
+
 {% hint style="info" %}
 [Detailed description of basis](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/subspace-basis/v/linear-algebra-basis-of-a-subspace)
 {% endhint %}

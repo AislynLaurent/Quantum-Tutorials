@@ -109,5 +109,15 @@ For this system, the probabilities for the first qubit are equal - if we measure
 
 Why do I say _if we measure enough times_? Because this is a probability distribution - nothing is guaranteed. If you measure this system an infinite number of times, you'll get a perfect 50/50 spread. Any less than that, and you'll get some noise - your measuremnt won't be perfect.
 
+## Systems with _n_ Qubits
+
+In a system with $$n$$ qubits, we label each state with the number represented by the [_decimal version_](quantum-bits.md#notation) of their binary identifier:
+
+$$
+|0\rangle, |1\rangle,|2\rangle,|3\rangle, ... , |2^n-1\rangle
+$$
+
+Where in the $$|0\rangle$$ state, all the qubits in the system are 0, and for the $$|2^n-1\rangle$$ state, all the qubits in the system are 1.
+
 
 
