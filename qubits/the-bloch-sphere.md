@@ -58,7 +58,7 @@ $$
 $$
 
 {% hint style="success" %}
-Recall that [_complex numbers_](../physics/quantum-mechanics.md#complex-numbers-1) are based on [_imaginary numbers_](../physics/quantum-mechanics.md#imaginary-numbers), which become real when they're square.
+Recall that [_complex numbers_](../physics/quantum-mechanics.md#complex-numbers-1) are based on [_imaginary numbers_](../physics/quantum-mechanics.md#imaginary-numbers), which become real when they're squared.
 {% endhint %}
 
 After we measure it, the qubit in question will collapse to a specific state $$|x\rangle$$ [_\(Nielsen, M. - p. 16\)_](qubits-summary/qubit-references.md#math-for-the-probability-of-observing-a-qubit-in-a-particular-state)_._
