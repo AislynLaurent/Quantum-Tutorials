@@ -88,9 +88,5 @@ Operators are special linear transformations that transform a vector _within_ it
 
 In this case we can't change a vector in one plane into a vector in another plane, but we can rotate a vector along the same plane. This means all operators are linear transformations, but not vice versa.
 
-## Normalization
-
-## Unitary Transformations
-
 
 
