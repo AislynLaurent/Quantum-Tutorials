@@ -147,10 +147,12 @@ $$
 For a 2 qubit system:
 
 $$
-|S\rangle=\frac{1}{\sqrt{2}}*(|0\rangle+|1\rangle)
+|S\rangle=\frac{1}{2}*(|00\rangle+|01\rangle+|10\rangle+|11\rangle)
 $$
 
-
+{% hint style="success" %}
+We have double the state - double the probability to go around - so $$(\frac{1}{\sqrt{2}})*(\frac{1}{\sqrt{2}})=\frac{1}{2}$$ 
+{% endhint %}
 
 
 
