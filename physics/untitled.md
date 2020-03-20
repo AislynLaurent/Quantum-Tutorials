@@ -2,7 +2,7 @@
 
 ### Classical vs. Quantum Mechanics
 
-To a certain extent, we have an intuitive understanding of classical mechanics. Objects in the real world are affected by forces - measurable ammounts of energy used to do some work.
+To a certain extent, we have an intuitive understanding of classical mechanics. Objects in the real world are affected by forces - measurable amounts of energy used to do some work.
 
 We understand that in order to pick up a chair, it takes more work than picking up a pen. It's clearly that things that _weigh_ more \(or posses more _mass_\) take more energy to move. The exact nature of these relationships can and have been quantified.
 
