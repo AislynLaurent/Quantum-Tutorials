@@ -91,7 +91,7 @@ $$
 $$
 
 $$
-P|x\rangle=|a_x|^2
+P(|x\rangle)=|a_x|^2
 $$
 
 $$
@@ -99,11 +99,11 @@ $$
 $$
 
 $$
-\text{So...}\hspace{6pt} P|00\rangle=|a_{00}|^2= (\frac{1}{\sqrt{2}})^2=\frac{1}{2}\hspace{6pt} \& \hspace{6pt} P|01\rangle=|a_{01}|^2= (\frac{1}{\sqrt{2}})^2=\frac{1}{2}
+\text{So...}\hspace{6pt} P(|00\rangle)=|a_{00}|^2= (\frac{1}{\sqrt{2}})^2=\frac{1}{2}\hspace{6pt} \& \hspace{6pt} P(|01\rangle)=|a_{01}|^2= (\frac{1}{\sqrt{2}})^2=\frac{1}{2}
 $$
 
 $$
-P|00\rangle=\frac{1}{2}, \hspace{6pt} P|01\rangle=\frac{1}{2}
+P(|00\rangle)=\frac{1}{2}, \hspace{6pt} P(|01\rangle)=\frac{1}{2}
 $$
 
 For this system, the probabilities for the first qubit are equal - if we measure enough times we'll get 0 50% of the time and 1 50% of the time. The last qubit will _always_ be 0.
@@ -168,5 +168,33 @@ $$
 [Explanation of sigma \(sum\) notation](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-3/v/sigma-notation-sum)
 {% endhint %}
 
+#### In general
 
+This sum notation is handy when we start to talk about a whole bunch of qubits. So, for a system with $$n$$qubits:
+
+$$
+|S\rangle=K\sum^{2^n-1}_{x=0}|x\rangle
+$$
+
+Where $$K$$ is defined as the probability of finding a qubit in the system in a particular state when the distribution is perfectly even \(so each is equally likely\). We can describe $$K$$ more precisely like this:
+
+$$
+\langle S | S \rangle = 1 = K^2+K^2+... \text{continue for } 2^n \text{ iterations}... + K^2 = K^2 * 2^n
+$$
+
+$$
+K=\frac{1}{\sqrt{2^n}}
+$$
+
+\_\_[_Earlier_](the-bloch-sphere.md#measuring-probabilities) we learned that to get the real probability for a specific state, we need to square the value for $$a_x$$, so...
+
+$$
+P(|x\rangle) = \frac{1}{2^n}
+$$
+
+And now with this new definition for $$K$$, we can revise our formula from earlier:
+
+$$
+|S\rangle=\frac{1}{\sqrt{2^n}}\sum^{2^n-1}_{x=0}|x\rangle
+$$
 
