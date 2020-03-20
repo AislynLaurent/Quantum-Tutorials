@@ -14,9 +14,9 @@ A single quantum bit is the basic unit of quantum computation, but it's also the
 
 ### Distinguishable States
 
-Like a classical bit, the quantum bit has two distinguishable states - 0 and 1. We'll use them the same way we use them there - 0 for false, and 1 for true. The difference here is very simple. In the quantum system, we have the potential for superposition.
+Like a classical bit, the quantum bit has two distinguishable states - 0 and 1. The difference here is very simple. In the quantum system, we have the potential for superposition. A quantum bit can be 1 _and_ 0, at the _same time_. We measure this in between zone by talking about the [_probability_ ](../physics/quantum-mechanics.md#probability)of finding the qubit in a particular state _when we measure_ it.
 
-A quantum bit can be 1 _and_ 0, at the _same time_. We measure this in between zone by talking about the [_probability_ ](../physics/quantum-mechanics.md#probability)of finding the qubit in a particular state _when we measure_ it.
+If you recall our discussion of [_vector spaces_](../linear-algebra/space-dimension-and-span.md#space), the dimension of a system is defined by the number of [_basis_](../linear-algebra/space-dimension-and-span.md#basis) __vectors we have. So a single qubit system has _two basis vectors_ - a 0 vector and a 1 vector. This means that a single qubit system defines a _plane._ The combinations of those two basis vectors all live together on this plane. The vectors that live on the plane represent all the possible answers we can get to using a single qubit.
 
 ### Notation
 
