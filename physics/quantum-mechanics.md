@@ -105,7 +105,19 @@ Each of the $$n$$-dimensions of a quantum vector represents a distinguishable st
 
 There he is - our boy. Certainly if you've heard about quantum physics at all, you've heard about this cat. This thought experiment does a great job of helping us understand the idea of superpositions of quantum states [_\(Wikipedia - 2020\)_](../physics-references.md#a-graphic-depicting-the-schrodinger-cat-thought-experiment).
 
-The idea is very simple - a quantum system may be in multiple states at once. These states are _superimposed_ on top of one another - they're impossible to tell apart untill we measure them. However, like we said earlier, as soon as it's measured, the state can exist in one and only one state. Therefore by looking at it, we change it. The stat _collapses_ into one of the possible options.
+The idea is very simple - a quantum system may be in multiple states at once. These states are _superimposed_ on top of one another - they're impossible to tell apart untill we measure them. However, like we said earlier, as soon as it's measured, the state can exist in one and only one state. Therefore by looking at it, we change it. The state _collapses_ into one of the possible options.
 
-With the cat here, we've set up a situation where this cat will certainly die... at some undetermined point \(not very vegan of us, is it?\). 
+With the cat here, we've set up a situation where this cat will certainly die... at some undetermined point \(not very vegan of us, is it?\). We don't know whats going on in there because we can't see... until we open the box! But when we open the box the cat will either be alive or dead. We'll know exactly what was going on in there... because we're looking at it. We lost our superposition of states - the system has collapsed in order to give us an answer.
+
+This idea can be extended to include systems with a whole bunch of possible states - $$n$$ distinguishable states in fact. The system can be in all of them at the same time - the system can contain all the _information_ for all of them at the same time. Until the moment we measure it.
+
+### Probability
+
+Before the exact state is measured, we talk about the system in terms of probabilities. Given $$n$$ possible distinguishable states, how likely are we to get a specific state when we take our measurement?
+
+For our cat in the box there are $$2$$ distinguishable states - dead and alive. At any given moment it is just as likely that we'll have one or the other - the probability of getting either is 50%.
+
+This is a spechial case for our system - we have a _uniform superposition_, where are states are equally likely to exist.
+
+
 
