@@ -18,5 +18,9 @@ description: Sources for physics related citations
 
 #### The difference between quantum and classical state
 
+\_\_[_"What is difference between classical states and product states?"_](https://www.researchgate.net/post/What_is_difference_between_classical_states_and_product_states),  [Aline I. Maalouf](https://www.researchgate.net/profile/Aline_Maalouf2) \(ResearchGate\), 01-01-16
 
+#### A graphic depicting the Schrodinger cat thought experiment
+
+\_\_[_"Schrodinger cat"_](https://commons.wikimedia.org/w/index.php?curid=4279886), Dhatfield \(Wikipedia\), 03-17-20
 

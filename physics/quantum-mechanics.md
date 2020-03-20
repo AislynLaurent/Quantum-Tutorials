@@ -85,15 +85,27 @@ Earlier, we can talked about [_state_ ](classical-mechanics.md#state)in a very s
 
 In the [cat system](classical-mechanics.md#state), we have a single object \(the cat himself\), and only a few important quantities. Is he moving? How fast? And when? The state of the cat system at any given point in time is defined \(and distinguished from the state at any other given time\) by the information be know about it. The system is at rest - the cat isn't moving.
 
-The state of a quatnum system is basically the same - it is defined by the information we know about the system at that given point in time.
+The state of a quantum system is basically the same - it is defined by the information we know about the system at that given point in time.
 
 The key difference is that instead of deciding what measurements we want based on the state of the system \(classical\), the measurement we get depends on the state of the system \(quantum\). We _don't know_ the exact state of the system ahead of time because we _can't know_ until we measure it.
 
-We can't know because the quantum system can exist in multiple states _at the same time_. It's only after we look at it \(observe it, measure it\) that is _collapses_ into one and only one state. The state at a given time is a probability distribution across all of the _possible_ states. Before we measure, we can only say what we're likely to see - not what we'll certainly see.
+We can't know because the quantum system can exist in multiple states _at the same time_. It's only after we look at it \(observe it, measure it\) that is _collapses_ into one and only one state. The state at a given time is a probability distribution across all of the _possible_ states. Before we measure, we can only say what we're likely to see - not what we'll certainly see [_\(Maalouf, A - 2016\)_](../physics-references.md#the-difference-between-quantum-and-classical-state).
 
 ### Distinguishable States
 
-Before we can talk about combinations of states, we have to talk about the states themselves.
+Quantum state and classical state are essentially the same. The difference is in how we measure them. We're always looking for _information_ about the system. What do we know about this particle at this moment in time? How is that different from any other point in time?
 
-Like I said before, quantum state and classical state are essentially the same. The difference is in how we measure them. We're allways looking for _information_ about the system. What do we know about this particle at this moment in time? How is that different from any other point in time.
+Information is only useful if we can tell it apart from other information. If it's too similar to something else, it may as well be duplicate information. Therefore we group quantum states based on whether they're _distinguishable_ - whether or not we can tell them apart from some other state.
+
+Each of the $$n$$-dimensions of a quantum vector represents a distinguishable state of the system overall. 
+
+### Superposition
+
+![Schr&#xF6;dinger&apos;s cat: a cat, a flask of poison, and a radioactive source are placed in a sealed box](../.gitbook/assets/640px-schrodingers_cat.svg.png)
+
+There he is - our boy. Certainly if you've heard about quantum physics at all, you've heard about this cat. This thought experiment does a great job of helping us understand the idea of superpositions of quantum states [_\(Wikipedia - 2020\)_](../physics-references.md#a-graphic-depicting-the-schrodinger-cat-thought-experiment).
+
+The idea is very simple - a quantum system may be in multiple states at once. These states are _superimposed_ on top of one another - they're impossible to tell apart untill we measure them. However, like we said earlier, as soon as it's measured, the state can exist in one and only one state. Therefore by looking at it, we change it. The stat _collapses_ into one of the possible options.
+
+With the cat here, we've set up a situation where this cat will certainly die... at some undetermined point \(not very vegan of us, is it?\). 
 
