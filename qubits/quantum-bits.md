@@ -14,7 +14,7 @@ A single quantum bit is the basic unit of quantum computation, but it's also the
 
 ### Distinguishable States
 
-Like a classical bit, the quantum bit has two distinguishable states - 0 and 1. The difference here is very simple. In the quantum system, we have the potential for superposition. A quantum bit can be 1 _and_ 0, at the _same time_. We measure this in between zone by talking about the [_probability_ ](../physics/quantum-mechanics.md#probability)of finding the qubit in a particular state _when we measure_ it.
+Like a classical bit, the quantum bit has two observable states - 0 and 1. The difference here is very simple. In the quantum system, we have the potential for superposition. A quantum bit can be 1 _and_ 0, at the _same time_. We measure this in between zone by talking about the [_probability_ ](../physics/quantum-mechanics.md#probability)of finding the qubit in a particular state _when we measure_ it.
 
 If you recall our discussion of [_vector spaces_](../linear-algebra/space-dimension-and-span.md#space), the dimension of a system is defined by the number of [_basis_](../linear-algebra/space-dimension-and-span.md#basis) __vectors we have. So a single qubit system has _two basis vectors_ - a 0 vector and a 1 vector. 
 
@@ -71,4 +71,26 @@ Where $$a$$ and $$b$$ are [_complex numbers_](../physics/quantum-mechanics.md#co
 {% hint style="success" %}
 Recall that the[ _inner product_ ](../linear-algebra/vectors.md#inner-product)of our quantum vectors [_must equal 1_](../physics/quantum-mechanics.md#notation), to allow for reversibility of operations: $$\langle \psi|\psi\rangle = 1$$
 {% endhint %}
+
+## Measuring Qubits
+
+When we measure our quantum bit, the information [_collapses_](../physics/quantum-mechanics.md#superposition) into one state or the other. That means that this linear combination of states...
+
+$$
+|\psi\rangle = a|0\rangle + b|1\rangle
+$$
+
+...is a superposition of multiple possible states. The observable states $$|0\rangle$$ and $$|1\rangle$$ are the same as our classical states.
+
+We can solve this superposition two different ways - as a wave form, with the [_Schrodinger equation_](../physics/quantum-mechanics.md#schrodingers-equation), or by literally looking at it.
+
+### The Probability of States
+
+What will we get? It depends on what _kind_ of superposition it is - that is to say it depends on the [_probabilities_](../physics/quantum-mechanics.md#probability) __of arriving at each state.
+
+The probability of getting any _particular,_ added to the probability of getting any other _particular_ state has to add up to 1, but as long as that true the _distribution_ could be anything.
+
+$$
+\langle\psi|\psi\rangle=\text{prob}|0\rangle+\text{prob}|1\rangle=1
+$$
 

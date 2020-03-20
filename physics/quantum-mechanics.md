@@ -149,6 +149,10 @@ For our cat in the box there are $$2$$ distinguishable states - dead and alive. 
 
 This is a special case for our system - we have a _uniform superposition_, where are states are equally likely to exist [_\(Griffiths, D - p.5\)_](untitled/physics-references.md#statistical-interpretations-in-quantum-mechanics).
 
+{% hint style="info" %}
+[An overview of how probability works](https://www.khanacademy.org/math/statistics-probability/probability-library/basic-theoretical-probability/a/probability-the-basics)
+{% endhint %}
+
 ### The Wave Function
 
 The wave function is the ultimate understanding of a quantum system. All of the information contained in the system is expressed in the wave function [_\(Wikipedia - 2020\)_](untitled/physics-references.md#an-animiation-showing-diffeent-harmonic-oscillators)_._
