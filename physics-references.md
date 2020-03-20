@@ -24,9 +24,9 @@ description: Sources for physics related citations
 
 \_\_[_"Schrodinger cat"_](https://commons.wikimedia.org/w/index.php?curid=4279886), Dhatfield \(Wikipedia\), 03-17-20
 
-#### An animiation showing diffeent harmonic oscillators
+#### An animation showing different wave functions
 
-\_\_[_"Wave function"_](https://commons.wikimedia.org/w/index.php?curid=14059905), Sbyrnes321 \(Wikipedia\), 03-18-20
+\_\_[_"Schrödinger equation"_](https://commons.wikimedia.org/w/index.php?curid=14654743), Sbyrnes321 \(Wikipedia\), 03-18-20
 
 #### Statistical interpretations in quantum mechanics
 

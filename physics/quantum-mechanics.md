@@ -125,11 +125,11 @@ This is a special case for our system - we have a _uniform superposition_, where
 
 ### The Wave Function
 
-![Comparison of classical and quantum harmonic oscillator conceptions for a single spinless particle](../.gitbook/assets/quantumharmonicoscillatoranimation.gif)
-
 The wave function is the ultimate understanding of a quantum system. All of the information contained in the system is expressed in the wave function [_\(Wikipedia - 2020\)_](../physics-references.md#an-animiation-showing-diffeent-harmonic-oscillators)_._
 
-For our purpose a detailed understanding of the quantum wave function isn't required. You only need to understand that it exists, and that it contains way too much information for us to measure it. Just like superimposed states contain too much noise too understand while they're overlapping, the wave function can't be understood as a whole - only in parts.
+![Left: The real \(blue\) and imaginary \(red\) wave function. Right: The probability distribution](../.gitbook/assets/stationarystatesanimation.gif)
+
+For our purpose a detailed understanding of the quantum wave function isn't. As with the wave function, specific information about the Hamiltonian isn't so important. You only need to know that it exists and that it's used to get relevant information out of the wave function required. You only need to understand that it exists, and that it contains way too much information for us to measure it. Just like superimposed states contain too much noise too understand while they're overlapping, the wave function can't be understood as a whole - only in parts.
 
 {% hint style="info" %}
 [An explanation of what the wave function is](https://www.khanacademy.org/science/physics/quantum-physics/atoms-and-electrons/v/quantum-wavefunction)
@@ -141,5 +141,9 @@ How do we extract the relevant portions of the wave function?
 
 A Hamiltonian is some function \(some math\) that we develop in order to get some useful information out of the quantum wave function. Passing it through this operator destroys some of the information - but in doing so removes the barrier preventing us from doing some useful work with it.
 
-As with the wave function, specific information about the hamiltonian isn't so important. You only need to know that it exists and that it's used to get relevant information out of the wave fuction.
+
+
+## Schrodinger's Equation
+
+In classical mechanics, the relationship between the two separate types of information \(information about _state_ and information about _change_\) is defined with [Newton's second law](classical-mechanics.md#newtons-second-law).
 
