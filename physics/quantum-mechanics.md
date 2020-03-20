@@ -81,7 +81,7 @@ So quantum vectors are:
 
 #### Notation
 
-We denote quantum vectors with the greek letter "psi", which looks like this: $$\psi$$. Just like all our other vectors, we'll use [bra-ket notation](../linear-algebra/vectors.md#bra-ket-notation) to indicate that it's a vector:
+We denote quantum vectors with the Greek letter "psi", which looks like this: $$\psi$$. Just like all our other vectors, we'll use [bra-ket notation](../linear-algebra/vectors.md#bra-ket-notation) to indicate that it's a vector:
 
 $$
 | \psi \rangle
@@ -99,7 +99,7 @@ $$
 |\psi (3)\rangle
 $$
 
-An important thing to note about quantum vectors is that they have to be _normalized_ - this has to do with quantum operations needing to be reversable. This means the [_inner product_](../linear-algebra/vectors.md#inner-product) __of the vector with itself must be 1:
+An important thing to note about quantum vectors is that they have to be _normalized_ - this has to do with quantum operations needing to be reversible. This means the [_inner product_](../linear-algebra/vectors.md#inner-product) __of the vector with itself must be 1:
 
 $$
 \langle \psi (t)\hspace{3pt}|\hspace{3pt}\psi (t)\rangle = 1
@@ -183,12 +183,30 @@ Wow... look at all those... letters? In this equation...
 
 * $$\hat{H}$$ is a Hamiltonian
   * Like in the classical system $$(t)$$ tells us we're measuring this quantity for all possible values for time $$t$$
-* $$|\psi\rangle$$ is our quantum vector, denoted by the greek letter psi
+* $$|\psi\rangle$$ is our quantum vector, denoted by the Greek letter psi
   * Again ranged over all values for $$t$$ , so $$|\psi (t)\rangle$$
 * $$i$$ is our imaginary number
 * $$\hbar$$ is Planck's constant 
-  * Describes the "quantum electromagnetic action" - a relationship between the energy in a photon and the fequency of that photon
+  * Describes the "quantum electromagnetic action" - a relationship between the energy in a photon and the frequency of that photon
 * $$\frac{\partial}{\partial t}$$ is the partial derivative with respect to $$t$$
+
+### Solving the Equation
+
+You may say to me - author lady, this makes no sense. This equation includes a bunch of quantities that we can know:
+
+* We don't know what $$i$$ is
+* We're not sure what $$|\psi\rangle$$ is doing for all values of $$t$$
+* Something something wave function, something something information???
+
+This isn't a solvable math problem - I can't tell you the answer to this!
+
+I have good news and bad news for you:
+
+#### Good news: You're right!
+
+#### Bad news: You're right....
+
+We can't solve this problem. This is the _whole_ problem in quantum machanics. We can solve some of it, but never all of it.
 
 
 
