@@ -107,9 +107,9 @@ $$
 
 For this system, the probabilities for the first qubit are equal - if we measure enough times we'll get 0 50% of the time and 1 50% of the time. The last qubit will _always_ be 0.
 
-Why do I say _if we measure enough times_? Because this is a probability distribution - nothing is guaranteed. If you measure this system an infinite number of times, you'll get a perfect 50/50 spread. Any less than that, and you'll get some noise - your measuremnt won't be perfect.
+Why do I say _if we measure enough times_? Because this is a probability distribution - nothing is guaranteed. If you measure this system an infinite number of times, you'll get a perfect 50/50 spread. Any less than that, and you'll get some noise - your measurement won't be perfect.
 
-## Systems with _n_ Qubits
+## Notation for Systems with _n_ Qubits
 
 In a system with $$n$$ qubits, we label each state with the number represented by the [_decimal version_](quantum-bits.md#notation) of their binary identifier:
 
@@ -118,6 +118,38 @@ $$
 $$
 
 Where in the $$|0\rangle$$ state, all the qubits in the system are 0, and for the $$|2^n-1\rangle$$ state, all the qubits in the system are 1.
+
+Recall also from our previous discussions on _dot product_, and _basis_ that the inner product of any two of these basis vectors \(labelled here $$|x\rangle$$ and $$|y\rangle$$\) is 0, and that the inner product of any of these basis vectors with itself is 1:
+
+$$
+\langle x|y \rangle=0, \langle x | x \rangle=1
+$$
+
+## Uniform Superposition
+
+A special state for the $$n$$ qubit system is the _uniform superposition_, where the system is equally likely to collapse to any of the possible distinguishable states.
+
+### Notation
+
+We label the uniform superposition with the vector:
+
+$$
+|S\rangle
+$$
+
+So for a single qubit system:
+
+$$
+|S\rangle=\frac{1}{\sqrt{2}}*(|0\rangle+|1\rangle)
+$$
+
+For a 2 qubit system:
+
+$$
+|S\rangle=\frac{1}{\sqrt{2}}*(|0\rangle+|1\rangle)
+$$
+
+
 
 
 
