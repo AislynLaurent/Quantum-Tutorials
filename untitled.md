@@ -1,4 +1,4 @@
-# Quantum Security and Quantum Safe Algorithms
+# Quantum Safe Algorithms
 
 ## Discussion with Paul Lucier
 

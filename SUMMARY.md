@@ -45,5 +45,5 @@
 
 ## Supplementary
 
-* [Quantum Security and Quantum Safe Algorithms](untitled.md)
+* [Quantum Safe Algorithms](untitled.md)
 
