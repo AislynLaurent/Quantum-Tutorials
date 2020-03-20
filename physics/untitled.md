@@ -1,6 +1,6 @@
 # Physics Summary
 
-### Classical vs. Quantum Mechanics
+## Classical vs. Quantum Mechanics
 
 To a certain extent, we have an intuitive understanding of classical mechanics. Objects in the real world are affected by forces - measurable amounts of energy used to do some work.
 
@@ -8,22 +8,26 @@ We understand that in order to pick up a chair, it takes more work than picking 
 
 The way that very, very, _very_ small things act isn't like this at all - and it's not intuitive. It is, in fact, super weird. In this chapter we'll cover a basic understanding of exactly how and why it's so weird.
 
-### Material
+## Material
 
 In this section we'll cover the idea of forces, physical relationships, and basic quantum concepts.
 
 ### Review Material
 
 * Mass
+* Position
 * Force
 * Newtons 2nd Law
 
 ### New Material
 
-* The Hamiltonian
-* Schrodinger Equation
+* $$n$$-dimensional space
+* Complex numbers
+* Quantum vectors
 * Superposition 
-* The uncertainty principal
+* The wave function
+* Hamiltonian
+* Schrodinger Equation
 
 ## Resources
 

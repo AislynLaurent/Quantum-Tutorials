@@ -6,6 +6,16 @@ description: A collection of resources from the whole document.
 
 Here I've compiled all the important links from throughout the tutorial. If you're looking for something I've mentioned, you should be able to find it here.
 
+## General Resources
+
+### Khan Academy
+
+In each section of this tutorial, I'll link to problem sets and detailed explainations on Khan Academy for those who require additional review material.
+
+You can find a complete list of all the additional review material in the summary for each section.
+
+## Tools
+
 ### [Python](https://www.python.org/)
 
 All of the development tutorials on this website will be based on python. If you need to learn more about python, you can head to the [python beginners guide](https://www.python.org/about/gettingstarted/) for more information.
