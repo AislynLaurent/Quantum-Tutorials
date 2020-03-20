@@ -14,7 +14,9 @@ As the enthuisatic push toward quantum systems continued, Paul Luicer, Vice pres
 
 "Governments come to us and ask _'How do I use this exciting new technology? What can quantum do for us?'_, and I have to turn around and say - wait a minute. Before you start talking about what quantum can do for you, you need to start thinking about how you can protect yourself!"
 
-![](.gitbook/assets/image%20%281%29.png)
+![A graphic showing sources of threat - quantum systems attack the foundation of security](.gitbook/assets/image%20%281%29.png)
+
+
 
 ## Who is Paul Lucier?
 
