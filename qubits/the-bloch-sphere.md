@@ -63,3 +63,37 @@ Recall that [_complex numbers_](../physics/quantum-mechanics.md#complex-numbers-
 
 After we measure it, the qubit in question will collapse to a specific state $$|x\rangle$$ [_\(Nielsen, M. - p. 16\)_](qubits-summary/qubit-references.md#math-for-the-probability-of-observing-a-qubit-in-a-particular-state)_._
 
+### Example Calculation
+
+Consider the following system:
+
+$$
+|\psi\rangle=\frac{1}{\sqrt{2}}*(|00\rangle+|01\rangle)
+$$
+
+We don't know the exact state of the system, but we do know that we're considering two of the possible 4 states in a 2 qubit system. What is the probability of one of these two states being observed:
+
+$$
+|\psi\rangle =\frac{1}{\sqrt{2}}|00\rangle + \frac{1}{\sqrt{2}}|01\rangle = a_{00}|00\rangle+a_{01}|01\rangle
+$$
+
+$$
+P|x\rangle=|a_x|^2
+$$
+
+$$
+\text{When}\hspace{6pt} |x\rangle=|00\rangle, \hspace{6pt} a_x=a_{00}=\frac{1}{\sqrt{2}} \hspace{6pt} \& \hspace{6pt} |x\rangle=|01\rangle, \hspace{6pt} a_x=a_{01}=\frac{1}{\sqrt{2}}
+$$
+
+$$
+\text{So...}\hspace{6pt} P|00\rangle=|a_{00}|^2= (\frac{1}{\sqrt{2}})^2=\frac{1}{2}\hspace{6pt} \& \hspace{6pt} P|01\rangle=|a_{01}|^2= (\frac{1}{\sqrt{2}})^2=\frac{1}{2}
+$$
+
+$$
+P|00\rangle=\frac{1}{2}, \hspace{6pt} P|01\rangle=\frac{1}{2}
+$$
+
+For this system, the probability for the first and second states i
+
+
+
