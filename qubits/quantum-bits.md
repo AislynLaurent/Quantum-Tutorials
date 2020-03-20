@@ -10,7 +10,7 @@ In the section about [_quantum mechanics_](../physics/quantum-mechanics.md), we 
 
 ### The Single Qubit System
 
-A single quantum bit is the basic unit of quantum computation, but it's also the smallest \(non-trivial\) quantum system. Unlike a classical system, where a single bit can't do much at all, in the quantum system the individual bits can be used to do work alone.
+A single quantum bit is the basic unit of quantum computation, but it's also the smallest \(non-trivial\) quantum system. Unlike a classical system, where a single bit can't do much at all, in the quantum system the individual bits can be used to do work alone [_\(Nielsen, M. - p. 13\)_](qubits-summary/qubit-references.md#the-idea-of-a-quantum-bit).
 
 ### Distinguishable States
 
@@ -38,7 +38,7 @@ $$
 |0\rangle = \begin{bmatrix}1\\0\end{bmatrix}, |1\rangle=\begin{bmatrix}0\\1\end{bmatrix}
 $$
 
-Note here that the positions in this column vector represent what we see in the particular state we're representing. The top entry tells us if a 0 is present, and the bottom entry tells us if a 1 is present.
+Note here that the positions in this column vector represent what we see in the particular state we're representing.
 
 ### Multiple Bits
 
@@ -60,7 +60,7 @@ $$
 
 ### Combinations of the Basis Vectors
 
-Going back to our earlier discussion of $$|0\rangle$$ and $$|1\rangle$$ as our basis vectors, this means that all of the possible measurements for $$|\psi\rangle$$ are represented by a [_linear combination_](../linear-algebra/linear-operations.md#linear-combinations) of our basis vectors:
+Going back to our earlier discussion of $$|0\rangle$$ and $$|1\rangle$$ as our basis vectors, this means that all of the possible measurements for $$|\psi\rangle$$ are represented by a [_linear combination_](../linear-algebra/linear-operations.md#linear-combinations) of our basis vectors [_\(Nielsen, M. - p. 13\)_](qubits-summary/qubit-references.md#a-linear-combination-of-our-basis-vectors)_:_
 
 $$
 |\psi\rangle = a|0\rangle + b|1\rangle
@@ -88,7 +88,7 @@ We can solve this superposition two different ways - as a wave form, with the [_
 
 What will we get? It depends on what _kind_ of superposition it is - that is to say it depends on the [_probabilities_](../physics/quantum-mechanics.md#probability) __of arriving at each state.
 
-The probability of getting any _particular,_ added to the probability of getting any other _particular_ state has to add up to 1, but as long as that true the _distribution_ could be anything.
+The probability of getting any _particular,_ added to the probability of getting any other _particular_ state has to add up to 1, but as long as that true the _distribution_ could be anything [_\(Nielsen, M. - p. 13\)_](qubits-summary/qubit-references.md#the-probability-of-measuring-a-qubit-in-a-particular-state)_:_
 
 $$
 \langle\psi|\psi\rangle=\text{prob}|0\rangle+\text{prob}|1\rangle=1

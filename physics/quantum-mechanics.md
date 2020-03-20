@@ -16,12 +16,12 @@ You couldn't describe medium sized stuff with the same rules that you describe q
 
 Previously, we were talking about a mass \(an object\) in a 3-dimensional space. 
 
-When we talk about quantum systems, we're instead talking about a _particle_ \(an object with very little mass\) in an $$n$$-dimensional space. That is to say, in a space without a defined number of dimensions. Which is to say, described by [_vectors_ ](../linear-algebra/vectors.md#vectors)with an undefined number of [_elements_](../linear-algebra/vectors.md#column-vectors).
+When we talk about quantum systems, we're instead talking about a _particle_ \(an object with very little mass\) in an $$N$$-dimensional space. That is to say, in a space without a defined number of dimensions. Which is to say, described by [_vectors_ ](../linear-algebra/vectors.md#vectors)with an undefined number of [_elements_](../linear-algebra/vectors.md#column-vectors).
 
-Later on, we'll discuss those $$n$$-dimensions, what they represent, and how to calculate a value for $$n$$.
+Later on, we'll discuss those $$N$$-dimensions, what they represent, and how to calculate a value for $$n$$.
 
 {% hint style="success" %}
-It isn't helpful to attempt to think of this $$n$$-dimensional space  as some kind of physical location. Matrices and vectors provide information - here, we're representing different information then we are in classical mechanics.
+It isn't helpful to attempt to think of this $$N$$-dimensional space  as some kind of physical location. Matrices and vectors provide information - here, we're representing different information then we are in classical mechanics.
 {% endhint %}
 
 ### Complex Numbers
@@ -127,7 +127,7 @@ Quantum state and classical state are essentially the same. The difference is in
 
 Information is only useful if we can tell it apart from other information. If it's too similar to something else, it may as well be duplicate information. Therefore we group quantum states based on whether they're _distinguishable_ - whether or not we can tell them apart from some other state.
 
-Each of the $$n$$-dimensions of a quantum vector represents a distinguishable state of the system overall. 
+Each of the $$N$$-dimensions of a quantum vector represents a distinguishable state of the system overall. 
 
 ### Superposition
 

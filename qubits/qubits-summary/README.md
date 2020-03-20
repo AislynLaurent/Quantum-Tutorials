@@ -27,10 +27,10 @@ In this section we'll cover classical bits, classical registers, quantum bits an
 
 Below is a list of all of the extra detail & problem sets included in this section of the tutorial:
 
-#### Quantum Bits
+#### [Quantum Bits](../quantum-bits.md)
 
 *  [Binary number review](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction)
 
-#### The Bloch Sphere
+#### [Multi-Qubit Systems](../the-bloch-sphere.md)
 
 * 

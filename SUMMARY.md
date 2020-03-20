@@ -29,7 +29,7 @@
   * [Qubit References](qubits/qubits-summary/qubit-references.md)
 * [Classical Bits](qubits/untitled.md)
 * [Quantum Bits](qubits/quantum-bits.md)
-* [The Bloch Sphere](qubits/the-bloch-sphere.md)
+* [Multi-Qubit Systems](qubits/the-bloch-sphere.md)
 
 ## Quantum Circuits
 
