@@ -49,7 +49,7 @@ $$
 $$
 
 {% hint style="success" %}
-For multi-qubit systems like this, we order qubits from right to left. So the rightmost qubit is the _first_, and the leftmost qubit is the _last_.
+For multi-qubit systems like this, we order qubits from right to left. So the rightmost qubit $$|0\textcolor{red}1\rangle$$ is the _first_, and the leftmost qubit is the _last_ $$|\textcolor{red}{0}1\rangle$$.
 {% endhint %}
 
 You can imagine that if we have a whole bunch of qubits, this could get very confusing very quickly. So we might use the decimal version of these binary numbers streamline things:

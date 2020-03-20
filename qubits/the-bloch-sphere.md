@@ -74,13 +74,14 @@ $$
 Here we're considering the possible states for the _first_ qubit in this system. Why just the first? Because we read multi-qubit systems from [_right to left_](quantum-bits.md#notation), and the last qubit isn't changing:
 
 $$
-\textcolor{grey}{|\psi\rangle=\frac{1}{\sqrt{2}}*(|}\textcolor{red}{0}\textcolor{grey}{0\rangle+|}\textcolor{red}{0}\textcolor{grey}{1\rangle)}
+|\psi\rangle=\frac{1}{\sqrt{2}
+}*(|\textcolor{red}{0}0\rangle+|\textcolor{red}{0}1\rangle)
 $$
 
 We're only changing the possible states for the first qubit:
 
 $$
-\textcolor{grey}{|\psi\rangle=\frac{1}{\sqrt{2}}*(|0}\textcolor{red}{0}\textcolor{grey}{\rangle+|0}\textcolor{red}{1}\textcolor{grey}{\rangle)}
+|\psi\rangle=\frac{1}{\sqrt{2}}*(|0\textcolor{red}{0}\rangle+|0\textcolor{red}{1}\rangle)
 $$
 
 So let's calculate the probabilities in this situation:
