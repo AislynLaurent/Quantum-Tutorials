@@ -38,6 +38,10 @@ $$
 
 $$i$$ is used to describe some imaginary unit, where we don't know the quantity. We extend the real numbers as we know them to include information we don't have a clear description for. We allow ourselves to include this in our calculations so we can describe things beyond our normal understanding.
 
+{% hint style="info" %}
+[An introduction to imaginary numbers](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:complex/x2ec2f6f830c9fb89:imaginary/v/introduction-to-i-and-imaginary-numbers)
+{% endhint %}
+
 #### Combinations including imaginary numbers
 
 So if we take some multiple $$b$$ of the imaginary quantity $$i$$ and we combine it with some real quantity $$a$$, we get something like this:
@@ -117,7 +121,19 @@ Before the exact state is measured, we talk about the system in terms of probabi
 
 For our cat in the box there are $$2$$ distinguishable states - dead and alive. At any given moment it is just as likely that we'll have one or the other - the probability of getting either is 50%.
 
-This is a spechial case for our system - we have a _uniform superposition_, where are states are equally likely to exist.
+This is a special case for our system - we have a _uniform superposition_, where are states are equally likely to exist [_\(Griffiths, D - p.5\)_](../physics-references.md#statistical-interpretations-in-quantum-mechanics).
+
+### The Wave Function
+
+![Comparison of classical and quantum harmonic oscillator conceptions for a single spinless particle](../.gitbook/assets/quantumharmonicoscillatoranimation.gif)
+
+The wave function is the ultimate understanding of a quantum system. All of the information contained in the system is expressed in the wave function [_\(Wikipedia - 2020\)_](../physics-references.md#an-animiation-showing-diffeent-harmonic-oscillators)_._
+
+For our purpose a detailed understanding of the quantum wave function isn't required. You only need to understand that it exists, and that it contains way too much information for us to measure it. Just like superimposed states contain too much noise too understand while they're overlapping, the wave function can't be understood as a whole - only in parts.
+
+## The Hamiltonian Operator
+
+
 
 
 

@@ -24,3 +24,11 @@ description: Sources for physics related citations
 
 \_\_[_"Schrodinger cat"_](https://commons.wikimedia.org/w/index.php?curid=4279886), Dhatfield \(Wikipedia\), 03-17-20
 
+#### An animiation showing diffeent harmonic oscillators
+
+\_\_[_"Wave function"_](https://commons.wikimedia.org/w/index.php?curid=14059905), Sbyrnes321 \(Wikipedia\), 03-18-20
+
+#### Statistical interpretations in quantum mechanics
+
+[_"Introduction to Quantum Mechanics"_](https://www.amazon.ca/Introduction-Quantum-Mechanics-David-Griffiths/dp/0131118927), David J. Griffiths, p. 5
+
