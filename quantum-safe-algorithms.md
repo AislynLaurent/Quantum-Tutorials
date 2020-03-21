@@ -77,5 +77,3 @@ Or through Isara's official social media feeds:
 * Facebook: [https://www.facebook.com/isaracorp/](https://www.facebook.com/isaracorp/) 
 * LinkedIn: [https://www.linkedin.com/company/isara-corporation](https://www.linkedin.com/company/isara-corporation)
 
-
-
