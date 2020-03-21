@@ -33,7 +33,9 @@
 
 ## Quantum Circuits
 
-* [Quantum Circuit Summary](quantum-circuits/quantum-circuit-summary.md)
+* [Quantum Circuit Summary](quantum-circuits/quantum-circuit-summary/README.md)
+  * [Quantum Circuit References](quantum-circuits/quantum-circuit-summary/quantum-circuit-references.md)
+* [Classical Models of Computation](quantum-circuits/classical-models-of-computation.md)
 
 ## Qiskit
 
