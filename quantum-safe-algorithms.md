@@ -52,6 +52,10 @@ These algorithms will be submitted to [NIST - the National Institute of Standard
 
 "With any luck, one of Isara's algorithms will be part of the next framework."
 
+{% hint style="info" %}
+Images courtesy of Isara Corporation
+{% endhint %}
+
 ## Who is Paul Lucier?
 
 Paul Lucier is a VP of Sales and Business Development who partners with CIOs, CISOs, Military leadership and problem solvers to help introduce technology solutions that drive positive change. After spending 20+ years in ICT opening up new global markets, streamlining operations, managing teams and directing sales and business development growth, Paul understands how transparency nurtures dynamic partnerships. His expertise is networking and navigating successful sales in the US Federal Government, specifically the Department of Defense. It’s how effectively you listen to and anticipate the needs of the people you’re trying to help, which fosters win-win long-term partnerships. 
