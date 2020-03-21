@@ -44,7 +44,9 @@ Research groups and companies from all over the world have begun to develop the 
 
 "Isara is working right now to develop algorithms that can keep data safe now and in the quantum future."
 
-These algorithms will be submitted to [NIST - the National Institute of Standards and Technology](https://www.nist.gov/), which is an American organization that sets cyber security standards worldwide. 
+These algorithms will be submitted to [NIST - the National Institute of Standards and Technology](https://www.nist.gov/), which is an American organization that sets cyber security standards worldwide. Submitted algorithms will undergo rigorus testing to ensure that they're as good or better than current solutions. NIST releases a new framework every three years.
+
+"With any luck, one of Isara's algorithms will be part of the next framework."
 
 ## Who is Paul Lucier?
 
