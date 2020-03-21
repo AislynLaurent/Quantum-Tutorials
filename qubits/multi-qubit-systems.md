@@ -6,7 +6,7 @@ description: Operations on multi-qubit systems
 
 ## The Number of States
 
-In a[ _classical system_ ](untitled.md#yes-no)we have two possible pieces of information - true or false. That's still the case here - we [_still work in binary_](quantum-bits.md#distinguishable-states) on quantum systems. So for multi-qubit systems, how do we decide the number of distinguishable states?
+In a[ _classical system_ ](classical-bits.md#yes-no)we have two possible pieces of information - true or false. That's still the case here - we [_still work in binary_](quantum-bits.md#distinguishable-states) on quantum systems. So for multi-qubit systems, how do we decide the number of distinguishable states?
 
 We take the number of possible pieces of information \(so 2 - 0 or 1\) and we take it to the power of the number of qubits in the system, $$n$$. So for a single qubit system:
 
@@ -186,7 +186,7 @@ $$
 K=\frac{1}{\sqrt{2^n}}
 $$
 
-\_\_[_Earlier_](the-bloch-sphere.md#measuring-probabilities) we learned that to get the real probability for a specific state, we need to square the value for $$a_x$$, so...
+\_\_[_Earlier_](multi-qubit-systems.md#measuring-probabilities) we learned that to get the real probability for a specific state, we need to square the value for $$a_x$$, so...
 
 $$
 P(|x\rangle) = \frac{1}{2^n}

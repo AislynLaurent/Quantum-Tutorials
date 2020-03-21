@@ -31,7 +31,7 @@ Below is a list of all of the extra detail & problem sets included in this secti
 
 *  [Binary number review](https://www.khanacademy.org/math/algebra-home/alg-intro-to-algebra/algebra-alternate-number-bases/v/number-systems-introduction)
 
-#### [Multi-Qubit Systems](../the-bloch-sphere.md)
+#### [Multi-Qubit Systems](../multi-qubit-systems.md)
 
 *  [Explanation of sigma \(sum\) notation](https://www.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-3/v/sigma-notation-sum)
 

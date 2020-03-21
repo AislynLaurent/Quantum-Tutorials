@@ -28,7 +28,7 @@ The purpose of this section is to touch on each of the most important topics in 
 
 Below is a list of all of the extra detail & problem sets included in this section of the tutorial:
 
-#### [Basics](../vectors.md)
+#### [Basics](../basics.md)
 
 * [An introduction to matrices](https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-intro-to-matrices/v/introduction-to-the-matrix)
 * [Detailed Review of vectors](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)
@@ -36,7 +36,7 @@ Below is a list of all of the extra detail & problem sets included in this secti
 * [Scalar multiplication problems](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-scalars/e/scalar_matrix_multiplication)
 * [Matrix multiplication problems](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-matrices/e/multiplying_a_matrix_by_a_matrix)
 
-#### [Linear Operations](../linear-operations.md)
+#### [Linear Operations](../vector-relationships.md)
 
 * [Detailed explanation of linear independence](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/linear-algebra-introduction-to-linear-independence)
 * [Detailed explanation of linear combinations](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-combinations/v/linear-combinations-and-span)

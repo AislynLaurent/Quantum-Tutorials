@@ -6,7 +6,7 @@ description: 'A brief overview of linear combinations, dependence, and independe
 
 ## Linear Combinations
 
-Linear combinations logically follow from the matrix operations covered in [_Basics_](vectors.md) - simply put, it's a combination of two vectors, scaled by numbers.
+Linear combinations logically follow from the matrix operations covered in [_Basics_](basics.md) - simply put, it's a combination of two vectors, scaled by numbers.
 
 $$ |x\rangle = a |a\rangle + b |b\rangle$$
 

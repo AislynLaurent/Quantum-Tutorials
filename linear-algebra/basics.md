@@ -20,7 +20,7 @@ The individual values in the matrix are referred to as _elements_ or _components
 
 ## Vectors
 
-You may be used to thinking of vectors as having a magnitude and a direction. This is a classical way of doing things - usually we're talking about vectors in a physical context, and therefore we're usually using them to describe where something is going [_\(Wikipedia - 2020\)_](why-linear-algebra/untitled-1.md#representation-of-a-vector).
+You may be used to thinking of vectors as having a magnitude and a direction. This is a classical way of doing things - usually we're talking about vectors in a physical context, and therefore we're usually using them to describe where something is going [_\(Wikipedia - 2020\)_](linear-algebra-summary/math-references.md#representation-of-a-vector).
 
 ![An image showing a simple representation of a vector](../.gitbook/assets/vector_from_a_to_b.svg.png)
 
@@ -58,7 +58,7 @@ For quantum systems, we'll describe vectors using [Bra-Ket notation](https://en.
 
 The basic idea is that vectors can be labeled with what looks like a line **\( \| \)** on one side and an angle bracket **\( &lt; , &gt; \)** on the other. 
 
-So, for the vector _**x**,_ the label would look like this: $$ |x \rangle$$\_\_[_\(Griffiths, D. - p.119\)_](why-linear-algebra/untitled-1.md#bra-ket-notation) __. 
+So, for the vector _**x**,_ the label would look like this: $$ |x \rangle$$\_\_[_\(Griffiths, D. - p.119\)_](linear-algebra-summary/math-references.md#bra-ket-notation) __. 
 
 Actually, this is a "**ket**" vector. A "**bra**" vector looks like this: $$ \langle x| $$. You'll see later that we use this to our advantage when describing the inner product of two vectors: $$ \langle x|y \rangle$$, but that's another tutorial.
 
@@ -159,7 +159,7 @@ For this operation, we take the dot product of the columns in the first matrix w
 
 As you can see, this means that the **number of entries in the rows** of the first matrix have to be equal to the **number of entries in the columns** of the second matrix.
 
-Here I'll include a lovely graphic that should clear things up significantly [_\(Jean, H. - 2018\)_](why-linear-algebra/untitled-1.md#matrix-multiplication-image):
+Here I'll include a lovely graphic that should clear things up significantly [_\(Jean, H. - 2018\)_](linear-algebra-summary/math-references.md#matrix-multiplication-image):
 
 ![Matrix multiplication](../.gitbook/assets/dot-product.png)
 

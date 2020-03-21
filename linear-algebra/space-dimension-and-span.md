@@ -6,7 +6,7 @@ description: An overview of vector spaces
 
 ## Space
 
-If we imagine a three dimensional object, we might describe it as having three measurable quantities - width \($$x$$\), length \($$y$$\) and height \($$z$$\) [_\(Wikipedia - 2019\)_](why-linear-algebra/untitled-1.md#representation-of-3d-space):
+If we imagine a three dimensional object, we might describe it as having three measurable quantities - width \($$x$$\), length \($$y$$\) and height \($$z$$\) [_\(Wikipedia - 2019\)_](linear-algebra-summary/math-references.md#representation-of-3d-space):
 
 ![An image of a cube with the x, y, z axis labelled](../.gitbook/assets/549px-coord_planes_color.svg.png)
 
@@ -22,7 +22,7 @@ So in order to describe a three dimensional object we need exactly 3 and only 3 
 
 ### Generalization
 
-If a vector is a measurement, then we need 3 [_vectors_](vectors.md#vectors) to describe our object - though we can see that there are practically limitless vectors that _exist_ along our object. If we don't want these vectors to be redundant, than we need something more than that - _3_ [_linearly independent_](linear-operations.md#linear-independence) _vectors_.
+If a vector is a measurement, then we need 3 [_vectors_](basics.md#vectors) to describe our object - though we can see that there are practically limitless vectors that _exist_ along our object. If we don't want these vectors to be redundant, than we need something more than that - _3_ [_linearly independent_](vector-relationships.md#linear-independence) _vectors_.
 
 For the following sections we won't be describing any specific object, but rather abstract collections of vectors. These sets will include vectors that all have something in common, and which we can use to do more work. We call these sets **vector spaces**.
 

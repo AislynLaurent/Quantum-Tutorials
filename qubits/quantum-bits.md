@@ -64,7 +64,7 @@ $$
 
 ### Combinations of the Basis Vectors
 
-Going back to our earlier discussion of $$|0\rangle$$ and $$|1\rangle$$ as our basis vectors, this means that all of the possible measurements for $$|\psi\rangle$$ are represented by a [_linear combination_](../linear-algebra/linear-operations.md#linear-combinations) of our basis vectors [_\(Nielsen, M. - p. 13\)_](qubits-summary/qubit-references.md#a-linear-combination-of-our-basis-vectors)_:_
+Going back to our earlier discussion of $$|0\rangle$$ and $$|1\rangle$$ as our basis vectors, this means that all of the possible measurements for $$|\psi\rangle$$ are represented by a [_linear combination_](../linear-algebra/vector-relationships.md#linear-combinations) of our basis vectors [_\(Nielsen, M. - p. 13\)_](qubits-summary/qubit-references.md#a-linear-combination-of-our-basis-vectors)_:_
 
 $$
 |\psi\rangle = a|0\rangle + b|1\rangle
@@ -73,7 +73,7 @@ $$
 Where $$a$$ and $$b$$ are [_complex numbers_](../physics/quantum-mechanics.md#complex-numbers).
 
 {% hint style="success" %}
-Recall that the[ _inner product_ ](../linear-algebra/vectors.md#inner-product)of our quantum vectors [_must equal 1_](../physics/quantum-mechanics.md#notation), to allow for reversibility of operations: $$\langle \psi|\psi\rangle = 1$$
+Recall that the[ _inner product_ ](../linear-algebra/basics.md#inner-product)of our quantum vectors [_must equal 1_](../physics/quantum-mechanics.md#notation), to allow for reversibility of operations: $$\langle \psi|\psi\rangle = 1$$
 {% endhint %}
 
 ## Measuring Qubits

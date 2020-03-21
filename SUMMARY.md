@@ -9,17 +9,17 @@
 
 ## Linear Algebra
 
-* [Linear Algebra Summary](linear-algebra/why-linear-algebra/README.md)
-  * [Math References](linear-algebra/why-linear-algebra/untitled-1.md)
-* [Basics](linear-algebra/vectors.md)
-* [Vector Relationships](linear-algebra/linear-operations.md)
+* [Linear Algebra Summary](linear-algebra/linear-algebra-summary/README.md)
+  * [Math References](linear-algebra/linear-algebra-summary/math-references.md)
+* [Basics](linear-algebra/basics.md)
+* [Vector Relationships](linear-algebra/vector-relationships.md)
 * [Span, Basis and Spaces](linear-algebra/space-dimension-and-span.md)
 * [Transformations](linear-algebra/transformations.md)
 
 ## Physics
 
-* [Physics Summary](physics/untitled/README.md)
-  * [Physics References](physics/untitled/physics-references.md)
+* [Physics Summary](physics/physics-summary/README.md)
+  * [Physics References](physics/physics-summary/physics-references.md)
 * [Classical Mechanics](physics/classical-mechanics.md)
 * [Quantum Mechanics](physics/quantum-mechanics.md)
 
@@ -27,23 +27,23 @@
 
 * [Qubits Summary](qubits/qubits-summary/README.md)
   * [Qubit References](qubits/qubits-summary/qubit-references.md)
-* [Classical Bits](qubits/untitled.md)
+* [Classical Bits](qubits/classical-bits.md)
 * [Quantum Bits](qubits/quantum-bits.md)
-* [Multi-Qubit Systems](qubits/the-bloch-sphere.md)
+* [Multi-Qubit Systems](qubits/multi-qubit-systems.md)
 
 ## Quantum Circuits
 
-* [Quantum Circuit Summary](quantum-circuits/untitled.md)
+* [Quantum Circuit Summary](quantum-circuits/quantum-circuit-summary.md)
 
 ## Qiskit
 
-* [Qiskit Overview](qiskit/untitled.md)
+* [Qiskit Overview](qiskit/qiskit-overview.md)
 
 ## IBMQ
 
-* [IBMQ Summary](ibmq/untitled.md)
+* [IBMQ Summary](ibmq/ibmq-summary.md)
 
 ## Supplementary
 
-* [Quantum Safe Algorithms](untitled.md)
+* [Quantum Safe Algorithms](quantum-safe-algorithms.md)
 
