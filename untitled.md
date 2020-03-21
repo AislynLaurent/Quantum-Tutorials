@@ -26,7 +26,7 @@ Because quantum systems are able to crack the strongest levels of encryption, it
 
 ### The Quantum Timeline
 
-Quantum technology has progressed rapidly since Isara began in 2015. Google just announce their [54 qubit system dubbed _Sycamore_](https://ai.googleblog.com/2019/10/quantum-supremacy-using-programmable.html)_._ Despite this, quantum systems are not ready for prime-time. Systems are huge, extremely expensive to run, and are capable of a relatively limited number of useful calculations. Paul notes that -
+Quantum technology has progressed rapidly since Isara began in 2015. Google just announced their [54 qubit system dubbed _Sycamore_](https://ai.googleblog.com/2019/10/quantum-supremacy-using-programmable.html)_._ Despite this, quantum systems are not ready for prime-time. Systems are huge, extremely expensive to run, and are capable of a relatively limited number of useful calculations. Paul notes that -
 
 "Right now the people with access to the best systems will be the people with the most resources - governments and large corporations."
 
