@@ -54,6 +54,16 @@ These algorithms will be submitted to [NIST - the National Institute of Standard
 
 "With any luck, one of ISARA's algorithms will be part of the next framework."
 
+### Quantum Safe Algorithms
+
+There are a number of interesting techniques currently being proposed for quantum safe algorithms. Though some of these ideas are very promising, many of them are currently not feasible for wider implementation. Others are untested and require further study before they're ready for deployment into production.
+
+One obvious solution is to simply increase the complexity of the encryption math. This is a promising idea with various possible routes for implementation. Several solutions along this path are currently in development, and some are prepared for testing. An example of this would be [_Hash-based cryptography_](https://en.wikipedia.org/wiki/Hash-based_cryptography).
+
+Another idea is to exploit error detection algorithms. Quantum systems have certain amount of inherent, unavoidable noise. Noise can be piped back into learning algorithms, producing complex networks of possible solutions. This approach has been shown to be resistant to attacks from both classical and quantum systems. An example of this would be [_Lattice-based cryptography_](https://en.wikipedia.org/wiki/Lattice-based_cryptography).
+
+The most interesting option in context with the rest of this work would be entanglement based solutions. Here we take the information we want to encrypt, and quantum scramble it so badly that it's not only complete useless, but also impossible for classic systems to parse. The result is information that only a quantum system with the proper key are able to read.
+
 {% hint style="info" %}
 Images courtesy of ISARA Corporation
 {% endhint %}
