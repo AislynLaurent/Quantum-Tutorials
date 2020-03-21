@@ -28,7 +28,7 @@ Quantum technology has progressed rapidly since Isara began in 2015. Google just
 
 Widely available quantum systems are still a wild dream, but as with all technology that future is coming faster than you might think. It's expected that general purpose quantum systems may be available within the next ten years, meaning that tangible large scale systems are not too far off.
 
-![](.gitbook/assets/image%20%286%29.png)
+![A visual representation of the quantum timeline](.gitbook/assets/image%20%286%29.png)
 
 
 
