@@ -14,7 +14,7 @@ At the time quantum computing was still in it's infancy, but those industry lead
 
 ### The need to for caution
 
-As the enthusiastic push toward quantum systems continued, Paul Luicer, Vice president of sales at Isara Corporation \(a company working to integrate quantum safe technology\), describes interactions with high up officials:
+As the enthusiastic push toward quantum systems continues, Paul Luicer, Vice president of sales at Isara Corporation \(a company working to integrate quantum safe technology\), describes interactions with high up officials:
 
 "Governments come to us and ask _'How do I use this exciting new technology? What can quantum do for us?'_, and I have to turn around and say - wait a minute. Before you start talking about what quantum can do for you, you need to start thinking about how you can protect yourself!" 
 
