@@ -12,7 +12,7 @@ Isara began 5 years ago as a small company of about 35 people from across Waterl
 
 At the time quantum computing was still in it's infancy, but those industry leaders who understood cyber security and ethics had growing concern. The strength of quantum systems remains primarily in solving large mathmatical problems. This is an exciting possibility - problems that may have taken until the heat-death of the universe on a classical system might finally be considered solvable. The concern comes when these machines are turned toward our strongest encryption algothims.
 
-### The need to for caution
+### The Need to for Caution
 
 As the enthusiastic push toward quantum systems continues, Paul Luicer, Vice president of sales at Isara Corporation \(a company working to integrate quantum safe technology\), describes interactions with high up officials:
 
