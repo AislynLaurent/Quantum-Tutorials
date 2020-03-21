@@ -12,7 +12,7 @@ description: >-
 
 ISARA began 5 years ago as a small company of about 35 people from across Waterloo, which is know as a hub for new technology and in particular quantum computing. The group consisted of experts and recent PhD graduates who all shared the same enthusiasm for quantum technology.
 
-At the time quantum computing was still in it's infancy, but those industry leaders who understood cyber security and ethics had growing concern. The strength of quantum systems remains primarily in solving large mathematical problems. This is an exciting possibility - problems that may have taken until the heat-death of the universe on a classical system might finally be considered solvable. The concern comes when these machines are turned toward our strongest encryption algoRthims.
+At the time quantum computing was still in it's infancy, but those industry leaders who understood cyber security and ethics had growing concern. The strength of quantum systems remains primarily in solving large mathematical problems. This is an exciting possibility - problems that may have taken until the heat-death of the universe on a classical system might finally be considered solvable. The concern comes when these machines are turned toward our strongest encryption algorithms.
 
 ### The Need for Caution
 
@@ -40,7 +40,7 @@ This may bring comfort to some readers, but it indicated a need for swift action
 
 "Cars are going on the road _today_ with hard-coded encryption keys - those cars will still be on the road when quantum starts to become a real threat. Quantum safe technology needs to be on that factory line right now to make a real impact."
 
-Another major problem is _"Havest & Store"_ hacking operations, which collect encrypted data and deep freeze it.
+Another major problem is _"Harvest & Store"_ hacking operations, which collect encrypted data and deep freeze it.
 
 "They can't access the information now. In 10 years they can use a quantum system to decrypt data they collected 3 years ago. All they need to capture is one critical piece of information, and the whole operation is worth it. "
 
