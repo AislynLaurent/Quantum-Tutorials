@@ -30,7 +30,21 @@ Widely available quantum systems are still a wild dream, but as with all technol
 
 ![A visual representation of the quantum timeline](.gitbook/assets/image%20%286%29.png)
 
+This may bring comfort to some readers, but it indicated a need for swift action. The development and stardization of quantum couter-measures could take years, and implementation may take even longer. For large organizations with deeply embedded security protocols, 10 years may not be enough.
 
+"Cars are going on the road _today_ with hard-coded encryption keys - those cars will still be on the road when quantum starts to become a real threat. Quantum safe technology needs to be on that factory line right now to make a real impact."
+
+Another major problem is _"Havest & Store"_ hacking operations, which collect encrypted data and deep freeze it.
+
+"They can't access the information now. In 10 years they can use a quantum system to decrypt data they collected 3 years ago. All they need to capture is one crital piece of infromation, and the whole operation is worth it. "
+
+### Quantum Safe Encryption
+
+Research groups and companies from all over the world have begun to develop the future of quantum encryption.
+
+"Isara is working right now to develop algorithms that can keep data safe now and in the quantum future."
+
+These algorithms will be submitted to [NIST - the National Institute of Standards and Technology](https://www.nist.gov/), which is an American organization that sets cyber security standards worldwide. 
 
 ## Who is Paul Lucier?
 
