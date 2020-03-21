@@ -36,7 +36,7 @@ Widely available quantum systems are still a wild dream, but as with all technol
 
 ![A visual representation of the quantum timeline](.gitbook/assets/image%20%286%29.png)
 
-This may bring comfort to some readers, but it indicated a need for swift action. The development and stardization of quantum couter-measures could take years, and implementation may take even longer. For large organizations with deeply embedded security protocols, 10 years may not be enough.
+This may bring comfort to some readers, but it indicated a need for swift action. The development and standardization of quantum counter-measures could take years, and implementation may take even longer. For large organizations with deeply embedded security protocols, 10 years may not be enough.
 
 "Cars are going on the road _today_ with hard-coded encryption keys - those cars will still be on the road when quantum starts to become a real threat. Quantum safe technology needs to be on that factory line right now to make a real impact."
 
