@@ -4,13 +4,13 @@
 
 ### History of Isara Corporation
 
-Isara began 5 years ago as a small company of about 35 people from across Waterloo, which is know as a hub for new technology and in particular quantum computing. The group consited of experts and recent PhD graduates who all shared the same enuthisam for quantum technology.
+Isara began 5 years ago as a small company of about 35 people from across Waterloo, which is know as a hub for new technology and in particular quantum computing. The group consited of experts and recent PhD graduates who all shared the same enthusiasm for quantum technology.
 
-At the time quatum computing was still in it's infancy, but those industry leaders who understood cyber security and ethics had growing concern. The strength of quantum systems remains primarily in solving large mathmatical problems. This is an exciting possibility - problems that may have taken until the heat-death of the universe on a classical system might finally be considered solvable. The concern comes when these machines are turned toward our strongest encryption algothims.
+At the time quantum computing was still in it's infancy, but those industry leaders who understood cyber security and ethics had growing concern. The strength of quantum systems remains primarily in solving large mathmatical problems. This is an exciting possibility - problems that may have taken until the heat-death of the universe on a classical system might finally be considered solvable. The concern comes when these machines are turned toward our strongest encryption algothims.
 
 ### The need to for caution
 
-As the enthuisatic push toward quantum systems continued, Paul Luicer, Vice president of sales at Isara Corporation \(a company working to integrate quantum safe technology\), describes interactions with high up officials:
+As the enthusiastic push toward quantum systems continued, Paul Luicer, Vice president of sales at Isara Corporation \(a company working to integrate quantum safe technology\), describes interactions with high up officials:
 
 "Governments come to us and ask _'How do I use this exciting new technology? What can quantum do for us?'_, and I have to turn around and say - wait a minute. Before you start talking about what quantum can do for you, you need to start thinking about how you can protect yourself!" 
 
@@ -22,13 +22,13 @@ Because quantum systems are able to crack the strongest levels of encryption, it
 
 ### The Quantum Timeline
 
-Quatum technology has progessed rapidly since Isara began in 2015. Google just announce their [54 qubit system dubbed _Sycamore_](https://ai.googleblog.com/2019/10/quantum-supremacy-using-programmable.html)_._ Despite this, quantum systems are not ready for primetime. Systems are huge, extremely expensive to run, and are capable of a relatively limited number of useful calculations. Paul notes that -
+Quantum technology has progressed rapidly since Isara began in 2015. Google just announce their [54 qubit system dubbed _Sycamore_](https://ai.googleblog.com/2019/10/quantum-supremacy-using-programmable.html)_._ Despite this, quantum systems are not ready for prime-time. Systems are huge, extremely expensive to run, and are capable of a relatively limited number of useful calculations. Paul notes that -
 
 "Right now the people with access to the best systems will be the people with the most resources - governments and large corporations."
 
 Widely available quantum systems are still a wild dream, but as with all technology that future is coming faster than you might think. It's expected that general purpose quantum systems may be available within the next ten years, meaning that tangible large scale systems are not too far off.
 
-
+![](.gitbook/assets/image%20%286%29.png)
 
 
 
