@@ -1,20 +1,22 @@
 ---
-description: 'A discussion about quantum security with VP of sales at Isara, Paul Lucier'
+description: >-
+  A discussion about quantum security with  Vice President of Sales and Business
+  Development at ISARA, Paul Lucier
 ---
 
 # Quantum Safe Algorithms
 
 ## Discussion with Paul Lucier
 
-### History of Isara Corporation
+### History of ISARA Corporation
 
-Isara began 5 years ago as a small company of about 35 people from across Waterloo, which is know as a hub for new technology and in particular quantum computing. The group consited of experts and recent PhD graduates who all shared the same enthusiasm for quantum technology.
+ISARA began 5 years ago as a small company of about 35 people from across Waterloo, which is know as a hub for new technology and in particular quantum computing. The group consisted of experts and recent PhD graduates who all shared the same enthusiasm for quantum technology.
 
-At the time quantum computing was still in it's infancy, but those industry leaders who understood cyber security and ethics had growing concern. The strength of quantum systems remains primarily in solving large mathmatical problems. This is an exciting possibility - problems that may have taken until the heat-death of the universe on a classical system might finally be considered solvable. The concern comes when these machines are turned toward our strongest encryption algothims.
+At the time quantum computing was still in it's infancy, but those industry leaders who understood cyber security and ethics had growing concern. The strength of quantum systems remains primarily in solving large mathematical problems. This is an exciting possibility - problems that may have taken until the heat-death of the universe on a classical system might finally be considered solvable. The concern comes when these machines are turned toward our strongest encryption algoRthims.
 
 ### The Need for Caution
 
-As the enthusiastic push toward quantum systems continues, Paul Luicer, Vice president of sales at Isara Corporation \(a company working to integrate quantum safe technology\), describes interactions with high up officials:
+As the enthusiastic push toward quantum systems continues, Paul Luicer, Vice president of sales at ISARA Corporation \(a company working to integrate quantum safe technology\), describes interactions with high up officials:
 
 "Governments come to us and ask _'How do I use this exciting new technology? What can quantum do for us?'_, and I have to turn around and say - wait a minute. Before you start talking about what quantum can do for you, you need to start thinking about how you can protect yourself!" 
 
@@ -26,7 +28,7 @@ Because quantum systems are able to crack the strongest levels of encryption, it
 
 ### The Quantum Timeline
 
-Quantum technology has progressed rapidly since Isara began in 2015. Google just announced their [54 qubit system dubbed _Sycamore_](https://ai.googleblog.com/2019/10/quantum-supremacy-using-programmable.html)_._ Despite this, quantum systems are not ready for prime-time. Systems are huge, extremely expensive to run, and are capable of a relatively limited number of useful calculations. Paul notes that -
+Quantum technology has progressed rapidly since ISARA began in 2015. Google just announced their [54 qubit system dubbed _Sycamore_](https://ai.googleblog.com/2019/10/quantum-supremacy-using-programmable.html)_._ Despite this, quantum systems are not ready for prime-time. Systems are huge, extremely expensive to run, and are capable of a relatively limited number of useful calculations. Paul notes that -
 
 "Right now the people with access to the best systems will be the people with the most resources - governments and large corporations."
 
@@ -40,20 +42,20 @@ This may bring comfort to some readers, but it indicated a need for swift action
 
 Another major problem is _"Havest & Store"_ hacking operations, which collect encrypted data and deep freeze it.
 
-"They can't access the information now. In 10 years they can use a quantum system to decrypt data they collected 3 years ago. All they need to capture is one crital piece of infromation, and the whole operation is worth it. "
+"They can't access the information now. In 10 years they can use a quantum system to decrypt data they collected 3 years ago. All they need to capture is one critical piece of information, and the whole operation is worth it. "
 
 ### Quantum Safe Encryption
 
 Research groups and companies from all over the world have begun to develop the future of quantum encryption.
 
-"Isara is working right now to develop algorithms that can keep data safe now and in the quantum future."
+"ISARA is working right now to develop algorithms that can keep data safe now and in the quantum future."
 
-These algorithms will be submitted to [NIST - the National Institute of Standards and Technology](https://www.nist.gov/), which is an American organization that sets cyber security standards worldwide. Submitted algorithms will undergo rigorus testing to ensure that they're as good or better than current solutions. NIST releases a new framework every three years.
+These algorithms will be submitted to [NIST - the National Institute of Standards and Technology](https://www.nist.gov/), which is an American organization that sets cyber security standards worldwide. Submitted algorithms will undergo rigorous testing to ensure that they're as good or better than current solutions. NIST releases a new framework every three years.
 
-"With any luck, one of Isara's algorithms will be part of the next framework."
+"With any luck, one of ISARA's algorithms will be part of the next framework."
 
 {% hint style="info" %}
-Images courtesy of Isara Corporation
+Images courtesy of ISARA Corporation
 {% endhint %}
 
 ## Who is Paul Lucier?
@@ -71,7 +73,7 @@ You can find Paul through his personal social media:
 * [@paullucier on Twitter](https://twitter.com/paullucier?lang=en)
 * LinkedIn: [https://www.linkedin.com/in/plucier/](https://www.linkedin.com/in/plucier/)
 
-Or through Isara's official social media feeds:
+Or through ISARA's official social media feeds:
 
 * [@ISARACorp on Twitter](https://twitter.com/isaracorp?lang=en)
 * Facebook: [https://www.facebook.com/isaracorp/](https://www.facebook.com/isaracorp/) 
