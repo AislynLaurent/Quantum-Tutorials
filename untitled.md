@@ -1,3 +1,7 @@
+---
+description: 'A discussion about quantum security with VP of sales at Isara, Paul Lucier'
+---
+
 # Quantum Safe Algorithms
 
 ## Discussion with Paul Lucier
