@@ -22,7 +22,7 @@ It's important to fully understand what this means. If I provide to you only the
 
 While most classical gates are not reversible, we can change them so that they are. This requires adding more wires, used only to keep the information we put in [_\(Kaye, P. - p.12\)_](quantum-circuit-summary/quantum-circuit-references.md#diagram-of-the-reversible-and-gate)_:_
 
-![The reversible AND gate keeps a copy of the inputs](../.gitbook/assets/image%20%283%29.png)
+![The reversible AND gate keeps a copy of the inputs](../.gitbook/assets/image%20%284%29.png)
 
 ### Measuring
 
@@ -62,9 +62,7 @@ This diagram doesn't show multiple qubits systems, mostly because it _can't_. Sy
 
 ## Quantum Circuits
 
-Using these priciples of quantum information, we can begin to construct quantum circuits in the same way that we would with a classical circuit.
-
-
+Using these principles of quantum information, we can begin to construct quantum circuits in the same way that we would with a classical circuit.
 
 ### Quantum Gates
 
@@ -82,7 +80,11 @@ We draw quantum circuits in a similar way that we draw classical gates:
 
 ![A diagram of a simple two qubit circuit with no gates on it](../.gitbook/assets/image.png)
 
-We start with our inputs on one side, put them through various transformations via logic gate, and on the other side we get out outputs.
+We start with our inputs on one side, put them through various transformations via logic gate, and on the other side we get our outputs. Though the quantum circuit doesn't have a _wire_ like the classical one, we'll still use a line to show which inputs are entering which gates.
+
+Each gate will be represented by a box around their corresponding symbol [_\(Kuo, S. - 2013\)_](quantum-circuit-summary/quantum-circuit-references.md#diagram-showing-the-representation-of-several-quantum-circuits):
+
+![A diagram showing several quantum gates and their representation](../.gitbook/assets/image%20%283%29.png)
 
 {% hint style="success" %}
 For these tutorials, gates will be produce using IBMQ's [_Circuit Composer_](https://quantum-computing.ibm.com/composer) tool. We'll talk more about how you can get access to this later on.

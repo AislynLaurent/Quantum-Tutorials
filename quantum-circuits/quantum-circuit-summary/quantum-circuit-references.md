@@ -24,3 +24,7 @@ _"_[_An Introduction to Quantum Computing"_](https://www.amazon.ca/Introduction-
 
 [_"Bloch sphere"_](https://commons.wikimedia.org/w/index.php?curid=5829358), Smite-Meister \(Wikipedia\), 02-16-2020
 
+#### Diagram showing the representation of several quantum circuits
+
+\_\_[_"Diagram of quantum gates"_](https://www.researchgate.net/figure/Diagram-of-quantum-gates-Each-line-wire-represents-a-qubit-Input-from-the-left-and_fig4_238950509), [Sy-Yen Kuo](https://www.researchgate.net/profile/Sy-Yen_Kuo) \(ResearchGate\), 06-2013
+
