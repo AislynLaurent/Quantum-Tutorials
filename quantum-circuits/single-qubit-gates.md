@@ -24,5 +24,15 @@ $$
 X = \begin{bmatrix}0&1\\1&0\end{bmatrix}
 $$
 
+$$
+|0\rangle \rightarrow |1\rangle, |1\rangle \rightarrow|0\rangle
+$$
 
+And here is the X gate represented on our circuit diagram:
+
+![](../.gitbook/assets/circuit.svg)
+
+We can track the result on the Bloch sphere:
+
+![](../.gitbook/assets/5d908427a5654129b4cf14f53a2f8f26x_bloch.gif)
 
