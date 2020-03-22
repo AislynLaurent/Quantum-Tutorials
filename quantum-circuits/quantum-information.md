@@ -22,7 +22,7 @@ It's important to fully understand what this means. If I provide to you only the
 
 While most classical gates are not reversible, we can change them so that they are. This requires adding more wires, used only to keep the information we put in [_\(Kaye, P. - p.12\)_](quantum-circuit-summary/quantum-circuit-references.md#diagram-of-the-reversible-and-gate)_:_
 
-![The reversible AND gate keeps a copy of the inputs](../.gitbook/assets/image%20%284%29.png)
+![The reversible AND gate keeps a copy of the inputs](../.gitbook/assets/image%20%285%29.png)
 
 ### Measuring
 
@@ -90,15 +90,17 @@ We start with our inputs on one side, put them through various transformations v
 
 Most gates will be represented by a box around their corresponding symbol - some may be represented by other symbols. As we go through descriptions for the different gates, we'll include their symbols [_\(Kuo, S. - 2013\)_](quantum-circuit-summary/quantum-circuit-references.md#diagram-showing-the-representation-of-several-quantum-circuits):
 
-![A diagram showing several quantum gates and their representation](../.gitbook/assets/image%20%283%29.png)
+![A diagram showing several quantum gates and their representation](../.gitbook/assets/image%20%284%29.png)
 
 #### Measurements
 
 Though the process of measurement doesn't have a transformation matrix and isn't really a gate, we'll use a similar notation for it:
 
-![A diagram showing the symbol for measurement](../.gitbook/assets/image%20%289%29.png)
+![A diagram showing the symbol for measurement](../.gitbook/assets/image%20%2810%29.png)
 
+Recall that measurements are stored in classical bits, so our diagram will also include those:
 
+![A circuit diagram including the classical bit used for storage](../.gitbook/assets/image%20%283%29.png)
 
 {% hint style="success" %}
 For these tutorials, gates will be produce using IBMQ's [_Circuit Composer_](https://quantum-computing.ibm.com/composer) tool. We'll talk more about how you can get access to this later on.
