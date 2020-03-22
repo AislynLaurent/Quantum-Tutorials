@@ -77,7 +77,7 @@ So quantum vectors are:
 * Column vectors
 * Describe quantum particles
 * Have $$n$$ number of elements
-* Include elements that are complex numbers
+* Can include elements that are complex numbers
 
 #### Notation
 
@@ -131,7 +131,7 @@ Each of the $$N$$-dimensions of a quantum vector represents a distinguishable st
 
 ### Superposition
 
-![Schr&#xF6;dinger&apos;s cat: a cat, a flask of poison, and a radioactive source are placed in a sealed box](../.gitbook/assets/640px-schrodingers_cat.svg.png)
+![Schr&#xF6;dinger&apos;s cat: a cat, a flask of poison, and a radioactive source in a sealed box](../.gitbook/assets/640px-schrodingers_cat.svg.png)
 
 There he is - our boy. Certainly if you've heard about quantum physics at all, you've heard about this cat. This thought experiment does a great job of helping us understand the idea of superposition of quantum states [_\(Wikipedia - 2020\)_](physics-summary/physics-references.md#a-graphic-depicting-the-schrodinger-cat-thought-experiment).
 

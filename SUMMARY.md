@@ -37,6 +37,7 @@
   * [Quantum Circuit References](quantum-circuits/quantum-circuit-summary/quantum-circuit-references.md)
 * [Classical Models of Computation](quantum-circuits/classical-models-of-computation.md)
 * [Quantum Information](quantum-circuits/quantum-computation.md)
+* [Untitled](quantum-circuits/untitled.md)
 
 ## Qiskit
 

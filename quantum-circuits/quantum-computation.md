@@ -24,5 +24,33 @@ While most classical gates are not reversible, we can change them so that they a
 
 ![The reversible AND gate keeps a copy of the inputs](../.gitbook/assets/image%20%282%29.png)
 
+### Measuring
 
+The one non-reversible action we take in quantum computation is [_measuring_ ](../physics/quantum-mechanics.md#measuring-quantum-systems)\(or observation\).
+
+When we measure a qubit, it [_collapses_ ](../qubits/quantum-bits.md#measuring-qubits)into a particular state. It's forced to reveal what it had been doing this whole time - like our [_cat in the box_](../physics/quantum-mechanics.md#superposition), we know if it where alive or not.
+
+This means we need to measure at the end whenever possible, so that we preserve reversibility until we have no choice.
+
+## The Bloch Sphere
+
+![A diagram of the Bloch sphere](../.gitbook/assets/bloch_sphere.svg)
+
+The Bloch sphere can be used to describe the behaviour of single qubit systems. Here we see that we have a [_3-dimensional space_](../linear-algebra/space-dimension-and-span.md#space), and like all quantum system we're able to[ _range across the complex numbers_ ](../physics/quantum-mechanics.md#quantum-vectors)as well as the real numbers.
+
+### What the Diagram Shows Us
+
+Let's explore some of the things labelled on this diagram:
+
+* $$x, y , z$$ are our three axis for 3-dimentional space
+  * Note that the sphere has a radius of exactly _one unit_ 
+* $$|0\rangle$$ and $$|1\rangle$$ are our two distinguishable states
+  * See that these two are opposite each other on the diagram
+* $$|\psi\rangle$$ is our vector in an unknown state - the single qubit we're describing
+  * Our qubit projects a _shadow_ - this is the dotted line we see
+  * When we draw a line between the shadow and our vector, we get a right angle triangle
+* $$\theta$$ is the angle between the vector for our qubit $$|\psi\rangle$$ and the $$z$$ axis
+* $$\varphi$$ is the angle between the shadow of our qubit and the $$x$$ axis
+
+The sphere shows us all of the possible states our qubit can be in. Not just $$|0\rangle$$and $$|1\rangle$$, but the infinite combinations in between. By measuring the angle the vector $$|\psi\rangle$$ and it's shadow make with respect to the $$x$$, $$y$$and $$z$$ axis, we can derive the probability of finding our qubit in a particular state when we measure it.
 
