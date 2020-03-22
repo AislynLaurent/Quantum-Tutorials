@@ -60,3 +60,13 @@ We can also define _universal gates_ - gates which can be used to define all oth
 [More about universal gates](https://www.electronics-tutorials.ws/logic/universal-gates.html)
 {% endhint %}
 
+## Classical Systems and Information
+
+During this entire tutorial, we've focused heavily on _information_.
+
+How is information represented? How is information processed? How is information preserved? How is information changed?
+
+We can see that in both these models of computation, information can be destroyed. The orginial state of the wire may not be retrivable after certain gate operations. We've gained something, but we've also lost something.
+
+Quantum mechanics doesn't allow for this possibility. All information must be preserved, which means all  
+
