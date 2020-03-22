@@ -44,3 +44,34 @@ In a regular computer system we do this through some clever math. We force the c
 This concept will become important later on. We need to understand the _clarity_ of the information we're looking at. How much precision can we expect?
 {% endhint %}
 
+## Computer Logic
+
+Providing instructions with bits requires breaking down problems into yes or no decisions. By combining bits using computer logic, we can build up simple _\(atomic, irreducible\)_ instructions into something more useful.
+
+### Boolean Operations
+
+How is the result of combing to different bits? It depends on the operation we'd like to preform.
+
+Boolean logic gives us a well defined set of fundamental operations, as well as a system by which to combine these into larger instructions. The idea is essentially that certain logical combinations of 0 and 1 \(or true and false, or on and off\) can be derived, and that all computations can be preformed based on those.
+
+### Truth Tables
+
+For example, what if we wanted to combine two bits $$a$$ and $$b$$, such that if one of them is 0, the result is 0?
+
+| $$a$$ | $$b$$ | AND |
+| :---: | :---: | :---: |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+Here we are. If $$a$$ AND $$b$$ are 1, we get 1. In any other situation, we get 0.
+
+We'll see later on that for more complex combinations of bits, we can define a [_transformation matrix_](../linear-algebra/transformations.md#transformation-matrices) for these operations which takes our input and produces the output.
+
+Other important operations include OR \(if $$a$$OR $$b$$ is 1, the result is 1\), and NOT \(given $$a$$ produce the opposite of $$a$$\).
+
+{% hint style="info" %}
+[More information on truth tables, how they work, and the fundamental operations](https://en.wikipedia.org/wiki/Truth_table)
+{% endhint %}
+

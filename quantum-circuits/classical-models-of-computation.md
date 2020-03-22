@@ -24,5 +24,7 @@ You see here on the left a series of inputs, labelled $$i_1 - i_4$$. On the righ
 
 ### What are Gates?
 
-A logic gate is an [_operator_](../linear-algebra/transformations.md#operators) that[ _transforms_](../linear-algebra/transformations.md#transformation-matrices) the input into some output, simple as that.
+A logic gate is an [_operator_](../linear-algebra/transformations.md#operators) that[ _transforms_](../linear-algebra/transformations.md#transformation-matrices) the input into some output. For example, the _transformation matrix_ for a NOT gate would look like this:
+
+
 
