@@ -54,3 +54,5 @@ Let's explore some of the things labelled on this diagram:
 
 The sphere shows us all of the possible states our qubit can be in. Not just $$|0\rangle$$and $$|1\rangle$$, but the infinite combinations in between. By measuring the angle the vector $$|\psi\rangle$$ and it's shadow make with respect to the $$x$$, $$y$$and $$z$$ axis, we can derive the probability of finding our qubit in a particular state when we measure it.
 
+This diagram doesn't show multiple qubits systems, mostly because it _can't_. Systems with more than one qubit are too complex to imagine with a picture like this.
+
