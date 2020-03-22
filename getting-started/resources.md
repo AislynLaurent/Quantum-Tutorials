@@ -64,7 +64,7 @@ I'll be going through the basics on Quantum here on with website, but if you're 
 
 ### Reading
 
-* [An Introduction to Quantum Computing](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149125645.pdf), by Phillip Kaye, Raymond Laflamme, & Michele Mosca
+* [An Introduction to Quantum Computing](https://www.amazon.ca/Introduction-Quantum-Computing-Phillip-Kaye/dp/019857049X/ref=sr_1_1?crid=1ZAVOFSAW3G9S&keywords=introduction+to+quantum+computing&qid=1584847889&sprefix=an+introduction+to+quantum+computing%2Caps%2C152&sr=8-1), by Phillip Kaye, Raymond Laflamme, & Michele Mosca
 * [Introduction to Quantum Mechanics](https://www.amazon.ca/Introduction-Quantum-Mechanics-David-Griffiths/dp/0131118927), by David J. Griffiths
 * [Quantum Computation and Quantum Information](https://www.amazon.ca/Quantum-Computation-Information-10th-Anniversary/dp/1107002176), by Michael A. Nielsen
 
