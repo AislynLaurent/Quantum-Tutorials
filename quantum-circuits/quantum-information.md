@@ -1,5 +1,5 @@
 ---
-description: Introduction to quantum models of information
+description: Introduction to reversible computing and the Bloch sphere
 ---
 
 # Quantum Information
