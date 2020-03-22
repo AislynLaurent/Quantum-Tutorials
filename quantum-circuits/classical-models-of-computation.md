@@ -6,7 +6,7 @@ description: Review of the Turing Machine and the circuit model of classical com
 
 ## The Turing Machine
 
-The Turing machine is a theoretical computer, originally proposed by Allan Turing. It can compute anything that can be computed by a classical system.
+The Turing machine is a theoretical computer, originally proposed by Allan Turing. It can compute anything that is possible on a classical system.
 
 It includes a _finite state machine,_ a machine which has a finite number of possible states, and whose current state relies on the previous state. So if I put in the number 4 now, and the number 4 again next, the results may be different because the current answer depends on the previous result and well as my input.
 
