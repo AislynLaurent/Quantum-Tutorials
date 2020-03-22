@@ -41,7 +41,7 @@ $$
 Looks familiar I'm sure. We'll multiply the 0 vector by the NOT transformation matrix:
 
 $$
-\begin{bmatrix}1\\0\end{bmatrix}\begin{bmatrix}0&1\\1&0\end{bmatrix}=\begin{bmatrix}0\\1\end{bmatrix}
+\begin{bmatrix}0&1\\1&0\end{bmatrix}\begin{bmatrix}1\\0\end{bmatrix}=\begin{bmatrix}0\\1\end{bmatrix}
 $$
 
 You can see that the result is the 1 matrix.
