@@ -18,5 +18,7 @@ These gates work by changing the direction of the vector $$|\psi\rangle$$ in eit
 
 ### Pauli X
 
+The Pauli X gate is exactly the classical NOT gate as we described ealier.
+
 
 

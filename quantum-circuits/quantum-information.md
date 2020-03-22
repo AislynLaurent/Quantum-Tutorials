@@ -60,3 +60,17 @@ The sphere shows us all of the possible states our qubit can be in. Not just $$|
 
 This diagram doesn't show multiple qubits systems, mostly because it _can't_. Systems with more than one qubit are too complex to imagine with a picture like this.
 
+## Quantum Circuits
+
+Using these priciples of quantum information, we can begin to construct quantum circuits in the same way that we would with a classical circuit.
+
+We start with our inputs on one side, put them through varius tranformations via logic gate, and on the other side we get out outputs.
+
+### Quantum Gates
+
+Like [_classical gates_](classical-models-of-computation.md#using-gates), quantum gates are all described with a [_transformation matrix_](../linear-algebra/transformations.md#transformation-matrices) which tells us how they change our qubit vector.
+
+However, there are a few important differences between classical gates and quantum gates. One is that all these operators will be _reversible._ This means our transformation matrices will have an _inverse_ that we put our output in to get back to our input.
+
+Another is that we can now include [_imaginary_](../physics/quantum-mechanics.md#imaginary-numbers) and [_complex_](../physics/quantum-mechanics.md#complex-numbers) numbers in our transformations. This accounts for quantum vectors ranging over the set of complex numbers in addition to real ones.
+
