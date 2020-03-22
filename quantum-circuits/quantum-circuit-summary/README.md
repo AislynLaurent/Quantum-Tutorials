@@ -19,3 +19,11 @@
 * [More information on classical logic gates](https://www.khanacademy.org/computing/ap-computer-science-principles/computers-101/logic-gates-and-circuits/a/logic-gates)
 * [More about universal gates](https://www.electronics-tutorials.ws/logic/universal-gates.html)
 
+#### [Quantum Information](../quantum-information.md)
+
+* [More general information about the Bloch sphere](https://www.quantiki.org/wiki/bloch-sphere)
+
+#### [Single Qubit Gates](../single-qubit-gates.md)
+
+* [More about the Pauli matrices and where they come from](https://en.wikiversity.org/wiki/Pauli_matrices)
+

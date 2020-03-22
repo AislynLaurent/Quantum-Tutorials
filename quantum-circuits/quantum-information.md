@@ -36,7 +36,11 @@ This means we need to measure at the end whenever possible, so that we preserve 
 
 ![A diagram of the Bloch sphere](../.gitbook/assets/bloch_sphere.svg)
 
-The Bloch sphere can be used to describe the behaviour of single qubit systems. Here we see that we have a [_3-dimensional space_](../linear-algebra/space-dimension-and-span.md#space), and like all quantum system we're able to[ _range across the complex numbers_ ](../physics/quantum-mechanics.md#quantum-vectors)as well as the real numbers.
+The Bloch sphere can be used to describe the behaviour of single qubit systems [_\(Wikipedia - 2020\)_](quantum-circuit-summary/quantum-circuit-references.md#diagram-of-the-bloch-sphere). Here we see that we have a [_3-dimensional space_](../linear-algebra/space-dimension-and-span.md#space), and like all quantum system we're able to[ _range across the complex numbers_ ](../physics/quantum-mechanics.md#quantum-vectors)as well as the real numbers.
+
+{% hint style="info" %}
+[More general information about the Bloch sphere](https://www.quantiki.org/wiki/bloch-sphere)
+{% endhint %}
 
 ### What the Diagram Shows Us
 
