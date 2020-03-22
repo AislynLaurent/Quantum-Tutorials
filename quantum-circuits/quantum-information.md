@@ -32,6 +32,10 @@ When we measure a qubit, it [_collapses_ ](../qubits/quantum-bits.md#measuring-q
 
 This means we need to measure at the end whenever possible, so that we preserve reversibility until we have no choice.
 
+{% hint style="info" %}
+[More detail on what measurement is and how it works](https://towardsdatascience.com/understanding-basics-of-measurements-in-quantum-computation-4c885879eba0)
+{% endhint %}
+
 ## The Bloch Sphere
 
 ![A diagram of the Bloch sphere](../.gitbook/assets/bloch_sphere.svg)
@@ -76,15 +80,25 @@ Lastly quantum gates produce the _same number of outputs as we provide inputs_. 
 
 ### Notation
 
+#### The circuit
+
 We draw quantum circuits in a similar way that we draw classical gates:
 
 ![A diagram of a simple two qubit circuit with no gates on it](../.gitbook/assets/image.png)
 
-We start with our inputs on one side, put them through various transformations via logic gate, and on the other side we get our outputs. Though the quantum circuit doesn't have a _wire_ like the classical one, we'll still use a line to show which inputs are entering which gates.
+We start with our inputs on one side, put them through various transformations via logic gate, and on the other side we get our outputs. Though the quantum circuit doesn't have a _wire_ like the classical one, we'll still use a line to show which inputs are entering which gates and in what order.
 
-Each gate will be represented by a box around their corresponding symbol [_\(Kuo, S. - 2013\)_](quantum-circuit-summary/quantum-circuit-references.md#diagram-showing-the-representation-of-several-quantum-circuits):
+Most gates will be represented by a box around their corresponding symbol - some may be represented by other symbols. As we go through descriptions for the different gates, we'll include their symbols [_\(Kuo, S. - 2013\)_](quantum-circuit-summary/quantum-circuit-references.md#diagram-showing-the-representation-of-several-quantum-circuits):
 
 ![A diagram showing several quantum gates and their representation](../.gitbook/assets/image%20%283%29.png)
+
+#### Measurements
+
+Though the process of measurement doesn't have a transformation matrix and isn't really a gate, we'll use a similar notation for it:
+
+![A diagram showing the symbol for measurement](../.gitbook/assets/image%20%289%29.png)
+
+
 
 {% hint style="success" %}
 For these tutorials, gates will be produce using IBMQ's [_Circuit Composer_](https://quantum-computing.ibm.com/composer) tool. We'll talk more about how you can get access to this later on.

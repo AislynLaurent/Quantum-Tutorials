@@ -21,6 +21,7 @@
 
 #### [Quantum Information](../quantum-information.md)
 
+* [More detail on what measurement is and how it works](https://towardsdatascience.com/understanding-basics-of-measurements-in-quantum-computation-4c885879eba0)
 * [More general information about the Bloch sphere](https://www.quantiki.org/wiki/bloch-sphere)
 
 #### [Single Qubit Gates](../single-qubit-gates.md)
