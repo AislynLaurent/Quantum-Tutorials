@@ -64,7 +64,7 @@ This diagram doesn't show multiple qubits systems, mostly because it _can't_. Sy
 
 Using these priciples of quantum information, we can begin to construct quantum circuits in the same way that we would with a classical circuit.
 
-We start with our inputs on one side, put them through varius tranformations via logic gate, and on the other side we get out outputs.
+
 
 ### Quantum Gates
 
@@ -82,7 +82,7 @@ We draw quantum circuits in a similar way that we draw classical gates:
 
 ![A diagram of a simple two qubit circuit with no gates on it](../.gitbook/assets/image.png)
 
-
+We start with our inputs on one side, put them through various transformations via logic gate, and on the other side we get out outputs.
 
 {% hint style="success" %}
 For these tutorials, gates will be produce using IBMQ's [_Circuit Composer_](https://quantum-computing.ibm.com/composer) tool. We'll talk more about how you can get access to this later on.
