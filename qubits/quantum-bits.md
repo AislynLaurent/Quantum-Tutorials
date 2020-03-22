@@ -84,9 +84,11 @@ $$
 |\psi\rangle = a|0\rangle + b|1\rangle
 $$
 
-...is a superposition of multiple possible states. The observable states $$|0\rangle$$ and $$|1\rangle$$ are the same as our classical states.
+...is a superposition of multiple possible states. We can solve this superposition two different ways - as a wave form, with the [_Schrodinger equation_](../physics/quantum-mechanics.md#schrodingers-equation), or by literally looking at it.
 
-We can solve this superposition two different ways - as a wave form, with the [_Schrodinger equation_](../physics/quantum-mechanics.md#schrodingers-equation), or by literally looking at it.
+{% hint style="success" %}
+When we measure our qubit \(and it collapses into one state or the other\), we store the result in a classical bit. That means that measuring $$|0\rangle \rightarrow 0$$ and $$|1\rangle \rightarrow 1$$.
+{% endhint %}
 
 ### The Probability of States
 
