@@ -24,7 +24,33 @@ You see here on the left a series of inputs, labelled $$i_1 - i_4$$. On the righ
 
 ### What are Gates?
 
-A logic gate is an [_operator_](../linear-algebra/transformations.md#operators) that[ _transforms_](../linear-algebra/transformations.md#transformation-matrices) the input into some output. For example, the _transformation matrix_ for a NOT gate would look like this:
+A logic gate is an [_operator_](../linear-algebra/transformations.md#operators) that[ _transforms_](../linear-algebra/transformations.md#transformation-matrices) the input into some output. These may preform [_fundamental boolean operations_](../qubits/classical-bits.md#boolean-operations) or more complex instructions.
 
+For example, the [_transformation matrix_](../linear-algebra/transformations.md#transformation-matrices) for a NOT gate would look like this:
 
+$$
+\text{NOT}=\begin{bmatrix}0&1\\1&0\end{bmatrix}
+$$
+
+Let's do an example. We'll start by defining the matrices for our classical bits:
+
+$$
+0=\begin{bmatrix}1\\0\end{bmatrix}, \hspace{6pt} 1=\begin{bmatrix}0\\1\end{bmatrix}
+$$
+
+We'll multiply the 0 vector by the NOT transformation matrix:
+
+$$
+\text{result}=\begin{bmatrix}1\\0\end{bmatrix}\begin{bmatrix}0&1\\1&0\end{bmatrix}=\begin{bmatrix}0\\1\end{bmatrix}
+$$
+
+You can see that the result is the 1 matrix. We've gone back to where we started.\
+
+Classical gates are flexible. We can take multiple bits as input, and we can produce multiple bits as output. We can combine them and use them to construct larger and more complex operations.
+
+We can also easliy define _universal gates_ - gates which can be used to define all other gate operations. For example the NAND gate \(NOT/AND\) is an example of a universal gate.
+
+{% hint style="info" %}
+[More information on classical logic gates](https://www.khanacademy.org/computing/ap-computer-science-principles/computers-101/logic-gates-and-circuits/a/logic-gates)
+{% endhint %}
 
