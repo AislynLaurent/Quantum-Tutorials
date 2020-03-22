@@ -54,5 +54,9 @@ Classical gates are flexible. We can take multiple bits as input, and we can pro
 
 ### Universal Gates
 
-We can also easily define _universal gates_ - gates which can be used to define all other gate operations. For example the NAND gate \(NOT/AND\) is an example of a universal gate.
+We can also define _universal gates_ - gates which can be used to define all other gate operations. For example the NAND gate \(NOT/AND\) is an example of a universal gate.
+
+{% hint style="info" %}
+[More about universal gates](https://www.electronics-tutorials.ws/logic/universal-gates.html)
+{% endhint %}
 
