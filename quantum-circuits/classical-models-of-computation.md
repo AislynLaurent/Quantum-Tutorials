@@ -22,7 +22,7 @@ In the circuit model we have a given number of wires, along which travels a curr
 
 You see here on the left a series of inputs, labelled $$i_1 - i_4$$. On the right we have a series of outputs labelled $$o_1 - o_4$$. In the middle we have a few gates, labelled $$G_1 - G_4$$. Some of the gates take in multiple outputs, and produce multiple outputs.
 
-### What are Gates?
+### Using Gates
 
 A logic gate is an [_operator_](../linear-algebra/transformations.md#operators) that[ _transforms_](../linear-algebra/transformations.md#transformation-matrices) the input into some output. These may preform [_fundamental boolean operations_](../qubits/classical-bits.md#boolean-operations) or more complex instructions.
 
