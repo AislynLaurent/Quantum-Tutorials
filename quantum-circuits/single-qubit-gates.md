@@ -46,9 +46,21 @@ $$
 
 ### Pauli Z
 
+$$
+Z=\begin{bmatrix}1&0\\0&-1\end{bmatrix}
+$$
+
 ![A circuit diagram showing the Z gate](../.gitbook/assets/circuit-5.svg)
 
 ![An animation showing the rotation of the Z gate on the Bloch sphere](../.gitbook/assets/80823b8202d44bfcbc0ee29058a20929z_bloch.gif)
+
+## Hadamard Gate
+
+The Haramard gate imposes the _unifrom superposition_ on our system. This gate is very important, because often we need to scramble our initial state before we can start computation. The Hadamard gate does this for us in a predicable way.
+
+![A circuit diagram showing the Haramard gate](../.gitbook/assets/circuit-6.svg)
+
+![An animation showing the rotation of the Hadamard gate on the Bloch sphere](../.gitbook/assets/ffbc26fc17d7425e80209112134951ffh_bloch.gif)
 
 
 
