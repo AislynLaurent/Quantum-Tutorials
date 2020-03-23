@@ -34,7 +34,7 @@ We can track the result on the Bloch sphere:
 
 ![An animation showing the rotation of the X gate on the Bloch sphere](../.gitbook/assets/5d908427a5654129b4cf14f53a2f8f26x_bloch.gif)
 
-### Palui Y
+### Pauli Y
 
 $$
 Y=\begin{bmatrix}0&-i\\i&0\end{bmatrix}
@@ -57,6 +57,10 @@ $$
 ## Hadamard Gate
 
 The Haramard gate imposes the _unifrom superposition_ on our system. This gate is very important, because often we need to scramble our initial state before we can start computation. The Hadamard gate does this for us in a predicable way.
+
+$$
+H=\frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\end{bmatrix}
+$$
 
 ![A circuit diagram showing the Haramard gate](../.gitbook/assets/circuit-6.svg)
 
