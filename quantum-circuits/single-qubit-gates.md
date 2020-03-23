@@ -28,7 +28,7 @@ $$
 
 And here is how the X gate will be represented on our circuit diagram:
 
-![Symbol for the X gate](../.gitbook/assets/image%20%2811%29.png)
+![Symbol for the X gate](../.gitbook/assets/image%20%2812%29.png)
 
 We can track the result on the Bloch sphere:
 
@@ -66,5 +66,13 @@ $$
 
 ![An animation showing the rotation of the Hadamard gate on the Bloch sphere](../.gitbook/assets/ffbc26fc17d7425e80209112134951ffh_bloch.gif)
 
+## Phase Gate
 
+$$
+S=\begin{bmatrix}1&0\\0&i\end{bmatrix}
+$$
+
+![Symbol for the phase gate](../.gitbook/assets/image%20%2811%29.png)
+
+![An animation showing the rotation of the phase gate on the Bloch sphere](../.gitbook/assets/29cf0d32dc724cf8bc4cd3a6f2a1866bs_bloch.gif)
 

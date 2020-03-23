@@ -32,7 +32,7 @@ Everything occurs over a finite amount of time. Similarly to the position, we me
 
 As forces act on our object, it's position changes over time. If we kick the ball, we might construct a graph of it's movement that looks like this:
 
-![The graph of the position of a ball over time - showing an upside down parabola](../.gitbook/assets/image%20%2813%29.png)
+![The graph of the position of a ball over time - showing an upside down parabola](../.gitbook/assets/image%20%2814%29.png)
 
 First the ball goes up, and after a while it comes down.
 
