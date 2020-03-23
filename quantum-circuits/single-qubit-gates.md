@@ -26,11 +26,9 @@ $$
 |0\rangle \rightarrow |1\rangle, |1\rangle \rightarrow|0\rangle
 $$
 
-And here is the X gate represented on our circuit diagram:
+And here is how the X gate will be represented on our circuit diagram:
 
-![](../.gitbook/assets/circuit-7.svg)
-
-![A circuit diagram showing the X gate](../.gitbook/assets/circuit.svg)
+![Symbol for the X gate](../.gitbook/assets/image%20%288%29.png)
 
 We can track the result on the Bloch sphere:
 
