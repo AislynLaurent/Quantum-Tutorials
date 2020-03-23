@@ -32,7 +32,7 @@ Everything occurs over a finite amount of time. Similarly to the position, we me
 
 As forces act on our object, it's position changes over time. If we kick the ball, we might construct a graph of it's movement that looks like this:
 
-![The graph of the position of a ball over time - showing an upside down parabola](../.gitbook/assets/image%20%2810%29.png)
+![The graph of the position of a ball over time - showing an upside down parabola](../.gitbook/assets/image%20%289%29.png)
 
 First the ball goes up, and after a while it comes down.
 
@@ -96,7 +96,7 @@ Newton's second law preforms a useful service for us in that it connects these t
 
 #### Equations of motion
 
-![The force formula triangle](../.gitbook/assets/image%20%287%29.png)
+![The force formula triangle](../.gitbook/assets/image%20%286%29.png)
 
 You may have seen this thing during high school physics, or even earlier than that depending on how enthusiastic your grade school science teacher was. Either way, it's a diagram of the general way of describing Newton's second law:
 

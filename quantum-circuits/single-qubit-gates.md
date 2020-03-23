@@ -28,6 +28,8 @@ $$
 
 And here is the X gate represented on our circuit diagram:
 
+![](../.gitbook/assets/circuit.png)
+
 ![A circuit diagram showing the X gate](../.gitbook/assets/circuit.svg)
 
 We can track the result on the Bloch sphere:
