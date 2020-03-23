@@ -30,9 +30,11 @@ $$
 
 And here is the X gate represented on our circuit diagram:
 
-![](../.gitbook/assets/circuit.svg)
+![A circuit diagram showing the X gate](../.gitbook/assets/circuit.svg)
 
 We can track the result on the Bloch sphere:
 
-![](../.gitbook/assets/5d908427a5654129b4cf14f53a2f8f26x_bloch.gif)
+![An animation showing the rotation of the X gate on the Bloch sphere](../.gitbook/assets/5d908427a5654129b4cf14f53a2f8f26x_bloch.gif)
+
+
 
