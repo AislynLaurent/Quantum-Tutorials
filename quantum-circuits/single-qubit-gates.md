@@ -28,7 +28,7 @@ $$
 
 And here is how the X gate will be represented on our circuit diagram:
 
-![Symbol for the X gate](../.gitbook/assets/image%20%288%29.png)
+![Symbol for the X gate](../.gitbook/assets/image%20%2811%29.png)
 
 We can track the result on the Bloch sphere:
 
@@ -40,7 +40,7 @@ $$
 Y=\begin{bmatrix}0&-i\\i&0\end{bmatrix}
 $$
 
-![A circuit diagram showing the Y gate](../.gitbook/assets/circuit-4.svg)
+![Symbol for the y gate](../.gitbook/assets/image%20%283%29.png)
 
 ![An animation showing the rotation of the Y gate on the Bloch sphere](../.gitbook/assets/bc3a4d2390564bc09fe4dab0e6475561y_bloch.gif)
 
@@ -50,7 +50,7 @@ $$
 Z=\begin{bmatrix}1&0\\0&-1\end{bmatrix}
 $$
 
-![A circuit diagram showing the Z gate](../.gitbook/assets/circuit-5.svg)
+![Symbol for the Z gate](../.gitbook/assets/image%20%287%29.png)
 
 ![An animation showing the rotation of the Z gate on the Bloch sphere](../.gitbook/assets/80823b8202d44bfcbc0ee29058a20929z_bloch.gif)
 
@@ -62,7 +62,7 @@ $$
 H=\frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\end{bmatrix}
 $$
 
-![A circuit diagram showing the Haramard gate](../.gitbook/assets/circuit-6.svg)
+![Symbol for the Hadamard gate](../.gitbook/assets/image%20%282%29.png)
 
 ![An animation showing the rotation of the Hadamard gate on the Bloch sphere](../.gitbook/assets/ffbc26fc17d7425e80209112134951ffh_bloch.gif)
 
