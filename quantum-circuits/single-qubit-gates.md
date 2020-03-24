@@ -36,6 +36,8 @@ We can track the result on the Bloch sphere:
 
 ### Pauli Y
 
+The Pauli Y gate is an intersting machine - we get the same result as the Pauli X gate, but instead of moving through real space we move through imaginary space instead.
+
 $$
 Y=\begin{bmatrix}0&-i\\i&0\end{bmatrix}
 $$
@@ -45,6 +47,8 @@ $$
 ![An animation showing the rotation of the Y gate on the Bloch sphere](../.gitbook/assets/bc3a4d2390564bc09fe4dab0e6475561y_bloch.gif)
 
 ### Pauli Z
+
+
 
 $$
 Z=\begin{bmatrix}1&0\\0&-1\end{bmatrix}

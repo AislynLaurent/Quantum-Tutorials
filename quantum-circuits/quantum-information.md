@@ -64,6 +64,10 @@ The sphere shows us all of the possible states our qubit can be in. Not just $$|
 
 This diagram doesn't show multiple qubits systems, mostly because it _can't_. Systems with more than one qubit are too complex to imagine with a picture like this.
 
+{% hint style="info" %}
+[More detailed information about how the Bloch sphere is derived and what information we can find on it](https://physics.stackexchange.com/questions/204090/understanding-the-bloch-sphere)
+{% endhint %}
+
 ## Quantum Circuits
 
 Using these principles of quantum information, we can begin to construct quantum circuits in the same way that we would with a classical circuit.
