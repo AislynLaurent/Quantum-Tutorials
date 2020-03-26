@@ -1,5 +1,5 @@
 ---
-description: Discussion of simple single qubit circuits
+description: Discussion some of simple single qubit circuits
 ---
 
 # Single Qubit Gates
@@ -36,7 +36,7 @@ We can track the result on the Bloch sphere:
 
 ### Pauli Y
 
-The Pauli Y gate is an intersting machine - we get the same result as the Pauli X gate, but instead of moving through real space we move through imaginary space instead.
+The Pauli Y gate is an interesting machine - we get the same result as the Pauli X gate, but instead of moving through real space we move through imaginary space instead.
 
 $$
 Y=\begin{bmatrix}0&-i\\i&0\end{bmatrix}
@@ -60,7 +60,7 @@ $$
 
 ## Hadamard Gate
 
-The Haramard gate imposes the _unifrom superposition_ on our system. This gate is very important, because often we need to scramble our initial state before we can start computation. The Hadamard gate does this for us in a predicable way.
+The Hadamard gate imposes the _uniform superposition_ on our system. This gate is very important, because often we need to scramble our initial state before we can start computation. The Hadamard gate does this for us in a predicable way.
 
 $$
 H=\frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\end{bmatrix}
