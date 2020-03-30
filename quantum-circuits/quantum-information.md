@@ -22,7 +22,7 @@ It's important to fully understand what this means. If I provide to you only the
 
 While most classical gates are not reversible, we can change them so that they are. This requires adding more wires, used only to keep the information we put in [_\(Kaye, P. - p.12\)_](quantum-circuit-summary/quantum-circuit-references.md#diagram-of-the-reversible-and-gate)_:_
 
-![The reversible AND gate keeps a copy of the inputs](../.gitbook/assets/image%20%285%29.png)
+![The reversible AND gate keeps a copy of the inputs](../.gitbook/assets/image%20%286%29.png)
 
 ### Measuring
 
@@ -60,7 +60,7 @@ Let's explore some of the things labelled on this diagram:
 * $$\theta$$ is the angle between the vector for our qubit $$|\psi\rangle$$ and the $$z$$ axis
 * $$\varphi$$ is the angle between the shadow of our qubit and the $$x$$ axis
 
-The sphere shows us all of the possible states our qubit can be in. Not just $$|0\rangle$$and $$|1\rangle$$, but the infinite combinations in between. By measuring the angle the vector $$|\psi\rangle$$ and it's shadow make with respect to the $$x$$, $$y$$and $$z$$ axis, we can derive the probability of finding our qubit in a particular state when we measure it.
+The sphere shows us all of the possible states our single qubit can be in. Not just $$|0\rangle$$and $$|1\rangle$$, but the infinite combinations in between. By measuring the angle the vector $$|\psi\rangle$$ and it's shadow make with respect to the $$x$$, $$y$$and $$z$$ axis, we can derive the probability of finding our qubit in a particular state when we measure it.
 
 This diagram doesn't show multiple qubits systems, mostly because it _can't_. Systems with more than one qubit are too complex to imagine with a picture like this.
 
@@ -100,7 +100,7 @@ Most gates will be represented by a box around their corresponding symbol - some
 
 Though the process of measurement doesn't have a transformation matrix and isn't really a gate, we'll use a similar notation for it:
 
-![A diagram showing the symbol for measurement](../.gitbook/assets/image%20%2810%29.png)
+![A diagram showing the symbol for measurement](../.gitbook/assets/image%20%2811%29.png)
 
 Recall that measurements are stored in classical bits, so our diagram will also include those:
 
