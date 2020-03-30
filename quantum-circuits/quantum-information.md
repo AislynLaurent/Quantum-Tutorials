@@ -10,7 +10,7 @@ In this section, we'll combine many of the concepts we've discussion in the tuto
 
 Simply put, quantum calculations need to be reversible. During the process of quantum computation, _information_ should not be destroyed. 
 
-In a classical system this isn't a concern - as long as we get the result we're looking for, we don't have any problem. For our [_Turing machine_](classical-models-of-computation.md#the-turing-machine), the state of the system changes with every instruction. We're not so concern with remembering the _previous_ state, as long as the _current_ state conforms to our expectations.
+In a classical system this isn't a concern - as long as we get the result we're looking for, we don't have any problem. For our [_Turing machine_](classical-models-of-computation.md#the-turing-machine), the state of the system changes with every instruction. We're not so concerned with remembering the _previous_ state, as long as the _current_ state conforms to our expectations.
 
 ### Reversibility
 
@@ -28,7 +28,7 @@ While most classical gates are not reversible, we can change them so that they a
 
 The one non-reversible action we take in quantum computation is [_measuring_ ](../physics/quantum-mechanics.md#measuring-quantum-systems)\(or observation\).
 
-When we measure a qubit, it [_collapses_ ](../qubits/quantum-bits.md#measuring-qubits)into a particular state. It's forced to reveal what it had been doing this whole time - like our [_cat in the box_](../physics/quantum-mechanics.md#superposition), we know if it where alive or not.
+When we measure a qubit, it [_collapses_ ](../qubits/quantum-bits.md#measuring-qubits)into a particular state. It's forced to reveal what it had been doing this whole time - like our [_cat in the box_](../physics/quantum-mechanics.md#superposition), we know if it was alive or not.
 
 This means we need to measure at the end whenever possible, so that we preserve reversibility until we have no choice.
 

@@ -4,7 +4,7 @@ description: Discussion some of simple single qubit circuits
 
 # Single Qubit Gates
 
-Over the course of this tutorial, we won't be able to go through all of possible quantum gates. We will however take time to go through the most important ones, especially ones that we'll use when learning to code later on.
+Over the course of this tutorial, we won't be able to go through all possible quantum gates. We will however take time to go through the most important ones, especially ones that we'll use when learning to code later on.
 
 ## Pauli Gates
 
@@ -60,7 +60,7 @@ $$
 
 ## Hadamard Gate
 
-The Hadamard gate imposes the _uniform superposition_ on our system. This gate is very important, because often we need to scramble our initial state before we can start computation. The Hadamard gate does this for us in a predicable way.
+The Hadamard gate imposes the _uniform superposition_ on our system. This gate is very important, because often we need to scramble our initial state before we can start computation. The Hadamard gate does this for us in a predictable way.
 
 $$
 H=\frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\end{bmatrix}

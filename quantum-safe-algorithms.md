@@ -10,7 +10,7 @@ description: >-
 
 ### History of ISARA Corporation
 
-ISARA began 5 years ago as a small company of about 35 people from across Waterloo, which is know as a hub for new technology and in particular quantum computing. The group consisted of experts and recent PhD graduates who all shared the same enthusiasm for quantum technology.
+ISARA began 5 years ago as a small company of about 35 people from across Waterloo, which is known as a hub for new technology and in particular quantum computing. The group consisted of experts and recent PhD graduates who all shared the same enthusiasm for quantum technology.
 
 At the time quantum computing was still in it's infancy, but those industry leaders who understood cyber security and ethics had growing concern. The strength of quantum systems remains primarily in solving large mathematical problems. This is an exciting possibility - problems that may have taken until the heat-death of the universe on a classical system might finally be considered solvable. The concern comes when these machines are turned toward our strongest encryption algorithms.
 
