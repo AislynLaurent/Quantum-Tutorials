@@ -84,6 +84,8 @@ $$
 
 ## Phase Gate
 
+The Phase gate is often referred to as the "Z90" gate or the "S" gate. We can see that it's half of our Z gate - instead of going half way around the bloch sphere, we only go a quater \(a 90 degree turn\).
+
 $$
 S=\begin{bmatrix}1&0\\0&i\end{bmatrix}
 $$
@@ -91,4 +93,12 @@ $$
 ![Symbol for the phase gate](../.gitbook/assets/image%20%2812%29.png)
 
 ![An animation showing the rotation of the phase gate on the Bloch sphere](../.gitbook/assets/29cf0d32dc724cf8bc4cd3a6f2a1866bs_bloch.gif)
+
+## Reversibility
+
+We said before that all of our quantum gates need to be reversible. For most of these gates \(in fact all of them except the _phase gate_\) they reverse themselves.
+
+That is to say that if you apply the _Pauli X_ gate twice, for example, it undoes what it did. This makes intuitive sense when we look at the diagram. If we make a 180 degree turn the first time, we would make the same turn when we go the second time, resulting in ending up where we started.
+
+The _phase gate_ requires an extra step - we need to do some math to it to find the matrix that reverses it's operations
 
