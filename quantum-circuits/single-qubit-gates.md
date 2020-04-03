@@ -40,7 +40,7 @@ $$
 
 And here is how the X gate will be represented on our circuit diagram:
 
-![Symbol for the X gate](../.gitbook/assets/image%20%2813%29.png)
+![Symbol for the X gate](../.gitbook/assets/image%20%2814%29.png)
 
 We can track the result on the Bloch sphere:
 
@@ -100,5 +100,15 @@ We said before that all of our quantum gates need to be reversible. For most of 
 
 That is to say that if you apply the _Pauli X_ gate twice, for example, it undoes what it did. This makes intuitive sense when we look at the diagram. If we make a 180 degree turn the first time, we would make the same turn when we go the second time, resulting in ending up where we started.
 
-The _phase gate_ requires an extra step - we need to do some math to it to find the matrix that reverses it's operations
+### Reverse Phase Gate
+
+The _phase gate_ requires an extra step - we need to do some math to it to find the matrix that reverses it's operations. We denote reverse matrices using the $$\dagger$$ symbol, so this would be the $$S^\dagger$$ gate.
+
+$$
+S^\dagger = \begin{bmatrix}1&0\\0&-i\end{bmatrix}
+$$
+
+![Symbol for the reverse phase gate](../.gitbook/assets/image%20%2813%29.png)
+
+![An animation showing the rotation of the reverse phase gate on the Bloch sphere](../.gitbook/assets/0c695aa2283e45df9d64a79770246485s_d_bloch.gif)
 
