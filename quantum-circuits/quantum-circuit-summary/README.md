@@ -2,14 +2,23 @@
 
 ## Overview
 
+Now that we have a more clear understanding of quantum systems, we're ready to start talking about quantum models of computation and how they're used.
+
 ## Material
 
 ### Review Material
 
-* 
+* The Turing machine
+* Classical logic gates
+* Classical circuits
+
 ### New Material
 
-* 
+* Quantum information
+* Quantum models of computation
+* Quantum Gates
+* Quantum circuits
+
 ## Resources
 
 ### Additional Info & Problem Sets

@@ -39,13 +39,13 @@
 * [Quantum Information](quantum-circuits/quantum-information.md)
 * [Single Qubit Gates](quantum-circuits/single-qubit-gates.md)
 
-## Qiskit
-
-* [Qiskit Overview](qiskit/qiskit-overview.md)
-
 ## IBMQ
 
 * [IBMQ Summary](ibmq/ibmq-summary.md)
+
+## Qiskit
+
+* [Qiskit Overview](qiskit/qiskit-overview.md)
 
 ## Supplementary
 
