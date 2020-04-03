@@ -58,11 +58,9 @@ $$
 
 ![An animation showing the rotation of the Y gate on the Bloch sphere](../.gitbook/assets/bc3a4d2390564bc09fe4dab0e6475561y_bloch.gif)
 
-By traveling through the imaginary dimension we can change the _spin_ state of our qubit. Most of the time this affects the probabilities in our superposition. In this case we've changed the spin so much that we ended up back where we started.
-
 ### Pauli Z
 
-
+The Pauli Z gate changes the state of our qubit along the plane formed by the vectors represented by our two states. This means that no change will occur if we're fully in one state or the other - only if we're somewhere between the two.
 
 $$
 Z=\begin{bmatrix}1&0\\0&-1\end{bmatrix}
