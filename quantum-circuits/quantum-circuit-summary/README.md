@@ -2,7 +2,9 @@
 
 ## Overview
 
-Now that we have a more clear understanding of quantum systems, we're ready to start talking about quantum models of computation and how they're used.
+While classical computers take advantage of the properties of wires, quantum systems use the energy given off by electrons. This is what allows for us to take advantage of things like superposition in our calculations.
+
+In this section we'll talk about the differences between classical and quantum systems, and start to get into how to use these ideas to colve problems.
 
 ## Material
 
@@ -22,6 +24,8 @@ Now that we have a more clear understanding of quantum systems, we're ready to s
 ## Resources
 
 ### Additional Info & Problem Sets
+
+Below is a list of all of the extra detail & problem sets included in this section of the tutorial:
 
 #### [Classical Models of Computation](../classical-models-of-computation.md)
 
