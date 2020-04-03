@@ -4,9 +4,9 @@
 
 While classical computers take advantage of the properties of wires, quantum systems use the energy given off by electrons. This is what allows for us to take advantage of things like superposition in our calculations.
 
-In this section we'll talk about the differences between classical and quantum systems, and start to get into how to use these ideas to colve problems.
-
 ## Material
+
+In this section we'll talk about the differences between classical and quantum systems, and start to get into how to use these ideas to solve problems.
 
 ### Review Material
 
