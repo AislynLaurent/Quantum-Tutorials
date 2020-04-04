@@ -25,10 +25,18 @@ We pass in two bits - a _control_ bit and a _target_ bit. If the control bit is 
 The Toffoli gate \(_"double control", "CCNOT", "CCX"_ or _"TOFF"_\) does basically the same thing, except this time we have _t_wo _control bits_. If both control bits are $$|1\rangle$$, we flip our target bit. If either of them are $$|0\rangle$$ nothing happens. The control bits are still never effected.
 
 $$
-\text{TOFF}=\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\end{bmatrix}
+\text{TOFF}=\begin{bmatrix}1&0&0&0&0&0&0&0\\0&1&0&0&0&0&0&0\\0&0&1&0&0&0&0&0\\0&0&0&1&0&0&0&0\\0&0&0&0&1&0&0&0\\0&0&0&0&0&1&0&0\\0&0&0&0&0&0&0&1\\0&0&0&0&0&0&1&0\end{bmatrix}
 $$
 
 ![Symbol for the T gate](../.gitbook/assets/ccx-gate.png)
+
+{% hint style="success" %}
+As we operate on more quits, and end up with more distinguishable states, are matrices get larger. The same as a system with $$n$$ qubits have $$2^n$$ distinguishable states, or matrices will likewise have $$2^n$$ numbers of rows and columns.
+
+So our TOFF gate, which works on 3 qubits, has $$2^3=8$$ distinguishable states, and there for 8 rows and 8 columns in it's matrix.
+
+Notice that this works the same way it would when constructing classical truth tables to describe operations on classical bits. 
+{% endhint %}
 
 ## Universal Gate Sets
 
