@@ -38,6 +38,10 @@ So our TOFF gate, which works on 3 qubits, has $$2^3=8$$ distinguishable states,
 Notice that this works the same way it would when constructing classical truth tables to describe operations on classical bits. 
 {% endhint %}
 
+## The Controlled Z Gate
+
+The controlled Z gate works just like the controlled X gate. It's the _Pauli Z_ gate with an extra control bit. When the control bit is $$|1\rangle$$, we preform the Z gate operation. When the control bit is $$|0\rangle$$nothing changes, and 
+
 ## Universal Gate Sets
 
 In the section about [_classical models of computation_](classical-models-of-computation.md), we talked a bit about constructing all possible classical logic gates with just one - [_the NAND gate_](classical-models-of-computation.md#universal-gates). The NAND gate is a _universal_ gate because of this special property.
