@@ -13,12 +13,22 @@ Something important to note is that all gates must have the [_same number of inp
 This gate is also called the "_CX"_ or the _"controlled X"_ gate. You can guess what this means - it preforms the same operation as the [_Pauli X_](single-qubit-gates.md#pauli-x) gate but controlled by another qubit.
 
 $$
-\text{CNOT}=\begin{bmatrix}1&0&0&0\\0&0&0&1\\0&0&1&0\\0&1&0&0\end{bmatrix}
+\text{CNOT}=\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\end{bmatrix}
 $$
 
 ![Symbol for the CX gate](../.gitbook/assets/cx-gate.png)
 
 We pass in two bits - a _control_ bit and a _target_ bit. If the control bit is $$|1\rangle$$, the target bit will flip states. If the control bit is $$|0\rangle$$, nothing happens. The control bit is never affected by this gate.
+
+### Toffoli - Double Control
+
+The Toffoli gate \(_"double control", "CCNOT", "CCX"_ or _"TOFF"_\) does basically the same thing, except this time we have _t_wo _control bits_. If both control bits are $$|1\rangle$$, we flip our target bit. If either of them are $$|0\rangle$$ nothing happens. The control bits are still never effected.
+
+$$
+\text{TOFF}=\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&0&1\\0&0&1&0\end{bmatrix}
+$$
+
+![Symbol for the T gate](../.gitbook/assets/ccx-gate.png)
 
 ## Universal Gate Sets
 
