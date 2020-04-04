@@ -38,6 +38,7 @@
 * [Classical Models of Computation](quantum-circuits/classical-models-of-computation.md)
 * [Quantum Information](quantum-circuits/quantum-information.md)
 * [Single Qubit Gates](quantum-circuits/single-qubit-gates.md)
+* [Multi-Qubit Gates](quantum-circuits/multi-qubit-gates.md)
 
 ## IBMQ
 

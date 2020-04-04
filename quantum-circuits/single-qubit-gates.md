@@ -1,5 +1,5 @@
 ---
-description: Discussion some of simple single qubit circuits
+description: Discussion some of simple single qubit gates
 ---
 
 # Single Qubit Gates
@@ -96,7 +96,7 @@ $$
 
 ## Reversibility
 
-We said before that all of our quantum gates need to be reversible. For most of these gates \(in fact all of them except the _phase gate_\) they reverse themselves.
+We said before that all of our quantum gates need to be [_reversible_](quantum-information.md#reversibility). For most of these gates \(in fact all of them except the _phase gate_\) they reverse themselves.
 
 That is to say that if you apply the _Pauli X_ gate twice, for example, it undoes what it did. This makes intuitive sense when we look at the diagram. If we make a 180 degree turn the first time, we would make the same turn when we go the second time, resulting in ending up where we started.
 
