@@ -28,7 +28,7 @@ $$
 \text{TOFF}=\begin{bmatrix}1&0&0&0&0&0&0&0\\0&1&0&0&0&0&0&0\\0&0&1&0&0&0&0&0\\0&0&0&1&0&0&0&0\\0&0&0&0&1&0&0&0\\0&0&0&0&0&1&0&0\\0&0&0&0&0&0&0&1\\0&0&0&0&0&0&1&0\end{bmatrix}
 $$
 
-![Symbol for the T gate](../.gitbook/assets/ccx-gate.png)
+![Symbol for the TOFF gate](../.gitbook/assets/ccx-gate.png)
 
 {% hint style="success" %}
 As we operate on more quits, and end up with more distinguishable states, are matrices get larger. The same as a system with $$n$$ qubits have $$2^n$$ distinguishable states, or matrices will likewise have $$2^n$$ numbers of rows and columns.
@@ -45,6 +45,8 @@ The controlled Z gate \(_"CZ"_\) works essentially just like the controlled X ga
 $$
 \text{CZ}=\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&-1\end{bmatrix}
 $$
+
+![](../.gitbook/assets/cz-gate.png)
 
 ## Universal Gate Sets
 
