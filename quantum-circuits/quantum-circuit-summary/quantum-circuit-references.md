@@ -28,3 +28,7 @@ _"_[_An Introduction to Quantum Computing"_](https://www.amazon.ca/Introduction-
 
 \_\_[_"Diagram of quantum gates"_](https://www.researchgate.net/figure/Diagram-of-quantum-gates-Each-line-wire-represents-a-qubit-Input-from-the-left-and_fig4_238950509), [Sy-Yen Kuo](https://www.researchgate.net/profile/Sy-Yen_Kuo) \(ResearchGate\), 06-2013
 
+#### Gate symbols and animations of gates on the Bloch sphere
+
+\_\_[_"IBM Quantum Experience: Documentation - Block Glossary"_](https://quantum-computing.ibm.com/docs/circ-comp/q-gates), [IBM Quantum Experience](https://quantum-computing.ibm.com/)
+
