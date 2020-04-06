@@ -40,7 +40,11 @@ Notice that this works the same way it would when constructing classical truth t
 
 ## The Controlled Z Gate
 
-The controlled Z gate works just like the controlled X gate. It's the _Pauli Z_ gate with an extra control bit. When the control bit is $$|1\rangle$$, we preform the Z gate operation. When the control bit is $$|0\rangle$$nothing changes, and 
+The controlled Z gate \(_"CZ"_\) works essentially just like the controlled X gate. It's the _Pauli Z_ gate with an extra control bit. When the control bit is $$|1\rangle$$, we preform the Z gate operation. When the control bit is $$|0\rangle$$nothing changes. As before, the control bit is never affected by this operation.
+
+$$
+\text{CZ}=\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&-1\end{bmatrix}
+$$
 
 ## Universal Gate Sets
 
