@@ -84,7 +84,7 @@ $$
 
 ## Phase Gate
 
-The Phase gate is often referred to as the "Z90" gate or the "S" gate. We can see that it's half of our Z gate - instead of going half way around the bloch sphere, we only go a quater \(a 90 degree turn\).
+The Phase gate is often referred to as the "Z90" gate or the "S" gate. We can see that it's half of our Z gate - instead of going half way around the Bloch sphere, we only go a quarter \(a 90 degree turn\).
 
 $$
 S=\begin{bmatrix}1&0\\0&i\end{bmatrix}
@@ -94,9 +94,25 @@ $$
 
 ![An animation showing the rotation of the phase gate on the Bloch sphere](../.gitbook/assets/29cf0d32dc724cf8bc4cd3a6f2a1866bs_bloch.gif)
 
+## The T Gate
+
+The T gate preforms a $$\frac{1}{8}$$ turn on the sphere. It's a quarter of our Z gate, and half of our S gate. You might think that there's a relationship between the T gate and the S gate, and you'd be right - one S gate ammounts two the T gate squared: $$S=T^2$$
+
+$$
+T=\begin{bmatrix}1&0\\0&exp(\frac{i\pi}{4})\end{bmatrix}
+$$
+
+{% hint style="success" %}
+This $$exp(a)$$ notation just means to take the constant $$e$$to the power of whatever is in the brackets - i.e. $$e^a$$. You'll see this notation used often, so I've left it unconverted here for you.
+{% endhint %}
+
+![Symbol for the T gate](../.gitbook/assets/t-gate.png)
+
+![An animation showing the rotation of the T gate on the Bloch sphere](../.gitbook/assets/afcdc4368d684cedb2279c2de11d76b2t_bloch.gif)
+
 ## Reversibility
 
-We said before that all of our quantum gates need to be [_reversible_](quantum-information.md#reversibility). For most of these gates \(in fact all of them except the _phase gate_\) they reverse themselves.
+We said before that all of our quantum gates need to be [_reversible_](quantum-information.md#reversibility). For most of these gates \(in fact all of them except the _phase gate_ and _T gate_\) they reverse themselves.
 
 That is to say that if you apply the _Pauli X_ gate twice, for example, it undoes what it did. This makes intuitive sense when we look at the diagram. If we make a 180 degree turn the first time, we would make the same turn when we go the second time, resulting in ending up where we started.
 
