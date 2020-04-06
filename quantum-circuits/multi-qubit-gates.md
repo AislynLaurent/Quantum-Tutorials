@@ -64,7 +64,11 @@ $$
 
 And of course, vice versa.
 
+$$
+\text{SWAP}=\begin{bmatrix}1&0&0&0\\0&0&1&0\\0&1&0&0\\0&0&0&1\end{bmatrix}
+$$
 
+![Symbol for the SWAP gate](../.gitbook/assets/swap-gate.png)
 
 ## Universal Gate Sets
 
