@@ -46,7 +46,25 @@ $$
 \text{CZ}=\begin{bmatrix}1&0&0&0\\0&1&0&0\\0&0&1&0\\0&0&0&-1\end{bmatrix}
 $$
 
-![](../.gitbook/assets/cz-gate.png)
+![Symbol for the CZ gate](../.gitbook/assets/cz-gate.png)
+
+## The SWAP Gate
+
+This gate does what is says - it swaps the state of the two bits included in the operation. So if the starting state is:
+
+$$
+|a\rangle=|0\rangle, |b\rangle=|1\rangle
+$$
+
+The resulting state will be:
+
+$$
+|a\rangle=|1\rangle, |b\rangle=|0\rangle
+$$
+
+And of course, vice versa.
+
+
 
 ## Universal Gate Sets
 
