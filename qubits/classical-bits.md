@@ -12,7 +12,7 @@ Computers require information to be passed to them in a very specific format. We
 
 Bits contain exactly one piece of information each - 1 \(for yes, true, on\), or 0 \(for no, false, off\). For non-theoretical systems, this means "high" voltage for 1 and "low" voltage for 0. The bit is a _physical_ quantity - we can measure it any time we like, but it needs to be stored [_\(Vahid, F. & Givargis, T. - 2002\)_](qubits-summary/qubit-references.md#diagram-of-serial-waveforms).
 
-![Serial Waveforms](../.gitbook/assets/image.png)
+![Serial Waveforms](../.gitbook/assets/image%20%281%29.png)
 
 You can see in the image above a voltage graph that illustrates this - the low portions are our 0 bits and the high portions are our 1 bits.
 
