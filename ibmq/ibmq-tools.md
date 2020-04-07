@@ -40,7 +40,7 @@ On this page you can look through existing, and create your own, jupyter noteboo
 
 ![A screenshot of the IBMQ resources page](../.gitbook/assets/image%20%2818%29.png)
 
-The resources page includes all the information you'll need to get started along with some more advanced stuff. It's the same thing you'll see if you go to the getting started guide when you sign up.
+The resources page includes all the information you'll need to get started along with some more advanced stuff. It's the same thing you'll see if you go to the getting started guide when you sign in.
 
 ### Support
 
