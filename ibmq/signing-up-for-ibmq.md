@@ -12,6 +12,8 @@ IBM is providing free access to their quantum machines to anyone who would like 
 
 If you have a Google, GitHub or other supported account, you can use that to log into IBMQ. If you're fine with that, you can skin the IBMid step.
 
+\_\_[_You can sign-in the IBMQ here._](https://quantum-computing.ibm.com/)\_\_
+
 ### Sign up for an IBMid
 
 The first thing you'll need is an IBM account. This can be used to sign in to multiple different things offered by IBM, and it's required if you'd like to use the IBMQ tools.
@@ -21,6 +23,8 @@ The first thing you'll need is an IBM account. This can be used to sign in to mu
 ### Sign-in to the IBM Quantum Experience
 
 Once you've made your IBMid \(or logged into a supported account\), you can sign-in to the IBM Quantum Experience. They'll ask you to agree to their terms of service, and then ask a few simple questions about you and what you do.
+
+[_You can sign-in the IBMQ here._](https://quantum-computing.ibm.com/)\_\_
 
 ### The Start-up Guide
 
