@@ -43,7 +43,7 @@
 ## IBMQ
 
 * [IBMQ Summary](ibmq/ibmq-summary.md)
-* [Signing up for IBMQ](ibmq/signing-up-for-ibmq.md)
+* [Getting Access to IBM Quantum](ibmq/signing-up-for-ibmq.md)
 
 ## Qiskit
 
