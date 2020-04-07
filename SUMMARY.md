@@ -45,6 +45,7 @@
 * [IBMQ Summary](ibmq/ibmq-summary.md)
 * [Getting Access to IBM Quantum](ibmq/signing-up-for-ibmq.md)
 * [IBMQ Tools](ibmq/ibmq-tools.md)
+* [Using Quantum Gates - The Circuit Composer](ibmq/using-quantum-gates-the-circuit-composer.md)
 
 ## Qiskit
 
