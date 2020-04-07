@@ -44,6 +44,7 @@
 
 * [IBMQ Summary](ibmq/ibmq-summary.md)
 * [Getting Access to IBM Quantum](ibmq/signing-up-for-ibmq.md)
+* [IBMQ Tools](ibmq/ibmq-tools.md)
 
 ## Qiskit
 
