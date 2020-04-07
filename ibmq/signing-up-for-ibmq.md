@@ -24,5 +24,5 @@ Once you've made your IBMid \(or logged into a supported account\), you can sign
 
 ### The Start-up Guide
 
-If you like, you can go through their start-up guide - it'll give you a short tour through the website and the various tools available to you there.
+If you like, you can go through their start-up guide - it'll give you a set of resources to help you learn to use their quantum system and tools.
 
