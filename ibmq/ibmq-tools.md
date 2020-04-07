@@ -14,7 +14,7 @@ IBM has prepared several useful tools, guides and resources for you. We'll go ov
 
 When you first log in, you'll be looking at your dashboard.
 
-![A screenshot of the IBMQ dashboard](../.gitbook/assets/image%20%2815%29.png)
+![A screenshot of the IBMQ dashboard](../.gitbook/assets/image%20%2816%29.png)
 
 Here you'll find a summary of your results, along with a list of quantum systems that you have access to and their current workload. If you haven't dont any work, you won't have any results, so there won't be much to see yet.
 
@@ -26,7 +26,7 @@ Here you'll see all your results once you have some. It also gives you an overvi
 
 ### Circuit Composer
 
-![A screenshot of the IBMQ circuit composer page](../.gitbook/assets/image%20%2825%29.png)
+![A screenshot of the IBMQ circuit composer page](../.gitbook/assets/image%20%2826%29.png)
 
 The circuit composer lets you construct your own circuit - no surprize there. It includes an excellent glossary of all the different gates with short descriptions of what they do, along with the nice animations from [_earlier in this tutorial_](../quantum-circuits/single-qubit-gates.md). We'll be using it in the next section to put together some simple circuits.
 
@@ -38,7 +38,7 @@ On this page you can look through existing, and create your own, jypiter noteboo
 
 ### Resources
 
-![A screenshot of the IBMQ resources page](../.gitbook/assets/image%20%2816%29.png)
+![A screenshot of the IBMQ resources page](../.gitbook/assets/image%20%2817%29.png)
 
 The resources page includes all the information you'll need to get started along with some more advanced stuff. It's the same thing you'll see if you go to the getting started guide when you sign up.
 

@@ -40,7 +40,7 @@ $$
 
 And here is how the X gate will be represented on our circuit diagram:
 
-![Symbol for the X gate](../.gitbook/assets/image%20%2822%29.png)
+![Symbol for the X gate](../.gitbook/assets/image%20%2823%29.png)
 
 We can track the result on the Bloch sphere:
 
@@ -66,7 +66,7 @@ $$
 Z=\begin{bmatrix}1&0\\0&-1\end{bmatrix}
 $$
 
-![Symbol for the Z gate](../.gitbook/assets/image%20%2813%29.png)
+![Symbol for the Z gate](../.gitbook/assets/image%20%2814%29.png)
 
 ![An animation showing the rotation of the Z gate on the Bloch sphere](../.gitbook/assets/80823b8202d44bfcbc0ee29058a20929z_bloch.gif)
 
@@ -90,7 +90,7 @@ $$
 S=\begin{bmatrix}1&0\\0&i\end{bmatrix}
 $$
 
-![Symbol for the phase gate](../.gitbook/assets/image%20%2820%29.png)
+![Symbol for the phase gate](../.gitbook/assets/image%20%2821%29.png)
 
 ![An animation showing the rotation of the phase gate on the Bloch sphere](../.gitbook/assets/29cf0d32dc724cf8bc4cd3a6f2a1866bs_bloch.gif)
 
@@ -124,7 +124,7 @@ $$
 S^\dagger = \begin{bmatrix}1&0\\0&-i\end{bmatrix}
 $$
 
-![Symbol for the reverse phase gate](../.gitbook/assets/image%20%2821%29.png)
+![Symbol for the reverse phase gate](../.gitbook/assets/image%20%2822%29.png)
 
 ![An animation showing the rotation of the reverse phase gate on the Bloch sphere](../.gitbook/assets/0c695aa2283e45df9d64a79770246485s_d_bloch.gif)
 
