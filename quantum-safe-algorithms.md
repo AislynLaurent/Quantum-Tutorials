@@ -34,7 +34,7 @@ Quantum technology has progressed rapidly since ISARA began in 2015. Google just
 
 Widely available quantum systems are still a wild dream, but as with all technology that future is coming faster than you might think. It's expected that general purpose quantum systems may be available within the next ten years, meaning that tangible large scale systems are not too far off.
 
-![A visual representation of the quantum timeline](.gitbook/assets/image%20%2818%29.png)
+![A visual representation of the quantum timeline](.gitbook/assets/image%20%2824%29.png)
 
 This may bring comfort to some readers, but it indicated a need for swift action. The development and standardization of quantum counter-measures could take years, and implementation may take even longer. For large organizations with deeply embedded security protocols, 10 years may not be enough.
 
