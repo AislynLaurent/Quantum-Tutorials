@@ -18,7 +18,7 @@ The Turing machine is the most abstract idea of a computer. We never talk about 
 
 In the circuit model we have a given number of wires, along which travels a current. As we talked about earlier [_high voltage corresponds to 1 and low voltage corresponds to 0_](../qubits/classical-bits.md#yes-no). Along the path of this wire is some kind of _logic gate_ which affects some change of state on the system [_\(Kaye, P - p. 3\)_](quantum-circuit-summary/quantum-circuit-references.md#a-circuit-diagram)_:_
 
-![A circuit diagram](../.gitbook/assets/image%20%2825%29.png)
+![A circuit diagram](../.gitbook/assets/image%20%2827%29.png)
 
 You see here on the left a series of inputs, labelled $$i_1 - i_4$$. On the right we have a series of outputs labelled $$o_1 - o_4$$. In the middle we have a few gates, labelled $$G_1 - G_4$$. Some of the gates take in multiple outputs, and produce multiple outputs.
 
