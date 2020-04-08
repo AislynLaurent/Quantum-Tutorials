@@ -51,6 +51,7 @@
 
 * [Qiskit Overview](qiskit/qiskit-overview.md)
 * [Installing Qiskit](qiskit/installing-qiskit.md)
+* [Parts of a Qiskit Program](qiskit/parts-of-a-qiskit-program.md)
 
 ## Supplementary
 

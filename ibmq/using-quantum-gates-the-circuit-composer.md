@@ -26,9 +26,9 @@ On the left-hand side you can see a few different options. The first just displa
 
 ![The settings tab](../.gitbook/assets/image%20%2839%29.png)
 
-### The Circuit Editor
+The second lets you tweak your circuit, including the number of quantum registers \(each of which holds one or more qubits\) and the number of classical registers \(which is where results will be stored before they're processed and displayed\).
 
-The second lets you tweak your circuit, including the number of quantum registers \(each of which holds one qubit\) and the number of classical registers \(which is where results will be stored before they're processed and displayed\).
+### The Circuit Editor
 
 ![The code editor tab](../.gitbook/assets/image%20%2817%29.png)
 
