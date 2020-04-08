@@ -101,5 +101,7 @@ job.monitor(job)
 * We set up or job, which is the circuit we want to run along with the system we want it to run on. 
 * We can submit and mintor our jobs progress useing `job.monitor`. This lets us know where our job is in the queue and when it's finished.
 
-
+{% hint style="success" %}
+IBM systems are public, and as such multiple jobs may be ready at the same time. When you submit your job it automatically gets put in line and is run when it's turn comes up.
+{% endhint %}
 
