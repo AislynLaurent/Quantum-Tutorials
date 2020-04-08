@@ -24,7 +24,7 @@ The line `%matplotlib inline` is used to make matplotlib graphs show up correctl
 
 ### Connecting your IBMQ account
 
-Next, we need to connect your IBM account so that you can access their quantum systems. You'll need to log into your IBM account and grab your API token. Each token is different, and you shouldn't share it with anyone \(that would pose a security risk to your accont\). To find your token log into your IBM account, and head to the account page:
+Next, we need to connect your IBM account so that you can access their quantum systems. You'll need to log into your IBM account and grab your API token. Each token is different, and you shouldn't share it with anyone \(that would pose a security risk to your account\). To find your token log into your IBM account, and head to the account page:
 
 ![A screenshot show where the account page can be found](../.gitbook/assets/image%20%2833%29.png)
 
