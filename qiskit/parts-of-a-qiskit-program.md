@@ -12,7 +12,7 @@ On a classical system, a register is a storage unit which holds multiple bits. R
 
 You create a new classical register in qiskit like this:
 
-```text
+```python
 cr = ClassicalRegister(2)
 ```
 
@@ -24,7 +24,7 @@ Quantum registers are like classical ones, except they hold qubits instead of bi
 
 You create a new quantum register in qiskit like this:
 
-```text
+```python
 qr = QuantumRegister(2)
 ```
 
@@ -38,7 +38,7 @@ Just like in the circuit composer, we need to get set up with the number of qubi
 
 We create out circuit like this:
 
-```text
+```python
 circuit = QuantumCircuit(qr, cr)
 ```
 
@@ -48,7 +48,7 @@ This circuit include the two qubit quantum registers and the two bit classical r
 
 We apply gates to our circuit object by applying the appropriate methods to it. So we apply the [Hadamard gate](../quantum-circuits/single-qubit-gates.md#hadamard-gate) to the first qubit in the system like this:
 
-```text
+```python
 circuit.h(qr[0])
 ```
 
@@ -56,7 +56,7 @@ In circuit `circuit`, apply the Hadamard gate `h` to qubit `q[0]` in quantum reg
 
 For a gate which operates on more than one qubit, we pass in both. Often order will be important:
 
-```text
+```python
 circuit.cx(qr[0], qr[1])
 ```
 
@@ -72,7 +72,7 @@ In circuit `circuit`, apply the controlled not gate `cx` to qubits `qr[0], qr[1]
 
 Once you're ready to run your qiskit code, you can load a simulator on your local machine to test it. The simulator will give you an idea of whether your circuit is behaving as expected. You can spin up a simulator like this:
 
-```text
+```python
 simulator = Aer.get_backend('qasm_simulator')
 ```
 
@@ -88,7 +88,7 @@ The information in this guide is up to date at the time of writing, but it never
 
 After your account is connected and loaded \(we'll see an example of this in the next section\), you can specify a provider, a system and create a job. After that you can submit and run your job.
 
-```text
+```python
 provider = IBMQ.get_provider('ibm-q')
 qcomp = provider.get_backend('ibmq_16_melbourne')
 job = execute(circuit, backend=qcomp)
@@ -111,7 +111,7 @@ Qiskit has a number of options for viewing your results and looking at your circ
 
 For a plain text output of your circuit, you can use:
 
-```text
+```python
 circuit.draw()
 ```
 
@@ -126,7 +126,7 @@ q0_1: |0>
 
 If you have matplotlib installed, you can specify that as the output method:
 
-```text
+```python
 circuit.draw(output='mpl')
 ```
 
@@ -136,7 +136,7 @@ That will result in something like this:
 
 You can see that it looks very similar to the circuit composer, which is handy. You can have your results printed out in a nice graph \(also similar to output in the circuit composer\):
 
-```text
+```python
 plot_histogram(result.get_counts(circuit))
 ```
 
