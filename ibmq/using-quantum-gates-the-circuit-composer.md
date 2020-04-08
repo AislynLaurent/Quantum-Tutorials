@@ -8,13 +8,13 @@ description: An overview of the circuit composer and a few example using quantum
 
 The circuit composer is a very intuitive tool - it's a great way to get started playing around with quantum circuits.
 
-![A screenshot of the circuit composer page](../.gitbook/assets/image%20%2839%29.png)
+![A screenshot of the circuit composer page](../.gitbook/assets/image%20%2840%29.png)
 
 ### Creating a new circuit
 
 You start by selecting the new circuit button:
 
-![The new circuit button on the IBMQ website](../.gitbook/assets/image%20%2836%29.png)
+![The new circuit button on the IBMQ website](../.gitbook/assets/image%20%2837%29.png)
 
 You'll then be taken into the tool itself.
 
@@ -24,7 +24,7 @@ On the left-hand side you can see a few different options. The first just displa
 
 ### Circuit Settings
 
-![The settings tab](../.gitbook/assets/image%20%2840%29.png)
+![The settings tab](../.gitbook/assets/image%20%2841%29.png)
 
 The second lets you tweak your circuit, including the number of quantum registers \(each of which holds one or more qubits\) and the number of classical registers \(which is where results will be stored before they're processed and displayed\).
 
@@ -64,7 +64,7 @@ Lastly, on the bottom, we have our classical registers. We have two of them, thu
 
 To add gates to our system, we drag them from the pallet onto our circuit. Let's start by imposing our uniform superposition:
 
-![Our quantum circuit with a uniform superposition imposed on it](../.gitbook/assets/image%20%2841%29.png)
+![Our quantum circuit with a uniform superposition imposed on it](../.gitbook/assets/image%20%2842%29.png)
 
 Now that we've used a Hadamard gate to each of our qubits, we can see that we have a since tidy superposition - this shows up on the left in our visualizer.
 
@@ -86,11 +86,11 @@ When we've finished editing our circuit, we can save our work up at the top of t
 
 First, let's label our circuit:
 
-![The dialog box where you change the label for our circuit](../.gitbook/assets/image%20%2835%29.png)
+![The dialog box where you change the label for our circuit](../.gitbook/assets/image%20%2836%29.png)
 
 Then we'll save it:
 
-![The save button at the top of the page](../.gitbook/assets/image%20%2837%29.png)
+![The save button at the top of the page](../.gitbook/assets/image%20%2838%29.png)
 
 ### Run conditions
 
@@ -110,7 +110,7 @@ If we scroll down on the page, we can see the list of results we've gotten for t
 
 On the results page we're given a bunch of information about the work we just did. At the top we have the title of our run, the system that it was run on, the date it was run on, and some other details:
 
-![The top of the results page, showing various details about the run we&apos;re looking at](../.gitbook/assets/image%20%2834%29.png)
+![The top of the results page, showing various details about the run we&apos;re looking at](../.gitbook/assets/image%20%2835%29.png)
 
 Below that we can see the circuit we put together vs. the circuit that actually run. In some cases gates may be converted in to an equivalent combination of other gates - that's where this may come in handy.
 
@@ -118,7 +118,7 @@ Below that we can see the circuit we put together vs. the circuit that actually 
 
 Lastly we have the results:
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 ### Understanding the  results
 

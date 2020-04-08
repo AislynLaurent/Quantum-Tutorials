@@ -26,7 +26,7 @@ Here you'll see an overview of your results once you have some.
 
 ### Circuit Composer
 
-![A screenshot of the IBMQ circuit composer page](../.gitbook/assets/image%20%2839%29.png)
+![A screenshot of the IBMQ circuit composer page](../.gitbook/assets/image%20%2840%29.png)
 
 The circuit composer lets you construct your own circuit. It includes an excellent glossary of all the different gates with short descriptions of what they do and the same nice animations from [_earlier in this tutorial_](../quantum-circuits/single-qubit-gates.md). We'll be using it in the next section to put together some simple circuits.
 

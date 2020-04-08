@@ -100,7 +100,7 @@ Most gates will be represented by a box around their corresponding symbol - some
 
 Though the process of measurement doesn't have a transformation matrix and isn't really a gate, we'll use a similar notation for it:
 
-![A diagram showing the symbol for measurement](../.gitbook/assets/image%20%2830%29.png)
+![A diagram showing the symbol for measurement](../.gitbook/assets/image%20%2831%29.png)
 
 Recall that measurements are stored in classical bits, so our diagram will also include those:
 
