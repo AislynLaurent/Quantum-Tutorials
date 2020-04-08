@@ -18,7 +18,7 @@ from qiskit.tools.visualization import plot_histogram
 %matplotlib inline
 ```
 
-The line is used to make matplotlib graphs show up correctly in the jupyter notebook. You won't need this if you're using a different tool.
+The line `%matplotlib inline` is used to make matplotlib graphs show up correctly in the jupyter notebook. You won't need this if you're using a different tool.
 
 ### Connecting your IBMQ account
 
