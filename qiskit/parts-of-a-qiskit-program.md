@@ -42,7 +42,7 @@ We create out circuit like this:
 circuit = QuantumCircuit(qr, cr)
 ```
 
-This circuit include the two qubit quantum registere and the two bit classical register created above.
+This circuit include the two qubit quantum registers and the two bit classical register created above.
 
 ### Applying Gates
 
