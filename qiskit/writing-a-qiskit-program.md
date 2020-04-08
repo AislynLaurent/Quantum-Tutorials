@@ -77,5 +77,9 @@ circuit.measure(qr, cr)
 circuit.draw(output='mpl')
 ```
 
-![](../.gitbook/assets/image%20%289%29.png)
+![A visualization of our circuit after applying gates and measuring](../.gitbook/assets/image%20%289%29.png)
+
+## Running your Circuit
+
+### Testing on the simulator
 
