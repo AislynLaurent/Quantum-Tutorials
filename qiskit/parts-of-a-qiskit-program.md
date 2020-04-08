@@ -142,5 +142,3 @@ plot_histogram(result.get_counts(circuit))
 
 ![A graph of our quantum results as output by qiskit ](../.gitbook/assets/index.png)
 
-
-
