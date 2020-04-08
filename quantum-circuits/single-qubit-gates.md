@@ -14,7 +14,7 @@ $$
 I=\begin{bmatrix}1&0\\0&1\end{bmatrix}
 $$
 
-![Symbol for the Identity gate](../.gitbook/assets/image%20%2817%29.png)
+![Symbol for the Identity gate](../.gitbook/assets/image%20%2819%29.png)
 
 
 
@@ -40,7 +40,7 @@ $$
 
 And here is how the X gate will be represented on our circuit diagram:
 
-![Symbol for the X gate](../.gitbook/assets/image%20%2833%29.png)
+![Symbol for the X gate](../.gitbook/assets/image%20%2835%29.png)
 
 We can track the result on the Bloch sphere:
 
@@ -54,7 +54,7 @@ $$
 Y=\begin{bmatrix}0&-i\\i&0\end{bmatrix}
 $$
 
-![Symbol for the y gate](../.gitbook/assets/image%20%288%29.png)
+![Symbol for the y gate](../.gitbook/assets/image%20%2810%29.png)
 
 ![An animation showing the rotation of the Y gate on the Bloch sphere](../.gitbook/assets/bc3a4d2390564bc09fe4dab0e6475561y_bloch.gif)
 
@@ -66,7 +66,7 @@ $$
 Z=\begin{bmatrix}1&0\\0&-1\end{bmatrix}
 $$
 
-![Symbol for the Z gate](../.gitbook/assets/image%20%2822%29.png)
+![Symbol for the Z gate](../.gitbook/assets/image%20%2824%29.png)
 
 ![An animation showing the rotation of the Z gate on the Bloch sphere](../.gitbook/assets/80823b8202d44bfcbc0ee29058a20929z_bloch.gif)
 
@@ -78,7 +78,7 @@ $$
 H=\frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\1&-1\end{bmatrix}
 $$
 
-![Symbol for the Hadamard gate](../.gitbook/assets/image%20%287%29.png)
+![Symbol for the Hadamard gate](../.gitbook/assets/image%20%289%29.png)
 
 ![An animation showing the rotation of the Hadamard gate on the Bloch sphere](../.gitbook/assets/ffbc26fc17d7425e80209112134951ffh_bloch.gif)
 
@@ -90,7 +90,7 @@ $$
 S=\begin{bmatrix}1&0\\0&i\end{bmatrix}
 $$
 
-![Symbol for the phase gate](../.gitbook/assets/image%20%2831%29.png)
+![Symbol for the phase gate](../.gitbook/assets/image%20%2833%29.png)
 
 ![An animation showing the rotation of the phase gate on the Bloch sphere](../.gitbook/assets/29cf0d32dc724cf8bc4cd3a6f2a1866bs_bloch.gif)
 
@@ -124,7 +124,7 @@ $$
 S^\dagger = \begin{bmatrix}1&0\\0&-i\end{bmatrix}
 $$
 
-![Symbol for the reverse phase gate](../.gitbook/assets/image%20%2832%29.png)
+![Symbol for the reverse phase gate](../.gitbook/assets/image%20%2834%29.png)
 
 ![An animation showing the rotation of the reverse phase gate on the Bloch sphere](../.gitbook/assets/0c695aa2283e45df9d64a79770246485s_d_bloch.gif)
 

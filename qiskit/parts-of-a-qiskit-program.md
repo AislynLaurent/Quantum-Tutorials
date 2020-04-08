@@ -105,3 +105,40 @@ job.monitor(job)
 IBM systems are public, and as such multiple jobs may be ready at the same time. When you submit your job it automatically gets put in line and is run when it's turn comes up.
 {% endhint %}
 
+## Visualizations
+
+Qiskit has a number of options for viewing your results and looking at your circuits. Something to keep in mind is that you'll need to build some kind of interface for most of these visualizations to appear, or you'll need to run your code in something like a [_jupyter notebook_](../getting-started/resources.md#jupyter) that provides an interface for you. 
+
+For a plain text output of your circuit, you can use:
+
+```text
+circuit.draw()
+```
+
+For our simple two qubit system, you might see something like this:
+
+```text
+q0_0: |0>
+q0_1: |0>  
+ c0_0: 0 
+ c0_1: 0 
+```
+
+If you have matplotlib installed, you can specify that as the output method:
+
+```text
+circuit.draw(output='mpl')
+```
+
+That will result in something like this:
+
+![An image of a circuit as output by matplotlib](../.gitbook/assets/image%20%283%29.png)
+
+You can see that it looks very similar to the circuit composer, which is handy. You can have your results printed out in a nice graph \(also similar to output in the circuit composer\):
+
+```text
+plot_histogram(result.get_counts(circuit))
+```
+
+
+
