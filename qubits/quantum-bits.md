@@ -94,9 +94,45 @@ When we measure our qubit \(and it collapses into one state or the other\), we s
 
 What will we get? It depends on what _kind_ of superposition it is - that is to say it depends on the [_probabilities_](../physics/quantum-mechanics.md#probability) __of arriving at each state.
 
-The probability of getting any _particular,_ added to the probability of getting any other _particular_ state has to add up to 1, but as long as that true the _distribution_ could be anything [_\(Nielsen, M. - p. 13\)_](qubits-summary/qubit-references.md#the-probability-of-measuring-a-qubit-in-a-particular-state)_:_
+The probability of getting any _particular_ state_,_ added to the probability of getting any other _particular_ state has to add up to 1, but as long as that true the _distribution_ could be anything [_\(Nielsen, M. - p. 13\)_](qubits-summary/qubit-references.md#the-probability-of-measuring-a-qubit-in-a-particular-state)_:_
 
 $$
 \langle\psi|\psi\rangle=\text{prob}|0\rangle+\text{prob}|1\rangle=1
 $$
+
+That is to say that we may be 50% likely to see $$|0\rangle$$ and 50% likely to see $$|1\rangle$$. The probability _distribution_ then looks like this:
+
+![A graph showing an even probability distribution](../.gitbook/assets/image%20%286%29.png)
+
+The sum of the probabilities of finding the qubit in all possible states is therefore:
+
+$$
+50\% + 50\% = 100\%
+$$
+
+Or:
+
+$$
+0.5+0.5=1
+$$
+
+### Quantum Results
+
+Results from a classical system come in as a simple answer - for example, if we have two bits a and b:
+
+$$
+a = 0, b = 1
+$$
+
+And we _add_ them together:
+
+$$
+a + b = 1
+$$
+
+This is the long and short of it, the answer is 1. I know the whole state of the system from top to bottom - I could measure it once, or ten thousand times, and I would always get the same answer.
+
+Quantum systems are different - the state of the system is measured in probabilities. Thus, each time I measure it, I may get a different answer. The system may [_collapse_ ](../physics/quantum-mechanics.md#superposition)into a different state. Therefore, I can't measure just once. If I do, I won't see the whole picture. The result that I'm looking for isn't a simple number. It's a [_probability distribution_](quantum-bits.md#the-probability-of-states)_._
+
+This also means we need to run our calculations multiple times - as many times as we can get away with in fact. This way we'll get as close as possible to the real truth of the system.
 
