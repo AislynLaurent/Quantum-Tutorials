@@ -23,11 +23,11 @@ The line is used to make matplotlib graphs show up correctly in the jupyter note
 
 Next, we need to connect your IBM account so that you can access their quantum systems. You'll need to log into your IBM account and grab your API token. Each token is different, and you shouldn't share it with anyone \(that would pose a security risk to your accont\). To find your token log into your IBM account, and head to the account page:
 
-![A screenshot show where the account page can be found](../.gitbook/assets/image%20%2829%29.png)
+![A screenshot show where the account page can be found](../.gitbook/assets/image%20%2831%29.png)
 
 Once you're there, you'll see the where you can copy your token:
 
-![A screenshot showing where the copy token button can be found](../.gitbook/assets/image%20%2843%29.png)
+![A screenshot showing where the copy token button can be found](../.gitbook/assets/image%20%2846%29.png)
 
 Then we can save the token on our local system:
 
@@ -44,5 +44,38 @@ Now you'll be able to run jobs on IBM's system when you're ready.
 
 ## Your Quantum Circuit
 
+### Circuit set-up
 
+We'll be working with two qubits, so we'll need two classical and two quantum registers:
+
+```python
+qr = QuantumRegister(2)
+cr = ClassicalRegister(2)
+```
+
+Our circuit will include both of those:
+
+```python
+circuit = QuantumCircuit(qr, cr)
+circuit.draw(output='mpl')
+```
+
+And our output:
+
+![A visualization of our empty circuit](../.gitbook/assets/image%20%2838%29.png)
+
+### Applying Gates
+
+Let's apply a Hadamard gate to the first qubit and a controlled not gate to both - afterward we'll measure the result.
+
+```python
+circuit.h(qr[0])
+circuit.cx(qr[0], qr[1])
+
+circuit.measure(qr, cr)
+
+circuit.draw(output='mpl')
+```
+
+![](../.gitbook/assets/image%20%289%29.png)
 

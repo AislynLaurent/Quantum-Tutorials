@@ -66,6 +66,22 @@ In circuit `circuit`, apply the controlled not gate `cx` to qubits `qr[0], qr[1]
 [More information about the _circuit_ object and the gate methods you can apply to it](https://qiskit.org/documentation/stubs/qiskit.circuit.QuantumCircuit.html#qiskit.circuit.QuantumCircuit)
 {% endhint %}
 
+## Measurements
+
+We can measure our circuit like this:
+
+```python
+circuit.measure(qr, cr)
+```
+
+You can see that we start with our quantum register and finish with the classical register that will store the result. We can also choose to measure only one qubit into only one register:
+
+```python
+circuit.measure(qr[1], cr[1])
+```
+
+Measure qubit `q[1]` in quantum register `qr` , and store the result in bit `cr[1]` in classical register `cr`, from circuit `circuit`.
+
 ## The Back-end
 
 ### Simulators
