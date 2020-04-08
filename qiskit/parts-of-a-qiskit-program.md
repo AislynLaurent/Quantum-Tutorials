@@ -80,11 +80,26 @@ Qiskit has a few different components \(which we'll discuss a bit later\) and a 
 
 ### IBM Quantum Systems
 
-If you've tested your circuit and think the result turned out well, then you can go ahead and run it on an acutaly quantum computer. This requires a few simple steps.
+If you've tested your circuit and think the result turned out well, then you can go ahead and run it on an accutaly quantum computer. This requires a few simple steps.
 
 {% hint style="info" %}
 The information in this guide is up to date at the time of writing, but it neever hurts to check the [official IBM documentation](https://qiskit.org/documentation/apidoc/ibmq-provider.html) in case something changes \(it's very well maintained\).
 {% endhint %}
+
+After your account is connected and loaded \(we'll see an example of this in the next section\), you can specify a provider, a system and creat a job. After that you can submit and run your job.
+
+```text
+provider = IBMQ.get_provider('ibm-q')
+qcomp = provider.get_backend('ibmq_16_melbourne')
+job = execute(circuit, backend=qcomp)
+
+job.monitor(job)
+```
+
+* Our provider is where backends are supplied from - in this case IBMQ. 
+* We choose a backend from the options available from our provider - IBM has a number or systems \(which are named for different cities, not nessesarily where they are housed\) and we can choose whichever one we like. 
+* We set up or job, which is the circuit we want to run along with the system we want it to run on. 
+* We can submit and mintor our jobs progress useing `job.monitor`. This lets us know where our job is in the queue and when it's finished.
 
 
 
