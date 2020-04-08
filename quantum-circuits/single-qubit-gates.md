@@ -96,7 +96,7 @@ $$
 
 ## The T Gate
 
-The T gate preforms a $$\frac{1}{8}$$ turn on the sphere. It's a quarter of our Z gate, and half of our S gate. You might think that there's a relationship between the T gate and the S gate, and you'd be right - one S gate ammounts two the T gate squared: $$S=T^2$$
+The T gate preforms a $$\frac{1}{8}$$ turn on the sphere. It's a quarter of our Z gate, and half of our S gate. You might think that there's a relationship between the T gate and the S gate, and you'd be right - one S gate amounts two the T gate squared: $$S=T^2$$
 
 $$
 T=\begin{bmatrix}1&0\\0&exp(\frac{i\pi}{4})\end{bmatrix}
