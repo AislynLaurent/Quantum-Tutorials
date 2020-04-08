@@ -14,11 +14,15 @@ Qiskit is a python library prepared for people who would like to work on quantum
 
 ## What You Need
 
+### Python
+
+Since this is a python library, you'll need python installed on your computer. If you already have it set-up you're good to go - just be sure that you're using python **3.5 or later**. If not, you can find[ _information about installing python_](../getting-started/resources.md#python) in the [_resources_](../getting-started/resources.md) section.
+
 We mentioned at the beginning of this guide, I'll assume you know a little python already. Python is super easy to learn and is very intuitive, especially if you already know another object oriented language like Java. You can find more __[_information about learning python_](../getting-started/resources.md#python) in the [_resources_](../getting-started/resources.md) section.
 
- and that you have python installed on your computer. 
+### Environment
 
-You may also want to use an IDE, like Visual Studio Code or something similar. That's up to you - technically all this work can be done in a simple text editor, but al IDE makes for a nice experience. If you prefer simple text editors, I highly recommend Notepad++ - it's an excellent option.
+You may also want to use an IDE, like [_Visual Studio Code_](https://code.visualstudio.com/) or something similar. That's up to you - technically all this work can be done in a simple text editor, but al IDE makes for a nice experience. If you prefer simple text editors, I highly recommend [_Notepad++_](https://notepad-plus-plus.org/downloads/) - it's an excellent option.
 
 
 

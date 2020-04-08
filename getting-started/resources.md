@@ -18,7 +18,11 @@ You can find a complete list of all the additional review material in the summar
 
 ### [Python](https://www.python.org/)
 
-All of the development tutorials on this website will be based on python. If you need to learn more about python, you can head to the [python beginners guide](https://www.python.org/about/gettingstarted/) for more information.
+All of the development tutorials on this website will be based on python.
+
+If you need to install python, you can head to the [_python website_](https://www.python.org/about/) to download and install the latest version. You'll need at least version **3.5 or later**.
+
+If you need to learn more about python, you can head to the [python beginners guide](https://www.python.org/about/gettingstarted/) for more information.
 
 There are a bunch of [python tutorials on YouTube](https://www.youtube.com/watch?v=_uQrJ0TkZlc) to help you get started. The University of Windsor also offers a python course.
 
