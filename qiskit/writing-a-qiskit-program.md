@@ -14,6 +14,7 @@ First we need to go through and import all our libraries and set up our IBM acco
 
 ```python
 from qiskit import **
+from qiskit.tools.visualization import plot_histogram
 %matplotlib inline
 ```
 
@@ -83,5 +84,11 @@ circuit.draw(output='mpl')
 
 ### Testing on the simulator
 
-Now that we have our little circuit set up, we're ready t
+Now that we have our little circuit set up, we're ready to test it. The first thing we'll need to do it load up our simulator. Once it's loaded, we'll execute it and display the results.
+
+```python
+simulator = Aer.get_backend('qasm_simulator')
+result = execute(circuit, backend = simulator).result()
+
+```
 
