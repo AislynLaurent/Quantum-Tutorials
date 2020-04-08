@@ -62,3 +62,17 @@ circuit.cx(qr[0], qr[1])
 
 In circuit `circuit`, apply the controlled not gate `cx` to qubits `qr[0], qr[1]` in quantum register `qr`, where `qr[0]` is the control qubit and `qr[1]` is the target qubit.
 
+{% hint style="info" %}
+[More information about the _circuit_ object and the gate methods you can apply to it](https://qiskit.org/documentation/stubs/qiskit.circuit.QuantumCircuit.html#qiskit.circuit.QuantumCircuit)
+{% endhint %}
+
+## Simulators
+
+Once you're ready to run your qiskit code, you can load a simulator on your local machine to test it. The simulator will give you an idea of whether your circuit is behaving as expected. You can spin up a simulator like this:
+
+```text
+simulator = Aer.get_backend('qasm_simulator')
+```
+
+Qiskit has a few different components \(which we'll discuss a bit later\) and a few different simulators you can use. Aer is the componded that has the different simulators, and the QASM option simulates the quantum assembly language used on IBM systems. Here we've labeled our simulartor `simulator`.
+
