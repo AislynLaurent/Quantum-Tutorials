@@ -26,7 +26,9 @@ IBM recommends that you have the Anaconda suite installed - Anaconda includes a 
 
 ### Environment
 
-You may also want to use an IDE, like [Visual Studio Code](https://code.visualstudio.com/) or something similar. That's up to you - technically all this work can be done in a simple text editor, but al IDE makes for a nice experience. If you prefer simple text editors, I highly recommend [Notepad++](https://notepad-plus-plus.org/downloads/) - it's an excellent option.
+I'll be using[ jupyter notebooks](https://jupyter.org/) for this tutorials. This is so that I can quickly and easily display output and show the result of the code I've written for you. You may also choose to do the same - it's a good way to learn. Jupyter will be installed with Anaconda, and you can fine more [_information about jupyter notebooks_](../getting-started/resources.md#jupyter) in the [_resources_](../getting-started/resources.md) section.
+
+You may also want to use an IDE, like [Visual Studio Code](https://code.visualstudio.com/), or something similar. That's up to you - technically all this work can be done in a simple text editor, but al IDE makes for a nice experience. If you prefer simple text editors, I highly recommend [Notepad++](https://notepad-plus-plus.org/downloads/) - it's an excellent option.
 
 ## Install Qiskit
 
