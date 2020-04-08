@@ -102,7 +102,7 @@ IBM will give you a few different options to run your circuit. You can run it on
 
 ![A dialog box asking which system we&apos;d like to run our circuit on](../.gitbook/assets/image%20%2823%29.png)
 
-### Viewing the results
+## Viewing the results
 
 If we scroll down on the page, we can see the list of results we've gotten for this circuit. Since we've only run it once, we just have one. You can click on the particular run you'd like to see to get more information.
 
@@ -120,5 +120,25 @@ Lastly we have the results:
 
 ![](../.gitbook/assets/image%20%2842%29.png)
 
+### Understanding the  results
 
+#### Error
+
+This is the same type of graph as our visualization gave us, except this time we can see that the probabilities are not perfectly even. In a perfect world we would except  the probability of each state to be 25%. There are a few reasons we don't see this.
+
+The most obvious reason is that we don't have enough _runs_, as in we didn't measure enough times. As we approach an infinite number of runs, we get closer to the theoretical probability. We can't do that here - we need to stop somewhere, preferably in a reasonable amount of time.
+
+Another reason to consider is the accuracy of our quantum system. In the section about _classical bits_ we talked about _sources of error and noise_ in typical systems. Because quantum systems are so much more complex, we have more potential sources of noise, and therefore end up with more potential for error.
+
+#### Interpretation
+
+In this case, we're running a simple test - but what can you do with this information when you're actually attempting to do some kind of work?
+
+This is where things can get very complicated. It depends on what you're attempting to do. If you're trying to compute some mathematical results, you're hoping to get a specific answer. If you're trying to scramble some data for encryption, you may be looking for a more even distribution.
+
+In the end, this guide is intended to help you go from a very beginner to someone who can begin to understand more detailed literature, resources, guides and tutorials. I encourage you, if you'd like to use quantum computing to preform some specific task \(and not just understand how ti works on a surface level\), that you read through some of those more complete texts. They can help you understand how to better use the results you get.
+
+{% hint style="success" %}
+You can find more details resources, guides and texts in the[ _resources section_](../getting-started/resources.md#understanding-quantum).
+{% endhint %}
 

@@ -10,7 +10,7 @@ Here I've compiled all the important links from throughout the tutorial. If you'
 
 ### Khan Academy
 
-In each section of this tutorial, I'll link to problem sets and detailed explainations on Khan Academy for those who require additional review material.
+In each section of this tutorial, I'll link to problem sets and detailed explanations on Khan Academy for those who require additional review material.
 
 You can find a complete list of all the additional review material in the summary for each section.
 
@@ -24,7 +24,7 @@ There are a bunch of [python tutorials on YouTube](https://www.youtube.com/watch
 
 ### [Anaconda](https://www.anaconda.com/)
 
-In order to continue with these tutorials you must install Anadconda - a python distribution specifically designed for data science. You can jump right into it and [download Anaconda here](https://www.anaconda.com/distribution/).
+In order to continue with these tutorials you must install Anaconda - a python distribution specifically designed for data science. You can jump right into it and [download Anaconda here](https://www.anaconda.com/distribution/).
 
 _Make sure that you download the 3.7 version_, as all the tutorials here will be based on that.
 
