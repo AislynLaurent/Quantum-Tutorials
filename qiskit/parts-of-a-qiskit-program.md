@@ -28,7 +28,7 @@ You create a new quantum register in qiskit like this:
 qr = QuantumRegister(2)
 ```
 
-This creates a quantum register holding two qubits, and stores it in the variable qr.
+This creates a quantum register holding two qubits, and stores it in the variable `qr`.
 
 ## Circuits
 
@@ -136,8 +136,8 @@ For our simple two qubit system, you might see something like this:
 ```text
 q0_0: |0>
 q0_1: |0>  
- c0_0: 0 
- c0_1: 0 
+c0_0: 0 
+c0_1: 0 
 ```
 
 If you have matplotlib installed, you can specify that as the output method:

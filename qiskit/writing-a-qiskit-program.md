@@ -97,11 +97,11 @@ plot_histogram(result.get_counts(circuit))
 
 ![The graph showing which states were measured in our simulation](../.gitbook/assets/index.png)
 
-We can see that the results make sense - the Hadamard gate imposed a uniform superposition, and the controlled not gate depends on the state of the control bit. Therefore this graph should be accurate to the results we would expect to see.
+We can see that the results make sense - the Hadamard gate imposed a uniform superposition on the control bit, and the controlled not gate depends on the state of the control bit. Therefore what we should see is about half $$|00\rangle$$ and about half $$|11\rangle$$ - that is, half of the time both qubits are in state $$|0\rangle$$ and half the time both qubits are in state $$|1\rangle$$.
 
 ### Running on a real quantum system
 
-Since the results our test was successful, we're ready to run our code on an actual system. This means we need to load up the quantum system and prepare our job.
+Since our test was successful, we're ready to run our code on an actual system. This means we need to load up the quantum system and prepare our job.
 
 ```python
 provider = IBMQ.get_provider('ibm-q')
@@ -119,5 +119,26 @@ When we submit our job, we'll see a few different messages:
 
 ![The message indicating the job has been successfully run](../.gitbook/assets/image%20%2821%29.png)
 
-This way you can track where you are in the queue and if you job is finished.
+This way we can track where we are in the queue and if our job is finished.
+
+## Results
+
+### Getting our results
+
+Let's check what we got from the real quantum system:
+
+```python
+result = job.result()
+plot_histogram(result.get_counts(circuit))
+```
+
+![The graph showing which states were measured in our job](../.gitbook/assets/index%20%281%29.png)
+
+### Error
+
+How strange - we're expecting about half $$|00\rangle$$ and about half $$|11\rangle$$... where are $$|01\rangle$$ and $$|10\rangle$$ coming from?
+
+They come from inaccuracies in our quantum system. In the section about [_classical bits_](../qubits/classical-bits.md) we talked about [_sources of error and noise_](../qubits/classical-bits.md#fault-detection) __in typical systems. Because quantum systems are so much more complex, we have more potential sources of noise, and therefore end up with more potential for error. Sometimes, our _qubits_ end up where they shouldn't, and sometimes our _measurements_ are wrong.
+
+As quantum systems get better, we'll get more accurate result. They'll start to be able to check their own work - the noise in the system will be reduced. For now, we'll always end up with a little bit of what we didn't expect, and we'll need to be careful to recognize that when we analyze our results.
 

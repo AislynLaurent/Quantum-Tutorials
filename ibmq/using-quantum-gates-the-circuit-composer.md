@@ -124,11 +124,9 @@ Lastly we have the results:
 
 #### Error
 
-This is the same type of graph as our visualization gave us, except this time we can see that the probabilities are not perfectly even. In a perfect world we would expect the probability of each state to be 25%. There are a few reasons we don't see this.
+This is the same type of graph as our visualization gave us, except this time we can see that the probabilities are not perfectly even. In a perfect world we would expect the probability of each state to be 25%. 
 
-The most obvious reason is that we [_don't have enough runs_](../qubits/quantum-bits.md#quantum-results), as in we didn't measure enough times. As we approach an infinite number of runs, we get closer to the theoretical probability. We can't do that here - we need to stop somewhere, preferably in a reasonable amount of time.
-
-Another reason to consider is the accuracy of our quantum system. In the section about _classical bits_ we talked about _sources of error and noise_ in typical systems. Because quantum systems are so much more complex, we have more potential sources of noise, and therefore end up with more potential for error.
+The reason we don't see this is that we [_don't have enough runs_](../qubits/quantum-bits.md#quantum-results), as in we didn't measure enough times. As we approach an infinite number of runs, we get closer to the theoretical probability. We can't do that here - we need to stop somewhere, preferably in a reasonable amount of time.
 
 #### Interpretation
 
