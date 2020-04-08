@@ -16,7 +16,49 @@ You create a new classical register in qiskit like this:
 cr = ClassicalRegister(2)
 ```
 
-This piece of code creates two classical registers and stores them in the variable `cr`.
+This piece of code creates a classical register holding two bits, and stores it in the variable `cr`.
 
+## Quantum Registers
 
+Quantum registers are like classical ones, except they hold qubits instead of bits. They can hold multiple qubits at a time, and we can operate on each qubit separately.
+
+You create a new quantum register in qiskit like this:
+
+```text
+qr = QuantumRegister(2)
+```
+
+This creates a quantum register holding two qubits, and stores it in the variable qr.
+
+## Circuits
+
+As previously mentioned, we want to operate on our system using quantum gates. This means we need to create a new quantum circuit. It will behave similarly to the circuit in the[ _circuit composer_](../ibmq/using-quantum-gates-the-circuit-composer.md), but we'll write code to add gates and operations instead of dragging and dropping them.
+
+Just like in the circuit composer, we need to get set up with the number of qubits we want as well as enough classical registers to store the information we measure. You need to have **at least as many classical bits as you have qubits** so that you can store the state of all of them. You can have more if you like, just not less.
+
+We create out circuit like this:
+
+```text
+circuit = QuantumCircuit(qr, cr)
+```
+
+This circuit include the two qubit quantum registere and the two bit classical register created above.
+
+### Applying Gates
+
+We apply gates to our circuit object by applying the appropriate methods to it. So we apply the [Hadamard gate](../quantum-circuits/single-qubit-gates.md#hadamard-gate) to the first qubit in the system like this:
+
+```text
+circuit.h(qr[0])
+```
+
+In circuit `circuit`, apply the Hadamard gate `h` to qubit `q[0]` in quantum register `qr`.
+
+For a gate which operates on more than one qubit, we pass in both. Often order will be important:
+
+```text
+circuit.cx(qr[0], qr[1])
+```
+
+In circuit `circuit`, apply the controlled not gate `cx` to qubits `qr[0], qr[1]` in quantum register `qr`, where `qr[0]` is the control qubit and `qr[1]` is the target qubit.
 
