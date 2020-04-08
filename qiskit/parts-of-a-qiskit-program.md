@@ -140,5 +140,7 @@ You can see that it looks very similar to the circuit composer, which is handy. 
 plot_histogram(result.get_counts(circuit))
 ```
 
-![](../.gitbook/assets/index.png)
+![A graph of our quantum results as output by qiskit ](../.gitbook/assets/index.png)
+
+
 
