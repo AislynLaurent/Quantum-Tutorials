@@ -83,3 +83,5 @@ circuit.draw(output='mpl')
 
 ### Testing on the simulator
 
+Now that we have our little circuit set up, we're ready t
+
