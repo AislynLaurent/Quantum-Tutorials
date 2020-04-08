@@ -15,6 +15,8 @@ First we need to go through and import all our libraries and set up our IBM acco
 ```python
 from qiskit import **
 from qiskit.tools.visualization import plot_histogram
+from qiskit.tools.monitor import job_monitor
+
 %matplotlib inline
 ```
 
@@ -24,11 +26,11 @@ The line `%matplotlib inline` is used to make matplotlib graphs show up correctl
 
 Next, we need to connect your IBM account so that you can access their quantum systems. You'll need to log into your IBM account and grab your API token. Each token is different, and you shouldn't share it with anyone \(that would pose a security risk to your accont\). To find your token log into your IBM account, and head to the account page:
 
-![A screenshot show where the account page can be found](../.gitbook/assets/image%20%2831%29.png)
+![A screenshot show where the account page can be found](../.gitbook/assets/image%20%2833%29.png)
 
 Once you're there, you'll see the where you can copy your token:
 
-![A screenshot showing where the copy token button can be found](../.gitbook/assets/image%20%2846%29.png)
+![A screenshot showing where the copy token button can be found](../.gitbook/assets/image%20%2849%29.png)
 
 Then we can save the token on our local system:
 
@@ -63,7 +65,7 @@ circuit.draw(output='mpl')
 
 And our output:
 
-![A visualization of our empty circuit](../.gitbook/assets/image%20%2838%29.png)
+![A visualization of our empty circuit](../.gitbook/assets/image%20%2840%29.png)
 
 ### Applying Gates
 
@@ -78,7 +80,7 @@ circuit.measure(qr, cr)
 circuit.draw(output='mpl')
 ```
 
-![A visualization of our circuit after applying gates and measuring](../.gitbook/assets/image%20%289%29.png)
+![A visualization of our circuit after applying gates and measuring](../.gitbook/assets/image%20%2810%29.png)
 
 ## Running your Circuit
 
@@ -90,5 +92,32 @@ Now that we have our little circuit set up, we're ready to test it. The first th
 simulator = Aer.get_backend('qasm_simulator')
 result = execute(circuit, backend = simulator).result()
 
+plot_histogram(result.get_counts(circuit))
 ```
+
+![The graph showing which states were measured in our simulation](../.gitbook/assets/index.png)
+
+We can see that the results make sense - the Hadamard gate imposed a uniform superposition, and the controlled not gate depends on the state of the control bit. Therefore this graph should be accurate to the results we would expect to see.
+
+### Running on a real quantum system
+
+Since the results our test was successful, we're ready to run our code on an actual system. This means we need to load up the quantum system and prepare our job.
+
+```python
+provider = IBMQ.get_provider('ibm-q')
+qcomp = provider.get_backend('ibmq_16_melbourne')
+job = execute(circuit, backend=qcomp)
+
+job_monitor(job)
+```
+
+When we submit our job, we'll see a few different messages:
+
+![The message indicating our job is 6th in the queue](../.gitbook/assets/image%20%289%29.png)
+
+![The message indicating the job is running](../.gitbook/assets/image%20%2841%29.png)
+
+![The message indicating the job has been successfully run](../.gitbook/assets/image%20%2821%29.png)
+
+This way you can track where you are in the queue and if you job is finished.
 
