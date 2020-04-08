@@ -102,7 +102,7 @@ $$
 
 That is to say that we may be 50% likely to see $$|0\rangle$$ and 50% likely to see $$|1\rangle$$. The probability _distribution_ then looks like this:
 
-![A graph showing an even probability distribution](../.gitbook/assets/image%20%288%29.png)
+![A graph showing an even probability distribution](../.gitbook/assets/image%20%287%29.png)
 
 The sum of the probabilities of finding the qubit in all possible states is therefore:
 

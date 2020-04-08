@@ -66,7 +66,7 @@ In circuit `circuit`, apply the controlled not gate `cx` to qubits `qr[0], qr[1]
 [More information about the _circuit_ object and the gate methods you can apply to it](https://qiskit.org/documentation/stubs/qiskit.circuit.QuantumCircuit.html#qiskit.circuit.QuantumCircuit)
 {% endhint %}
 
-## The Backend
+## The Back-end
 
 ### Simulators
 
@@ -76,17 +76,17 @@ Once you're ready to run your qiskit code, you can load a simulator on your loca
 simulator = Aer.get_backend('qasm_simulator')
 ```
 
-Qiskit has a few different components \(which we'll discuss a bit later\) and a few different simulators you can use. Aer is the component that has the different simulators, and the QASM option simulates the quantum assembly language used on IBM systems. Here we've labeled our simulartor `simulator`.
+Qiskit has a few different components \(which we'll discuss a bit later\) and a few different simulators you can use. Aer is the component that has the different simulators, and the QASM option simulates the quantum assembly language used on IBM systems. Here we've labeled our simulator `simulator`.
 
 ### IBM Quantum Systems
 
-If you've tested your circuit and think the result turned out well, then you can go ahead and run it on an accutaly quantum computer. This requires a few simple steps.
+If you've tested your circuit and think the result turned out well, then you can go ahead and run it on an actual quantum computer. This requires a few simple steps.
 
 {% hint style="info" %}
-The information in this guide is up to date at the time of writing, but it neever hurts to check the [official IBM documentation](https://qiskit.org/documentation/apidoc/ibmq-provider.html) in case something changes \(it's very well maintained\).
+The information in this guide is up to date at the time of writing, but it never hurts to check the [official IBM documentation](https://qiskit.org/documentation/apidoc/ibmq-provider.html) in case something changes \(it's very well maintained\).
 {% endhint %}
 
-After your account is connected and loaded \(we'll see an example of this in the next section\), you can specify a provider, a system and creat a job. After that you can submit and run your job.
+After your account is connected and loaded \(we'll see an example of this in the next section\), you can specify a provider, a system and create a job. After that you can submit and run your job.
 
 ```text
 provider = IBMQ.get_provider('ibm-q')
@@ -96,10 +96,10 @@ job = execute(circuit, backend=qcomp)
 job.monitor(job)
 ```
 
-* Our provider is where backends are supplied from - in this case IBMQ. 
-* We choose a backend from the options available from our provider - IBM has a number or systems \(which are named for different cities, not nessesarily where they are housed\) and we can choose whichever one we like. 
+* Our provider is where back-ends are supplied from - in this case IBMQ. 
+* We choose a back-end from the options available from our provider - IBM has a number or systems \(which are named for different cities, not necessarily where they are housed\) and we can choose whichever one we like. 
 * We set up or job, which is the circuit we want to run along with the system we want it to run on. 
-* We can submit and mintor our jobs progress useing `job.monitor`. This lets us know where our job is in the queue and when it's finished.
+* We can submit and monitor our jobs progress using `job.monitor`. This lets us know where our job is in the queue and when it's finished.
 
 {% hint style="success" %}
 IBM systems are public, and as such multiple jobs may be ready at the same time. When you submit your job it automatically gets put in line and is run when it's turn comes up.
@@ -140,5 +140,5 @@ You can see that it looks very similar to the circuit composer, which is handy. 
 plot_histogram(result.get_counts(circuit))
 ```
 
-
+![](../.gitbook/assets/index.png)
 

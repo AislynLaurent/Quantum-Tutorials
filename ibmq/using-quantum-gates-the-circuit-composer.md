@@ -8,29 +8,29 @@ description: An overview of the circuit composer and a few example using quantum
 
 The circuit composer is a very intuitive tool - it's a great way to get started playing around with quantum circuits.
 
-![A screenshot of the circuit composer page](../.gitbook/assets/image%20%2841%29.png)
+![A screenshot of the circuit composer page](../.gitbook/assets/image%20%2839%29.png)
 
 ### Creating a new circuit
 
 You start by selecting the new circuit button:
 
-![The new circuit button on the IBMQ website](../.gitbook/assets/image%20%2838%29.png)
+![The new circuit button on the IBMQ website](../.gitbook/assets/image%20%2836%29.png)
 
 You'll then be taken into the tool itself.
 
-![A screenshot showing the composer](../.gitbook/assets/image%20%2829%29.png)
+![A screenshot showing the composer](../.gitbook/assets/image%20%2827%29.png)
 
 On the left-hand side you can see a few different options. The first just displays some general information as above.
 
 ### Circuit Settings
 
-![The settings tab](../.gitbook/assets/image%20%2842%29.png)
+![The settings tab](../.gitbook/assets/image%20%2840%29.png)
 
 The second lets you tweak your circuit, including the number of quantum registers \(each of which holds one or more qubits\) and the number of classical registers \(which is where results will be stored before they're processed and displayed\).
 
 ### The Circuit Editor
 
-![The code editor tab](../.gitbook/assets/image%20%2820%29.png)
+![The code editor tab](../.gitbook/assets/image%20%2819%29.png)
 
 Next is a code editor that lets you directly work on the QASM code. This is the code the runs on the actual quantum computer - we won't discuss it much here because it's out of the scope of this guide.
 
@@ -40,11 +40,11 @@ Next is a code editor that lets you directly work on the QASM code. This is the 
 
 ### The Visualization Tool
 
-![The visualizations tab](../.gitbook/assets/image%20%286%29.png)
+![The visualizations tab](../.gitbook/assets/image%20%285%29.png)
 
 Last is the visualization tab which shows you a graph that visualizes your state vector. The state vector shows the [_probability_](../physics/quantum-mechanics.md#probability) of finding the whole [_system in a particular state_](../qubits/quantum-bits.md#quantum-results) - it's the combination of all the qubits in your system. Since right now we have no circuit, it doesn't show much at all.
 
-![The visualization tab after adding a Hadamard gate to the circuit](../.gitbook/assets/image%20%2830%29.png)
+![The visualization tab after adding a Hadamard gate to the circuit](../.gitbook/assets/image%20%2828%29.png)
 
 You can see that when I add a gate to the system, it splits up into all the different possible states, and shows the probability for each.
 
@@ -52,7 +52,7 @@ You can see that when I add a gate to the system, it splits up into all the diff
 
 We'll use a simple example circuit as we continue along. 
 
-![An image showing a simple 2 qubit circuit in the composer](../.gitbook/assets/image%20%2812%29.png)
+![An image showing a simple 2 qubit circuit in the composer](../.gitbook/assets/image%20%2811%29.png)
 
 As we mentioned before, you can see our two qubits on the left hand side of the circuit. Here they're labeled `q[0]` and `q[1]` . To begin, both qubits are in the $$|0\rangle$$ state. You can see that's labelled just to the right of the qubit labels.
 
@@ -64,7 +64,7 @@ Lastly, on the bottom, we have our classical registers. We have two of them, thu
 
 To add gates to our system, we drag them from the pallet onto our circuit. Let's start by imposing our uniform superposition:
 
-![Our quantum circuit with a uniform superposition imposed on it](../.gitbook/assets/image%20%2843%29.png)
+![Our quantum circuit with a uniform superposition imposed on it](../.gitbook/assets/image%20%2841%29.png)
 
 Now that we've used a Hadamard gate to each of our qubits, we can see that we have a since tidy superposition - this shows up on the left in our visualizer.
 
@@ -74,7 +74,7 @@ The visualizer can only show us what would happen _theoretically_ - for example,
 
 ### Measuring
 
-![Measuring the value of our qubits](../.gitbook/assets/image%20%2813%29.png)
+![Measuring the value of our qubits](../.gitbook/assets/image%20%2812%29.png)
 
 Once we're done building up gates, we can measure our results. You can see that which qubit is being measured is labeled at the bottom of the circuit. First `q[0]` labelled `0`, then `q[1]` labelled `1`.
 
@@ -86,11 +86,11 @@ When we've finished editing our circuit, we can save our work up at the top of t
 
 First, let's label our circuit:
 
-![The dialog box where you change the label for our circuit](../.gitbook/assets/image%20%2837%29.png)
+![The dialog box where you change the label for our circuit](../.gitbook/assets/image%20%2835%29.png)
 
 Then we'll save it:
 
-![The save button at the top of the page](../.gitbook/assets/image%20%2839%29.png)
+![The save button at the top of the page](../.gitbook/assets/image%20%2837%29.png)
 
 ### Run conditions
 
@@ -100,7 +100,7 @@ Now we can run it:
 
 IBM will give you a few different options to run your circuit. You can run it on a simulator, or on a real quantum computer. Since we're just testing, we'll run our work on the simulator on the default settings:
 
-![A dialog box asking which system we&apos;d like to run our circuit on](../.gitbook/assets/image%20%2826%29.png)
+![A dialog box asking which system we&apos;d like to run our circuit on](../.gitbook/assets/image%20%2824%29.png)
 
 ## Viewing the results
 
@@ -110,15 +110,15 @@ If we scroll down on the page, we can see the list of results we've gotten for t
 
 On the results page we're given a bunch of information about the work we just did. At the top we have the title of our run, the system that it was run on, the date it was run on, and some other details:
 
-![The top of the results page, showing various details about the run we&apos;re looking at](../.gitbook/assets/image%20%2836%29.png)
+![The top of the results page, showing various details about the run we&apos;re looking at](../.gitbook/assets/image%20%2834%29.png)
 
 Below that we can see the circuit we put together vs. the circuit that actually run. In some cases gates may be converted in to an equivalent combination of other gates - that's where this may come in handy.
 
-![The comparison between the original and the run circuit](../.gitbook/assets/image%20%287%29.png)
+![The comparison between the original and the run circuit](../.gitbook/assets/image%20%286%29.png)
 
 Lastly we have the results:
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 ### Understanding the  results
 
