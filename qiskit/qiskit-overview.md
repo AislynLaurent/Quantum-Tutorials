@@ -2,14 +2,19 @@
 
 ## Overview
 
+Qiskit is a python library provided by IBM to interface with their quantum systems. Just like the rest of python it's nice and easy to learn, and it's very flexible. It's a great option if you'd like to integrate quantum solutions in with regular code.
+
 ## Material
 
-### Review Material
+In this section we'll do an overview of how to install it, prepare and run jobs, and how to visualize your results.
 
-* 
 ### New Material
 
-* 
+* Qiskit requirements
+* Installation
+* Basic components
+* Simple code examples
+
 ## Resources
 
 ### Additional Info & Problem Sets

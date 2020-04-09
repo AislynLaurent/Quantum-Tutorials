@@ -6,6 +6,8 @@ The IBM Quantum Experience is the tool we'll be using to actually work on real q
 
 ## Material
 
+In this section we'll talk aboout how to log in and interface with the IBM Quantum Experience.
+
 ### New Material
 
 * IBM Quantum Experience
