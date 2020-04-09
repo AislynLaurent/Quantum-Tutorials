@@ -6,3 +6,12 @@ This is of particular interest to me, as I do research in computational chemistr
 
 Part of what I plan to do is create tutorials for others hoping to use this technology, along with some example projects. Ultimately the plan is for this to become a resource for anyone interested in quantum computers.
 
+### About the Author
+
+My name is Aislyn Laurent and I'm an undergraduate student at the University of Windsor finishing my double major in Biochemistry and Computer Science. I do computational chemistry research, work with Google as the Women Techmakers Ambassador for the Windsor / Essex region and participate in a whole bunch of campus programs and initiatives \(like Esports\).
+
+You can reach out to me directly through socials or come find me stomping around the chemistry building:
+
+* **Twitter:** [https://twitter.com/AislynLaurent](https://twitter.com/AislynLaurent)
+* **LinkedIn:** [https://www.linkedin.com/in/aislynlaurent/](https://www.linkedin.com/in/aislynlaurent/)
+
