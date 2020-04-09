@@ -17,7 +17,9 @@ In this section we'll do an overview of how to install it, prepare and run jobs,
 
 ## Resources
 
-### Additional Info & Problem Sets
+### Additional Info Summary
+
+Below is a list of all of the extra detail & problem sets included in this section of the tutorial:
 
 #### [Parts of a Qiskit Program](parts-of-a-qiskit-program.md)
 

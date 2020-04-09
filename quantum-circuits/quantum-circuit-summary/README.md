@@ -23,7 +23,7 @@ In this section we'll talk about the differences between classical and quantum s
 
 ## Resources
 
-### Additional Info & Problem Sets
+### Additional Info Summary
 
 Below is a list of all of the extra detail & problem sets included in this section of the tutorial:
 

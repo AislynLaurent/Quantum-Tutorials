@@ -16,7 +16,9 @@ In this section we'll talk aboout how to log in and interface with the IBM Quant
 
 ## Resources
 
-### Additional Info & Problem Sets
+### Additional Info Summary
+
+Below is a list of all of the extra detail & problem sets included in this section of the tutorial:
 
 #### [Using Quantum Gates](using-quantum-gates-the-circuit-composer.md)
 
