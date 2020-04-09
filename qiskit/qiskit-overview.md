@@ -6,7 +6,7 @@ Qiskit is a python library provided by IBM to interface with their quantum syste
 
 ## Material
 
-In this section we'll do an overview of how to install it, prepare and run jobs, and how to visualize your results.
+In this section we'll do an overview of how to install qiskit, prepare and run jobs, and how to visualize your results.
 
 ### New Material
 
