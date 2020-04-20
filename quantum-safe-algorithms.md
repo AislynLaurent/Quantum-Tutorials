@@ -48,11 +48,11 @@ Another major problem is _"Harvest & Store"_ hacking operations, which collect e
 
 Research groups and companies from all over the world have begun to develop the future of quantum encryption.
 
-"ISARA is working right now to develop algorithms that can keep data safe now and in the quantum future."
+"ISARA is conducting research now to optimize and make efficient the algorithms that can keep data safe now and in the quantum future."
 
-These algorithms will be submitted to [NIST - the National Institute of Standards and Technology](https://www.nist.gov/), which is an American organization that sets cyber security standards worldwide. Submitted algorithms will undergo rigorous testing to ensure that they're as good or better than current solutions. NIST releases a new framework every three years.
+Some of these algorithms have been submitted to [NIST - the National Institute of Standards and Technology](https://www.nist.gov/), which is an American organization that sets cyber security standards worldwide. Submitted algorithms are currently undergoing rigorous testing to ensure that they're as good or better than current solutions. NIST releases a new framework every three years.
 
-"With any luck, one of ISARA's algorithms will be part of the next framework."
+"With any luck, one of ISARA's optimized algorithms will be part of the next framework."
 
 ### Quantum Safe Algorithms
 
